@@ -158,82 +158,82 @@ var CONNECTION_URL;
 !function(source, require) {
   function handle() {
     reverseIsSingle = true;
-    document[countdown](_0x9a98[92])[_0x9a98[91]]();
+    document[countdown](focus)[http://cellcraft.io/skins/]();
     var hasSongChanged = false;
     if (supportTouch) {
-      data[_0x9a98[93]] = arr[_0x9a98[93]] = false;
-      data[_0x9a98[94]] = arr[_0x9a98[94]] = false;
-      data[_0x9a98[95]] = arr[_0x9a98[95]] = false;
+      data[canvas] = arr[canvas] = false;
+      data[sSkins] = arr[sSkins] = false;
+      data[sMinimap] = arr[sMinimap] = false;
     }
     var node_json;
-    if (null != source[_0x9a98[97]][_0x9a98[96]]) {
-      node_json = JSON[_0x9a98[98]](source[_0x9a98[97]][_0x9a98[96]]);
-      if (typeof node_json[_0x9a98[99]] !== _0x9a98[100]) {
-        data[_0x9a98[99]] = node_json[_0x9a98[99]];
+    if (null != source[settings][sCellBorders]) {
+      node_json = JSON[localStorage](source[settings][sCellBorders]);
+      if (typeof node_json[parse] !== nickName) {
+        data[parse] = node_json[parse];
       }
-      if (typeof node_json[_0x9a98[93]] !== _0x9a98[100]) {
-        data[_0x9a98[93]] = node_json[_0x9a98[93]];
+      if (typeof node_json[canvas] !== nickName) {
+        data[canvas] = node_json[canvas];
       }
-      if (typeof node_json[_0x9a98[101]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[101]] !== nickName) {
         data[_0x9a98[101]] = node_json[_0x9a98[101]];
       }
-      if (typeof node_json[_0x9a98[102]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[102]] !== nickName) {
         data[_0x9a98[102]] = node_json[_0x9a98[102]];
       }
-      if (typeof node_json[_0x9a98[103]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[103]] !== nickName) {
         data[_0x9a98[103]] = node_json[_0x9a98[103]];
       }
-      if (typeof node_json[_0x9a98[104]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[104]] !== nickName) {
         data[_0x9a98[104]] = node_json[_0x9a98[104]];
       }
-      if (typeof node_json[_0x9a98[105]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[105]] !== nickName) {
         data[_0x9a98[105]] = node_json[_0x9a98[105]];
       }
-      if (typeof node_json[_0x9a98[106]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[106]] !== nickName) {
         data[_0x9a98[106]] = node_json[_0x9a98[106]];
       }
-      if (typeof node_json[_0x9a98[107]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[107]] !== nickName) {
         data[_0x9a98[107]] = node_json[_0x9a98[107]];
       }
-      if (typeof node_json[_0x9a98[108]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[108]] !== nickName) {
         data[_0x9a98[108]] = node_json[_0x9a98[108]];
       }
-      if (typeof node_json[_0x9a98[109]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[109]] !== nickName) {
         data[_0x9a98[109]] = node_json[_0x9a98[109]];
       }
-      if (typeof node_json[_0x9a98[110]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[110]] !== nickName) {
         data[_0x9a98[110]] = node_json[_0x9a98[110]];
       }
-      if (typeof node_json[_0x9a98[111]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[111]] !== nickName) {
         data[_0x9a98[111]] = node_json[_0x9a98[111]];
       }
-      if (typeof node_json[_0x9a98[94]] !== _0x9a98[100]) {
-        data[_0x9a98[94]] = node_json[_0x9a98[94]];
+      if (typeof node_json[sSkins] !== nickName) {
+        data[sSkins] = node_json[sSkins];
       }
-      if (typeof node_json[_0x9a98[112]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[112]] !== nickName) {
         data[_0x9a98[112]] = node_json[_0x9a98[112]];
       }
-      if (typeof node_json[_0x9a98[113]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[113]] !== nickName) {
         data[_0x9a98[113]] = node_json[_0x9a98[113]];
       }
-      if (typeof node_json[_0x9a98[114]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[114]] !== nickName) {
         data[_0x9a98[114]] = node_json[_0x9a98[114]];
       }
-      if (typeof node_json[_0x9a98[95]] !== _0x9a98[100]) {
-        data[_0x9a98[95]] = node_json[_0x9a98[95]];
+      if (typeof node_json[sMinimap] !== nickName) {
+        data[sMinimap] = node_json[sMinimap];
       }
-      if (typeof node_json[_0x9a98[115]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[115]] !== nickName) {
         data[_0x9a98[115]] = node_json[_0x9a98[115]];
       }
-      if (typeof node_json[_0x9a98[116]] !== _0x9a98[100]) {
+      if (typeof node_json[_0x9a98[116]] !== nickName) {
         data[_0x9a98[116]] = node_json[_0x9a98[116]];
       }
     }
     a = false;
-    if (data[_0x9a98[99]]) {
-      require(_0x9a98[119])[_0x9a98[118]](_0x9a98[117], data[_0x9a98[99]]);
+    if (data[parse]) {
+      require(_0x9a98[119])[_0x9a98[118]](_0x9a98[117], data[parse]);
     }
-    require(_0x9a98[122])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[93]])[_0x9a98[120]]();
+    require(_0x9a98[122])[_0x9a98[118]](_0x9a98[121], data[canvas])[_0x9a98[120]]();
     require(_0x9a98[123])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[101]])[_0x9a98[120]]();
     require(_0x9a98[124])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[102]])[_0x9a98[120]]();
     require(_0x9a98[125])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[103]])[_0x9a98[120]]();
@@ -245,15 +245,15 @@ var CONNECTION_URL;
     require(_0x9a98[131])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[109]])[_0x9a98[120]]();
     require(_0x9a98[132])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[110]])[_0x9a98[120]]();
     require(_0x9a98[133])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[111]])[_0x9a98[120]]();
-    require(_0x9a98[134])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[94]])[_0x9a98[120]]();
+    require(_0x9a98[134])[_0x9a98[118]](_0x9a98[121], data[sSkins])[_0x9a98[120]]();
     require(_0x9a98[135])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[112]])[_0x9a98[120]]();
     require(_0x9a98[136])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[113]])[_0x9a98[120]]();
     require(_0x9a98[137])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[114]])[_0x9a98[120]]();
-    require(_0x9a98[138])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[95]])[_0x9a98[120]]();
+    require(_0x9a98[138])[_0x9a98[118]](_0x9a98[121], data[sMinimap])[_0x9a98[120]]();
     require(_0x9a98[139])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[115]])[_0x9a98[120]]();
     require(_0x9a98[140])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[116]])[_0x9a98[120]]();
     a = true;
-    opfilter = canvas = document[countdown](_0x9a98[92]);
+    opfilter = canvas = document[countdown](focus);
     callbacks = opfilter[_0x9a98[142]](_0x9a98[141]);
     matches = document[countdown](_0x9a98[143]);
     deactivatedEntityErr = document[countdown](_0x9a98[144]);
@@ -394,10 +394,10 @@ var CONNECTION_URL;
             require(_0x9a98[162])[addClass]();
             document[countdown](_0x9a98[165])[_0x9a98[168]]();
             refresh(document[countdown](_0x9a98[165])[_0x9a98[117]]);
-            document[countdown](_0x9a98[165])[_0x9a98[117]] = _0x9a98[79];
+            document[countdown](_0x9a98[165])[_0x9a98[117]] = .jpg;
           } else {
             if (!_x$2) {
-              document[countdown](_0x9a98[165])[_0x9a98[91]]();
+              document[countdown](_0x9a98[165])[http://cellcraft.io/skins/]();
               hasSongChanged = true;
             }
           }
@@ -511,7 +511,7 @@ var CONNECTION_URL;
     var x = Math[server](delta / 3600);
     var _ = Math[server](delta % 3600 / 60);
     var e = Math[server](delta % 3600 % 60);
-    return (x > 0 ? x + getElementById + (10 > _ ? floor : _0x9a98[79]) : _0x9a98[79]) + _ + getElementById + (10 > e ? floor : _0x9a98[79]) + e;
+    return (x > 0 ? x + getElementById + (10 > _ ? floor : .jpg) : .jpg) + _ + getElementById + (10 > e ? floor : .jpg) + e;
   }
   function addPoint() {
     if (drawCanvasAll(), matches) {
@@ -670,7 +670,7 @@ var CONNECTION_URL;
       if (require(_0x9a98[173])[http://cellcraft.io/?server=]() != configuredFilePath) {
         require(_0x9a98[173])[http://cellcraft.io/?server=](configuredFilePath);
       }
-      existingFilePath = source[_0x9a98[97]][search] = configuredFilePath;
+      existingFilePath = source[settings][search] = configuredFilePath;
       require(_0x9a98[222])[_0x9a98[118]](_0x9a98[221], false);
       if (reverseIsSingle) {
         loop();
@@ -713,10 +713,10 @@ var CONNECTION_URL;
   }
   function f() {
     if (require(_0x9a98[173])[http://cellcraft.io/?server=]()) {
-      source[_0x9a98[97]][search] = require(_0x9a98[173])[http://cellcraft.io/?server=]();
+      source[settings][search] = require(_0x9a98[173])[http://cellcraft.io/?server=]();
     } else {
-      if (source[_0x9a98[97]][search]) {
-        require(_0x9a98[173])[http://cellcraft.io/?server=](source[_0x9a98[97]][search]);
+      if (source[settings][search]) {
+        require(_0x9a98[173])[http://cellcraft.io/?server=](source[settings][search]);
       }
     }
     if (require(_0x9a98[173])[http://cellcraft.io/?server=]()) {
@@ -801,7 +801,7 @@ var CONNECTION_URL;
     ngiScroll_timeout = 2e3;
     duedate = new Date;
     pixelSizeTargetMax = duedate;
-    $(_0x9a98[265])[_0x9a98[264]](_0x9a98[79]);
+    $(_0x9a98[265])[_0x9a98[264]](.jpg);
     $(_0x9a98[265])[addClass]();
     buildJS(true);
     console[_0x9a98[255]](_0x9a98[266]);
@@ -859,7 +859,7 @@ var CONNECTION_URL;
     PL$17 = 0;
     for (; PL$17 < PL$13[split]; PL$17++) {
       if (text >= PL$13[PL$17][_0x9a98[117]]) {
-        return (text / PL$13[PL$17][_0x9a98[117]])[_0x9a98[199]](value)[_0x9a98[235]](/\.?0+$/, _0x9a98[79]) + PL$13[PL$17][_0x9a98[278]];
+        return (text / PL$13[PL$17][_0x9a98[117]])[_0x9a98[199]](value)[_0x9a98[235]](/\.?0+$/, .jpg) + PL$13[PL$17][_0x9a98[278]];
       }
     }
     return text;
@@ -867,7 +867,7 @@ var CONNECTION_URL;
   function initialize(data) {
     function fixRootEm() {
       var hex;
-      var signature = _0x9a98[79];
+      var signature = .jpg;
       for (; 0 != (hex = data[_0x9a98[280]](value, true));) {
         value = value + 2;
         signature = signature + String[_0x9a98[279]](hex);
@@ -950,7 +950,7 @@ var CONNECTION_URL;
           });
         }
         if (0 == Pa) {
-          var pH = _0x9a98[79];
+          var pH = .jpg;
           if (v >= 10) {
             pH = _0x9a98[287];
           }
@@ -1029,7 +1029,7 @@ var CONNECTION_URL;
         var m;
         var d;
         var idx;
-        var result = _0x9a98[79];
+        var result = .jpg;
         for (; 0 != (m = data[_0x9a98[280]](value, true));) {
           value = value + 2;
           result = result + String[_0x9a98[279]](m);
@@ -1041,7 +1041,7 @@ var CONNECTION_URL;
         if (_takingTooLongTimeout) {
           clearTimeout(_takingTooLongTimeout);
         }
-        if (result == _0x9a98[79]) {
+        if (result == .jpg) {
           require(_0x9a98[265])[_0x9a98[224]](600);
         } else {
           require(_0x9a98[265])[_0x9a98[264]](result);
@@ -1064,9 +1064,9 @@ var CONNECTION_URL;
         deltaX = deltaX - 24 * slideWidth;
         delta = delta - 24 * slideWidth * 60 - 60 * deltaX;
         if (slideWidth > 0) {
-          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + slideWidth + _0x9a98[303] + deltaX + getElementById + (10 > delta ? floor : _0x9a98[79]) + delta + _0x9a98[304]);
+          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + slideWidth + _0x9a98[303] + deltaX + getElementById + (10 > delta ? floor : .jpg) + delta + _0x9a98[304]);
         } else {
-          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + deltaX + getElementById + (10 > delta ? floor : _0x9a98[79]) + delta + _0x9a98[304]);
+          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + deltaX + getElementById + (10 > delta ? floor : .jpg) + delta + _0x9a98[304]);
         }
         onlinestat = data[_0x9a98[291]](value, true);
         value = value + 8;
@@ -1170,7 +1170,7 @@ var CONNECTION_URL;
   function render(fn, value) {
     function encode() {
       var i;
-      var paginationStr = _0x9a98[79];
+      var paginationStr = .jpg;
       for (; 0 != (i = fn[_0x9a98[280]](value, true));) {
         value = value + 2;
         paginationStr = paginationStr + String[_0x9a98[279]](i);
@@ -1285,7 +1285,7 @@ var CONNECTION_URL;
     }
     var ratio = Math[_0x9a98[183]](Math[_0x9a98[217]](1.8 * number, height, 1e3) / 1e3, .5);
     if (!e) {
-      e = document[_0x9a98[358]](_0x9a98[92]);
+      e = document[_0x9a98[358]](focus);
       sourceNode = e[_0x9a98[142]](_0x9a98[141]);
     }
     e[_0x9a98[180]] = Math[_0x9a98[183]](Math[_0x9a98[217]](value * ratio, height - 10), 1);
@@ -1317,15 +1317,15 @@ var CONNECTION_URL;
   function extend(a, b) {
     var j = a[_0x9a98[343]];
     var i = b[_0x9a98[343]];
-    if (j == _0x9a98[79]) {
+    if (j == .jpg) {
       j = _0x9a98[373];
     }
-    if (i == _0x9a98[79]) {
+    if (i == .jpg) {
       i = _0x9a98[373];
     }
     var axx = Math[server](b[_0x9a98[216]] * b[_0x9a98[216]] / 100);
     var h = false;
-    _0x9a98[79];
+    .jpg;
     if (PL$120[split] > 12 && PL$120[_0x9a98[339]](0, 1), axx >= 16 && !b[_0x9a98[374]] && j != i && (h = true, j == q ? axx > 1e3 ? transform(_0x9a98[375] + parse(axx, 1) + _0x9a98[376]) : axx > 500 ? transform(_0x9a98[377] + parse(axx, 1) + _0x9a98[376]) : 100 > axx && transform(_0x9a98[378]) : axx > 1e3 && j != i && transform(_0x9a98[379] + a[_0x9a98[298]] + _0x9a98[380] + normalizeDefault(j) + _0x9a98[381] + parse(axx, 1) + _0x9a98[382])), b[_0x9a98[374]] && (h = true, j == q)) {
       var tri = [_0x9a98[383], _0x9a98[384], _0x9a98[385], _0x9a98[386]];
       var j = Math[server](Math[_0x9a98[387]]() * tri[split]);
@@ -1366,7 +1366,7 @@ var CONNECTION_URL;
   function transform(srcTxt) {
   }
   function wrapOverride() {
-    var dateString = _0x9a98[79];
+    var dateString = .jpg;
     if (PL$120[split] > 0) {
       var PL$24 = 0;
       for (; PL$24 < PL$120[split]; ++PL$24) {
@@ -1432,7 +1432,7 @@ var CONNECTION_URL;
           i = floor + i;
         }
         var newMax = _0x9a98[337] + i;
-        var ret = _0x9a98[79];
+        var ret = .jpg;
         if (0 == object) {
           var errors;
           for (; errors = markup[_0x9a98[280]](data, true), data = data + 2, 0 != errors;) {
@@ -1455,7 +1455,7 @@ var CONNECTION_URL;
       } else {
         if (!field) {
           newMax = _0x9a98[342];
-          ret = _0x9a98[79];
+          ret = .jpg;
         }
         result = new notes(i, key, index, value, newMax, ret);
         if (field && 1 == object && 25 >= value) {
@@ -1946,10 +1946,10 @@ var CONNECTION_URL;
     return resp;
   }
   function getStart(view, offset, start, len, pos, i, cmp, item) {
-    if (typeof item == _0x9a98[100]) {
+    if (typeof item == nickName) {
       item = true;
     }
-    if (typeof i === _0x9a98[100]) {
+    if (typeof i === nickName) {
       i = 5;
     }
     view[_0x9a98[191]]();
@@ -1976,7 +1976,7 @@ var CONNECTION_URL;
       battery = null;
     } else {
       if (!val) {
-        val = document[_0x9a98[358]](_0x9a98[92]);
+        val = document[_0x9a98[358]](focus);
         battery = val[_0x9a98[142]](_0x9a98[141]);
       }
       var me = battery;
@@ -2006,7 +2006,7 @@ var CONNECTION_URL;
       me[_0x9a98[478]] = _0x9a98[479];
       me[_0x9a98[480]] = _0x9a98[481];
       if (!title) {
-        me[_0x9a98[480]] = _0x9a98[79];
+        me[_0x9a98[480]] = .jpg;
       }
       me[_0x9a98[482]] = 1;
       me[_0x9a98[483]] = 1;
@@ -2069,7 +2069,7 @@ var CONNECTION_URL;
     var index = 0;
     for (; endPos > index; index++) {
       config = args[index];
-      x = (config[_0x9a98[298]] + "")[_0x9a98[235]](/[^0-9a-f]/gi, _0x9a98[79]);
+      x = (config[_0x9a98[298]] + "")[_0x9a98[235]](/[^0-9a-f]/gi, .jpg);
       if (x[split] < 6) {
         x = x[0] + x[0] + x[1] + x[1] + x[2] + x[2];
       }
@@ -2119,7 +2119,7 @@ var CONNECTION_URL;
   }
   function initSortMenu() {
     if (a) {
-      data[_0x9a98[93]] = current;
+      data[canvas] = current;
       data[_0x9a98[101]] = !state;
       data[_0x9a98[102]] = test;
       data[_0x9a98[103]] = id;
@@ -2131,17 +2131,17 @@ var CONNECTION_URL;
       data[_0x9a98[109]] = model;
       data[_0x9a98[110]] = save;
       data[_0x9a98[111]] = !_x$2;
-      data[_0x9a98[94]] = user;
+      data[sSkins] = user;
       data[_0x9a98[113]] = next;
       data[_0x9a98[114]] = mmConfig;
       data[_0x9a98[115]] = row;
       data[_0x9a98[116]] = r;
-      source[_0x9a98[97]][_0x9a98[96]] = JSON[_0x9a98[533]](data);
+      source[settings][sCellBorders] = JSON[_0x9a98[533]](data);
     }
   }
   function less(v, n) {
     require(_0x9a98[337] + v)[_0x9a98[118]](_0x9a98[121], n)[_0x9a98[120]]();
-    var e = require(_0x9a98[337] + v)[_0x9a98[607]](_0x9a98[606], document[countdown](_0x9a98[96]));
+    var e = require(_0x9a98[337] + v)[_0x9a98[607]](_0x9a98[606], document[countdown](sCellBorders));
     if (e) {
       e[-300px]({
         padding : _0x9a98[608]
@@ -2154,16 +2154,16 @@ var CONNECTION_URL;
   if (source[jQuery] = function(status) {
     if (status != mode) {
       CONNECTION_URL = status;
-      mode = $(_0x9a98[72])[_0x9a98[71]](mode)[.png](setserver);
+      mode = $(find)[option:selected](mode)[.png](setserver);
       loop();
-      jQuery(_0x9a98[73])[]();
-      jQuery(_0x9a98[74])[]();
+      jQuery(#agarios)[]();
+      jQuery(#playBtn)[]();
       Pa = 0;
-      var x = $(_0x9a98[76])[.png](_0x9a98[75]);
-      _0x9a98[77] + x + _0x9a98[78];
+      var x = $(sname)[.png](#SettingsBtn);
+      #agarios option:selected:selected + x + img/bg_;
     }
   }, srV) {
-    var artistTrack = _0x9a98[79];
+    var artistTrack = .jpg;
     var oa = 102.407.134.60:2021;
     var ha = craft;
     if (srV == 102.407.134.60:2021) {
@@ -2176,9 +2176,9 @@ var CONNECTION_URL;
         oa = 108.61.410.196:2021;
         ha = scania;
       } else {
-        if (srV == _0x9a98[80]) {
-          artistTrack = _0x9a98[81];
-          oa = _0x9a98[80];
+        if (srV == ) {
+          artistTrack = alpha;
+          oa = ;
           ha = scania;
         } else {
           if (srV == 102.407.126.439:2021) {
@@ -2196,19 +2196,19 @@ var CONNECTION_URL;
                 oa = 107.191.26.131:240;
                 ha = scania;
               } else {
-                if (srV == _0x9a98[82]) {
-                  artistTrack = _0x9a98[83];
-                  oa = _0x9a98[82];
+                if (srV == 25.34.186.119:2021) {
+                  artistTrack = cham;
+                  oa = 25.34.186.119:2021;
                   ha = scania;
                 } else {
-                  if (srV == _0x9a98[84]) {
-                    artistTrack = _0x9a98[85];
-                    oa = _0x9a98[84];
+                  if (srV == 102.438.172.185:2021) {
+                    artistTrack = soulsplit;
+                    oa = 102.438.172.185:2021;
                     ha = scania;
                   } else {
-                    if (srV == _0x9a98[86]) {
-                      artistTrack = _0x9a98[87];
-                      oa = _0x9a98[86];
+                    if (srV == 25.76.81.402:2021) {
+                      artistTrack = sparta;
+                      oa = 25.76.81.402:2021;
                       ha = craft;
                     } else {
                       if (srV == 25.63.6.49:2024) {
@@ -2226,7 +2226,7 @@ var CONNECTION_URL;
                             oa = 102.438.158.53:2021;
                             ha = scania;
                           } else {
-                            artistTrack = _0x9a98[88];
+                            artistTrack = 102.438.183.31:2021;
                             oa = 102.407.134.60:2021;
                             ha = craft;
                           }
@@ -2268,14 +2268,14 @@ var CONNECTION_URL;
   var element;
   var key = 0;
   var style = 0;
-  var supportTouch = _0x9a98[89] in document;
+  var supportTouch = cellcraft.io:2021 in document;
   var list = [];
   var c = -1;
   var ix = 0;
   var PL$133 = new Vector2(0, 0);
   var coordtransform = new Vector2(0, 0);
   var leftTouchStartPos = new Vector2(0, 0);
-  var d = _0x9a98[90];
+  var d = createTouch;
   var _takingTooLongTimeout = null;
   var isPaused = false;
   var media = function() {
@@ -2300,7 +2300,7 @@ var CONNECTION_URL;
   var Pa = (_0x9a98[514] == Va, 0);
   var rng = null;
   var PL$120 = [];
-  var cDateString = _0x9a98[79];
+  var cDateString = .jpg;
   var socket = null;
   var angle = 0;
   var ha = 0;
@@ -2337,7 +2337,7 @@ var CONNECTION_URL;
   var newValue = angle = ~~((type - node) / 2);
   var horAdjust = ha = ~~((old - match) / 2);
   var w = 1;
-  var mode = _0x9a98[79];
+  var mode = .jpg;
   var bottom = null;
   var reverseIsSingle = false;
   var isReplayingSong = true;
@@ -2376,7 +2376,7 @@ var CONNECTION_URL;
   google1 = setInterval(function() {
     if (console[_0x9a98[255]](_0x9a98[527]), typeof window[_0x9a98[528]] == _0x9a98[529]) {
       var _adjPageUri;
-      _adjPageUri = q == _0x9a98[79] || null == q ? _0x9a98[530] : q;
+      _adjPageUri = q == .jpg || null == q ? _0x9a98[530] : q;
       window[_0x9a98[528]](_0x9a98[257], _0x9a98[531], _adjPageUri, CONNECTION_URL, (loc / 100)[_0x9a98[199]](0));
     }
   }, 3e4);
@@ -2399,7 +2399,7 @@ var CONNECTION_URL;
     }
   }, 1750);
   var arr = {
-    nickName : _0x9a98[79],
+    nickName : .jpg,
     sSkins : true,
     sColors : true,
     sNames : true,
@@ -2421,8 +2421,8 @@ var CONNECTION_URL;
     sBubbleCells : false
   };
   var data = {
-    nickName : arr[_0x9a98[99]],
-    sSkins : arr[_0x9a98[93]],
+    nickName : arr[parse],
+    sSkins : arr[canvas],
     sColors : arr[_0x9a98[101]],
     sNames : arr[_0x9a98[102]],
     sMass : arr[_0x9a98[103]],
@@ -2434,17 +2434,17 @@ var CONNECTION_URL;
     sZoom : arr[_0x9a98[109]],
     sLeaderboard : arr[_0x9a98[110]],
     sChat : arr[_0x9a98[111]],
-    sMinimap : arr[_0x9a98[94]],
+    sMinimap : arr[sSkins],
     sSmoothRender : arr[_0x9a98[112]],
     sLargeNames : arr[_0x9a98[113]],
     sTransparentViruses : arr[_0x9a98[114]],
-    sCellBorders : arr[_0x9a98[95]],
+    sCellBorders : arr[sMinimap],
     sPolygonShapes : arr[_0x9a98[115]],
     sBubbleCells : arr[_0x9a98[116]]
   };
   var a = false;
   var q = null;
-  var current = arr[_0x9a98[93]];
+  var current = arr[canvas];
   var state = !arr[_0x9a98[101]];
   var test = arr[_0x9a98[102]];
   var id = arr[_0x9a98[103]];
@@ -2457,12 +2457,12 @@ var CONNECTION_URL;
   var model = arr[_0x9a98[109]];
   var save = arr[_0x9a98[110]];
   var _x$2 = !arr[_0x9a98[111]];
-  var user = arr[_0x9a98[94]];
+  var user = arr[sSkins];
   var inverseFlag = arr[_0x9a98[112]];
   var ccw_flag = inverseFlag ? 40 : .4;
   var next = arr[_0x9a98[113]];
   var mmConfig = arr[_0x9a98[114]];
-  var stop = arr[_0x9a98[95]];
+  var stop = arr[sMinimap];
   var row = arr[_0x9a98[115]];
   var r = arr[_0x9a98[116]];
   source[_0x9a98[534]] = function(quicktext) {
@@ -2483,7 +2483,7 @@ var CONNECTION_URL;
         warnIfMissing();
         loc = 0;
         require(_0x9a98[321])[_0x9a98[118]](_0x9a98[221], false);
-        data[_0x9a98[99]] = q;
+        data[parse] = q;
         initSortMenu();
       }
       if (-1 != g[_0x9a98[422]](e)) {
@@ -2658,7 +2658,7 @@ var CONNECTION_URL;
   };
   source[_0x9a98[593]] = function() {
     a = false;
-    less(_0x9a98[586], arr[_0x9a98[93]]);
+    less(_0x9a98[586], arr[canvas]);
     less(_0x9a98[594], arr[_0x9a98[101]]);
     less(_0x9a98[595], arr[_0x9a98[102]]);
     less(_0x9a98[596], arr[_0x9a98[103]]);
@@ -2670,21 +2670,21 @@ var CONNECTION_URL;
     less(_0x9a98[600], arr[_0x9a98[109]]);
     less(_0x9a98[601], arr[_0x9a98[110]]);
     less(_0x9a98[602], arr[_0x9a98[111]]);
-    less(_0x9a98[603], arr[_0x9a98[94]]);
+    less(_0x9a98[603], arr[sSkins]);
     less(_0x9a98[591], arr[_0x9a98[112]]);
     less(_0x9a98[592], arr[_0x9a98[113]]);
     less(_0x9a98[587], arr[_0x9a98[114]]);
-    less(_0x9a98[588], arr[_0x9a98[95]]);
+    less(_0x9a98[588], arr[sMinimap]);
     less(_0x9a98[604], arr[_0x9a98[115]]);
     less(_0x9a98[605], arr[_0x9a98[116]]);
     a = true;
     initSortMenu();
   };
-  if (null != source[_0x9a98[97]]) {
-    if (null == source[_0x9a98[97]][_0x9a98[609]]) {
-      source[_0x9a98[97]][_0x9a98[609]] = ~~(100 * Math[_0x9a98[387]]());
+  if (null != source[settings]) {
+    if (null == source[settings][_0x9a98[609]]) {
+      source[settings][_0x9a98[609]] = ~~(100 * Math[_0x9a98[387]]());
     }
-    _newsource = +source[_0x9a98[97]][_0x9a98[609]];
+    _newsource = +source[settings][_0x9a98[609]];
     source[_0x9a98[610]] = _newsource;
   }
   setTimeout(function() {
@@ -2709,12 +2709,12 @@ var CONNECTION_URL;
   elm[ice2pop] = _0x9a98[615];
   notes[_0x9a98[616]] = {
     id : 0,
-    color : _0x9a98[79],
-    colorDimmed : _0x9a98[79],
+    color : .jpg,
+    colorDimmed : .jpg,
     points : null,
     pointsAcc : null,
     name : null,
-    skinName : _0x9a98[79],
+    skinName : .jpg,
     hasImage : false,
     imgLoaded : null,
     rclanCache : null,
@@ -2791,7 +2791,7 @@ var CONNECTION_URL;
     setName : function(a) {
       if (a !== this[_0x9a98[343]] && (this[_0x9a98[343]] = a)) {
         var e = this[_0x9a98[343]][_0x9a98[550]]();
-        var o = _0x9a98[79];
+        var o = .jpg;
         if (e && e[0] == _0x9a98[619] && -1 != e[_0x9a98[422]](_0x9a98[620])) {
           a = e[_0x9a98[422]](_0x9a98[620]);
           var hash_1 = a;
@@ -2809,10 +2809,10 @@ var CONNECTION_URL;
         if (e && -1 != g[_0x9a98[422]](e)) {
           this[_0x9a98[623]] = e;
         } else {
-          this[_0x9a98[623]] = _0x9a98[79];
+          this[_0x9a98[623]] = .jpg;
         }
         var GET_AUTH_URL_TIMEOUT = this[_0x9a98[343]];
-        if (o != _0x9a98[79]) {
+        if (o != .jpg) {
           var nullMatch = this[_0x9a98[343]][_0x9a98[622]](1, a);
           GET_AUTH_URL_TIMEOUT = this[_0x9a98[343]][_0x9a98[622]](hash_1 + 1, this[_0x9a98[343]][split]);
           if (null == this[_0x9a98[624]]) {
@@ -2850,7 +2850,7 @@ var CONNECTION_URL;
         this[_0x9a98[631]] = true;
         this[_0x9a98[632]] = authors && authors[_0x9a98[364]] && 0 != authors[_0x9a98[180]] ? authors : null;
       } else {
-        if (this[_0x9a98[623]] != _0x9a98[79] && 1 != replyAsHtml) {
+        if (this[_0x9a98[623]] != .jpg && 1 != replyAsHtml) {
           authors = null;
           if (current) {
             if (entry[_0x9a98[405]](this[_0x9a98[623]])) {
@@ -3188,7 +3188,7 @@ var CONNECTION_URL;
     }
   };
   obj[_0x9a98[616]] = {
-    _value : _0x9a98[79],
+    _value : .jpg,
     _color : _0x9a98[342],
     _stroke : false,
     _strokeColor : _0x9a98[342],
@@ -3228,7 +3228,7 @@ var CONNECTION_URL;
       }
     },
     render : function() {
-      if (null == this[_0x9a98[653]] && (this[_0x9a98[653]] = document[_0x9a98[358]](_0x9a98[92]), this[_0x9a98[356]] = this[_0x9a98[653]][_0x9a98[142]](_0x9a98[141])), this[_0x9a98[650]]) {
+      if (null == this[_0x9a98[653]] && (this[_0x9a98[653]] = document[_0x9a98[358]](focus), this[_0x9a98[356]] = this[_0x9a98[653]][_0x9a98[142]](_0x9a98[141])), this[_0x9a98[650]]) {
         this[_0x9a98[650]] = false;
         var MEMOIZED_FACT = this[_0x9a98[653]];
         var map = this[_0x9a98[356]];
@@ -3415,9 +3415,9 @@ var CONNECTION_URL;
       GET_AUTH_URL_TIMEOUT[_0x9a98[680]](_0x9a98[677], _[_0x9a98[679]](_0x9a98[678]));
       artistTrack[_0x9a98[682]][_0x9a98[681]](GET_AUTH_URL_TIMEOUT, artistTrack);
     }
-    var accountsCallbacks = new notes(0, 0, 0, 32, _0x9a98[683], _0x9a98[79]);
+    var accountsCallbacks = new notes(0, 0, 0, 32, _0x9a98[683], .jpg);
     accountsCallbacks[_0x9a98[415]] = _0x9a98[684];
-    var _ = document[_0x9a98[358]](_0x9a98[92]);
+    var _ = document[_0x9a98[358]](focus);
     _[_0x9a98[180]] = 32;
     _[_0x9a98[181]] = 32;
     var e = _[_0x9a98[142]](_0x9a98[141]);
