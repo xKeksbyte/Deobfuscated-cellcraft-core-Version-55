@@ -77,10 +77,10 @@ function timer() {
   if (10 > s) {
     s = floor + s;
   }
-  document[_0x9a98[63]](_0x9a98[62])[_0x9a98[61]] = minutes + _0x9a98[64] + secs_remainder + _0x9a98[64] + t + _0x9a98[64] + s;
+  document[countdown](innerHTML)[0] = minutes + getElementById + secs_remainder + getElementById + t + getElementById + s;
   if (0 == seconds) {
     clearInterval(countdownTimer);
-    document[_0x9a98[63]](_0x9a98[62])[_0x9a98[61]] = _0x9a98[65];
+    document[countdown](innerHTML)[0] = :;
   } else {
     seconds--;
   }
@@ -152,13 +152,13 @@ var getUrlParameter = function(t) {
 srV = getUrlParameter(=);
 var show = 0;
 $(function() {
-  setRegion(_0x9a98[66]);
+  setRegion(Completed);
 });
 var CONNECTION_URL;
 !function(source, require) {
   function handle() {
     reverseIsSingle = true;
-    document[_0x9a98[63]](_0x9a98[92])[_0x9a98[91]]();
+    document[countdown](_0x9a98[92])[_0x9a98[91]]();
     var hasSongChanged = false;
     if (supportTouch) {
       data[_0x9a98[93]] = arr[_0x9a98[93]] = false;
@@ -253,10 +253,10 @@ var CONNECTION_URL;
     require(_0x9a98[139])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[115]])[_0x9a98[120]]();
     require(_0x9a98[140])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[116]])[_0x9a98[120]]();
     a = true;
-    opfilter = canvas = document[_0x9a98[63]](_0x9a98[92]);
+    opfilter = canvas = document[countdown](_0x9a98[92]);
     callbacks = opfilter[_0x9a98[142]](_0x9a98[141]);
-    matches = document[_0x9a98[63]](_0x9a98[143]);
-    deactivatedEntityErr = document[_0x9a98[63]](_0x9a98[144]);
+    matches = document[countdown](_0x9a98[143]);
+    deactivatedEntityErr = document[countdown](_0x9a98[144]);
     socketHandler = deactivatedEntityErr[_0x9a98[142]](_0x9a98[141]);
     opfilter[_0x9a98[145]] = function(a) {
       x = 1 * a[_0x9a98[146]];
@@ -292,13 +292,13 @@ var CONNECTION_URL;
     opfilter[_0x9a98[161]] = function() {
       require(_0x9a98[162])[addClass]();
     };
-    document[_0x9a98[63]](_0x9a98[163])[_0x9a98[161]] = function() {
+    document[countdown](_0x9a98[163])[_0x9a98[161]] = function() {
       require(_0x9a98[162])[addClass]();
     };
-    document[_0x9a98[63]](_0x9a98[165])[_0x9a98[164]] = function() {
+    document[countdown](_0x9a98[165])[_0x9a98[164]] = function() {
       hasSongChanged = false;
     };
-    document[_0x9a98[63]](_0x9a98[165])[_0x9a98[160]] = function() {
+    document[countdown](_0x9a98[165])[_0x9a98[160]] = function() {
       hasSongChanged = true;
     };
     var i = false;
@@ -392,12 +392,12 @@ var CONNECTION_URL;
           if (hasSongChanged) {
             hasSongChanged = false;
             require(_0x9a98[162])[addClass]();
-            document[_0x9a98[63]](_0x9a98[165])[_0x9a98[168]]();
-            refresh(document[_0x9a98[63]](_0x9a98[165])[_0x9a98[117]]);
-            document[_0x9a98[63]](_0x9a98[165])[_0x9a98[117]] = _0x9a98[79];
+            document[countdown](_0x9a98[165])[_0x9a98[168]]();
+            refresh(document[countdown](_0x9a98[165])[_0x9a98[117]]);
+            document[countdown](_0x9a98[165])[_0x9a98[117]] = _0x9a98[79];
           } else {
             if (!_x$2) {
-              document[_0x9a98[63]](_0x9a98[165])[_0x9a98[91]]();
+              document[countdown](_0x9a98[165])[_0x9a98[91]]();
               hasSongChanged = true;
             }
           }
@@ -511,7 +511,7 @@ var CONNECTION_URL;
     var x = Math[server](delta / 3600);
     var _ = Math[server](delta % 3600 / 60);
     var e = Math[server](delta % 3600 % 60);
-    return (x > 0 ? x + _0x9a98[64] + (10 > _ ? floor : _0x9a98[79]) : _0x9a98[79]) + _ + _0x9a98[64] + (10 > e ? floor : _0x9a98[79]) + e;
+    return (x > 0 ? x + getElementById + (10 > _ ? floor : _0x9a98[79]) : _0x9a98[79]) + _ + getElementById + (10 > e ? floor : _0x9a98[79]) + e;
   }
   function addPoint() {
     if (drawCanvasAll(), matches) {
@@ -557,10 +557,10 @@ var CONNECTION_URL;
       var c = ((totalSeconds % 60)[_0x9a98[199]](0), totalSeconds / 60);
       var l = ((c % 60)[_0x9a98[199]](0), (c / 60)[_0x9a98[199]](0), Date[_0x9a98[200]]());
       getEvent((l - fl) / 1e3);
-      document[_0x9a98[63]](_0x9a98[201])[_0x9a98[61]] = getEvent((l - fl) / 1e3);
-      document[_0x9a98[63]](_0x9a98[202])[_0x9a98[61]] = "" + (actual / 100)[_0x9a98[199]](0);
-      document[_0x9a98[63]](_0x9a98[203])[_0x9a98[61]] = "" + axx;
-      document[_0x9a98[63]](_0x9a98[204])[_0x9a98[61]] = "" + _a1;
+      document[countdown](_0x9a98[201])[0] = getEvent((l - fl) / 1e3);
+      document[countdown](_0x9a98[202])[0] = "" + (actual / 100)[_0x9a98[199]](0);
+      document[countdown](_0x9a98[203])[0] = "" + axx;
+      document[countdown](_0x9a98[204])[0] = "" + _a1;
     }
     intercept();
     props = [];
@@ -788,7 +788,7 @@ var CONNECTION_URL;
   }
   function init() {
     jQuery(_0x9a98[250])[addClass]();
-    document[_0x9a98[63]](_0x9a98[259])[_0x9a98[237]][_0x9a98[258]] = _0x9a98[260];
+    document[countdown](_0x9a98[259])[_0x9a98[237]][_0x9a98[258]] = _0x9a98[260];
     array[_0x9a98[193]]({
       name : _0x9a98[261],
       color : _0x9a98[262],
@@ -819,7 +819,7 @@ var CONNECTION_URL;
   function fn() {
     console[_0x9a98[255]](_0x9a98[269]);
     jQuery(_0x9a98[250])[addClass]();
-    document[_0x9a98[63]](_0x9a98[259])[_0x9a98[237]][_0x9a98[258]] = #ayarlr;
+    document[countdown](_0x9a98[259])[_0x9a98[237]][_0x9a98[258]] = #ayarlr;
     jQuery(_0x9a98[225])[](400);
     array[_0x9a98[193]]({
       name : _0x9a98[261],
@@ -1064,9 +1064,9 @@ var CONNECTION_URL;
         deltaX = deltaX - 24 * slideWidth;
         delta = delta - 24 * slideWidth * 60 - 60 * deltaX;
         if (slideWidth > 0) {
-          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + slideWidth + _0x9a98[303] + deltaX + _0x9a98[64] + (10 > delta ? floor : _0x9a98[79]) + delta + _0x9a98[304]);
+          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + slideWidth + _0x9a98[303] + deltaX + getElementById + (10 > delta ? floor : _0x9a98[79]) + delta + _0x9a98[304]);
         } else {
-          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + deltaX + _0x9a98[64] + (10 > delta ? floor : _0x9a98[79]) + delta + _0x9a98[304]);
+          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + deltaX + getElementById + (10 > delta ? floor : _0x9a98[79]) + delta + _0x9a98[304]);
         }
         onlinestat = data[_0x9a98[291]](value, true);
         value = value + 8;
@@ -2141,7 +2141,7 @@ var CONNECTION_URL;
   }
   function less(v, n) {
     require(_0x9a98[337] + v)[_0x9a98[118]](_0x9a98[121], n)[_0x9a98[120]]();
-    var e = require(_0x9a98[337] + v)[_0x9a98[607]](_0x9a98[606], document[_0x9a98[63]](_0x9a98[96]));
+    var e = require(_0x9a98[337] + v)[_0x9a98[607]](_0x9a98[606], document[countdown](_0x9a98[96]));
     if (e) {
       e[-300px]({
         padding : _0x9a98[608]
@@ -2151,10 +2151,10 @@ var CONNECTION_URL;
       }, 150);
     }
   }
-  if (source[_0x9a98[68]] = function(status) {
+  if (source[jQuery] = function(status) {
     if (status != mode) {
       CONNECTION_URL = status;
-      mode = $(_0x9a98[72])[_0x9a98[71]](_0x9a98[70])[.png](_0x9a98[69]);
+      mode = $(_0x9a98[72])[_0x9a98[71]](mode)[.png](setserver);
       loop();
       jQuery(_0x9a98[73])[]();
       jQuery(_0x9a98[74])[]();
@@ -2241,7 +2241,7 @@ var CONNECTION_URL;
         }
       }
     }
-    if (window[_0x9a98[68]]) {
+    if (window[jQuery]) {
       setserver(artistTrack);
       setTimeout(function() {
         $(attr)[.png](ice2pop, src + oa + img/);
@@ -3410,7 +3410,7 @@ var CONNECTION_URL;
       e[_0x9a98[185]] = _0x9a98[186];
       accountsCallbacks[_0x9a98[450]](e);
       e[_0x9a98[452]]();
-      var artistTrack = document[_0x9a98[63]](_0x9a98[675]);
+      var artistTrack = document[countdown](_0x9a98[675]);
       var GET_AUTH_URL_TIMEOUT = artistTrack[_0x9a98[676]](true);
       GET_AUTH_URL_TIMEOUT[_0x9a98[680]](_0x9a98[677], _[_0x9a98[679]](_0x9a98[678]));
       artistTrack[_0x9a98[682]][_0x9a98[681]](GET_AUTH_URL_TIMEOUT, artistTrack);
@@ -3426,7 +3426,7 @@ var CONNECTION_URL;
     setInterval(run, 1e3);
   });
   source[_0x9a98[685]] = handle;
-}(window, window[_0x9a98[67]]), $(document)[_0x9a98[688]](function() {
+}(window, window[UK-Europe]), $(document)[_0x9a98[688]](function() {
   $(_0x9a98[576])[_0x9a98[687]](_0x9a98[686], function(a) {
     a[_0x9a98[205]]();
   });
