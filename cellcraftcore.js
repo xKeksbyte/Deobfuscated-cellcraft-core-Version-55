@@ -242,63 +242,63 @@ var CONNECTION_URL;
     require(#cGrid)[value](change, data[sGrid])[#nick]();
     require(#cFancyGrid)[value](change, data[sFancyGrid])[#nick]();
     require(#cDark)[value](change, data[sDark])[#nick]();
-    require(_0x9a98[131])[value](change, data[sAcid])[#nick]();
-    require(_0x9a98[132])[value](change, data[sZoom])[#nick]();
-    require(_0x9a98[133])[value](change, data[sLeaderboard])[#nick]();
-    require(_0x9a98[134])[value](change, data[sSkins])[#nick]();
-    require(_0x9a98[135])[value](change, data[sChat])[#nick]();
-    require(_0x9a98[136])[value](change, data[sSmoothRender])[#nick]();
-    require(_0x9a98[137])[value](change, data[sLargeNames])[#nick]();
-    require(_0x9a98[138])[value](change, data[sMinimap])[#nick]();
-    require(_0x9a98[139])[value](change, data[sTransparentViruses])[#nick]();
-    require(_0x9a98[140])[value](change, data[sPolygonShapes])[#nick]();
+    require(#cAcid)[value](change, data[sAcid])[#nick]();
+    require(#cZoom)[value](change, data[sZoom])[#nick]();
+    require(#cLeaderboard)[value](change, data[sLeaderboard])[#nick]();
+    require(#cChat)[value](change, data[sSkins])[#nick]();
+    require(#cMinimap)[value](change, data[sChat])[#nick]();
+    require(#cSmoothRender)[value](change, data[sSmoothRender])[#nick]();
+    require(#cLargeNames)[value](change, data[sLargeNames])[#nick]();
+    require(#cTransparentViruses)[value](change, data[sMinimap])[#nick]();
+    require(#cCellBorders)[value](change, data[sTransparentViruses])[#nick]();
+    require(#cPolygonShapes)[value](change, data[sPolygonShapes])[#nick]();
     a = true;
     opfilter = canvas = document[countdown](focus);
-    callbacks = opfilter[_0x9a98[142]](_0x9a98[141]);
-    matches = document[countdown](_0x9a98[143]);
-    deactivatedEntityErr = document[countdown](_0x9a98[144]);
-    socketHandler = deactivatedEntityErr[_0x9a98[142]](_0x9a98[141]);
-    opfilter[_0x9a98[145]] = function(a) {
-      x = 1 * a[_0x9a98[146]];
-      endRange = 1 * a[_0x9a98[147]];
+    callbacks = opfilter[2d](#cBubbleCells);
+    matches = document[countdown](getContext);
+    deactivatedEntityErr = document[countdown](statsGraph);
+    socketHandler = deactivatedEntityErr[2d](#cBubbleCells);
+    opfilter[mini-map] = function(a) {
+      x = 1 * a[onmouseenter];
+      endRange = 1 * a[clientX];
       debug();
     };
-    opfilter[_0x9a98[148]] = function(a) {
-      x = 1 * a[_0x9a98[146]];
-      endRange = 1 * a[_0x9a98[147]];
+    opfilter[clientY] = function(a) {
+      x = 1 * a[onmouseenter];
+      endRange = 1 * a[clientX];
       debug();
     };
-    opfilter[_0x9a98[149]] = function(a) {
-      x = 1 * a[_0x9a98[146]];
-      endRange = 1 * a[_0x9a98[147]];
+    opfilter[onmousemove] = function(a) {
+      x = 1 * a[onmouseenter];
+      endRange = 1 * a[clientX];
       debug();
       scrollTo(true, 1);
     };
     if (supportTouch) {
-      opfilter[_0x9a98[151]](_0x9a98[150], disable, false);
-      opfilter[_0x9a98[151]](_0x9a98[152], snap, false);
-      opfilter[_0x9a98[151]](_0x9a98[153], range, false);
+      opfilter[touchstart](oncontextmenu, disable, false);
+      opfilter[touchstart](addEventListener, snap, false);
+      opfilter[touchstart](touchmove, range, false);
     }
-    opfilter[_0x9a98[154]] = function() {
+    opfilter[touchend] = function() {
     };
-    if (/firefox/i[_0x9a98[156]](navigator[_0x9a98[155]])) {
-      document[_0x9a98[151]](_0x9a98[157], onDocumentKeyUp, false);
+    if (/firefox/i[userAgent](navigator[onmouseup])) {
+      document[touchstart](test, onDocumentKeyUp, false);
     } else {
-      document[_0x9a98[159]][_0x9a98[158]] = onDocumentKeyUp;
+      document[onmousewheel][DOMMouseScroll] = onDocumentKeyUp;
     }
-    opfilter[_0x9a98[160]] = function() {
+    opfilter[body] = function() {
       hasSongChanged = false;
     };
-    opfilter[_0x9a98[161]] = function() {
-      require(_0x9a98[162])[addClass]();
+    opfilter[onfocus] = function() {
+      require(onmousedown)[addClass]();
     };
-    document[countdown](_0x9a98[163])[_0x9a98[161]] = function() {
-      require(_0x9a98[162])[addClass]();
+    document[countdown](#emojiDropdown)[onfocus] = function() {
+      require(onmousedown)[addClass]();
     };
-    document[countdown](_0x9a98[165])[_0x9a98[164]] = function() {
+    document[countdown](onblur)[overlays] = function() {
       hasSongChanged = false;
     };
-    document[countdown](_0x9a98[165])[_0x9a98[160]] = function() {
+    document[countdown](onblur)[body] = function() {
       hasSongChanged = true;
     };
     var i = false;
@@ -311,9 +311,9 @@ var CONNECTION_URL;
     var prefix = false;
     var block = false;
     var definition = false;
-    source[_0x9a98[166]] = function(canCreateDiscussions) {
+    source[chtbox] = function(canCreateDiscussions) {
       var dependencies = !hasSongChanged && !isReplayingSong;
-      switch(canCreateDiscussions[_0x9a98[169]]) {
+      switch(canCreateDiscussions[blur]) {
         case 32:
           if (!i && dependencies) {
             scrollTo();
@@ -386,25 +386,25 @@ var CONNECTION_URL;
             show = 1;
             buildJS(0);
           }
-          source[_0x9a98[167]] = false;
+          source[onkeydown] = false;
           break;
         case 13:
           if (hasSongChanged) {
             hasSongChanged = false;
-            require(_0x9a98[162])[addClass]();
-            document[countdown](_0x9a98[165])[_0x9a98[168]]();
-            refresh(document[countdown](_0x9a98[165])[sBubbleCells]);
-            document[countdown](_0x9a98[165])[sBubbleCells] = .jpg;
+            require(onmousedown)[addClass]();
+            document[countdown](onblur)[isSpectating]();
+            refresh(document[countdown](onblur)[sBubbleCells]);
+            document[countdown](onblur)[sBubbleCells] = .jpg;
           } else {
             if (!_x$2) {
-              document[countdown](_0x9a98[165])[http://cellcraft.io/skins/]();
+              document[countdown](onblur)[http://cellcraft.io/skins/]();
               hasSongChanged = true;
             }
           }
       }
     };
-    source[_0x9a98[170]] = function(a) {
-      switch(a[_0x9a98[169]]) {
+    source[keyCode] = function(a) {
+      switch(a[blur]) {
         case 32:
           i = false;
           break;
@@ -449,7 +449,7 @@ var CONNECTION_URL;
           }
       }
     };
-    source[_0x9a98[164]] = function() {
+    source[overlays] = function() {
       if (mem) {
         on(19);
       }
@@ -461,18 +461,18 @@ var CONNECTION_URL;
       }
       pos = mem = i = _i = _ref = url = method = prefix = definition = block = false;
     };
-    source[_0x9a98[171]] = func;
-    source[_0x9a98[172]](media);
+    source[onkeyup] = func;
+    source[onresize](media);
     setInterval(scrollTo, 40);
     if (existingFilePath) {
-      require(_0x9a98[173])[http://cellcraft.io/?server=](existingFilePath);
+      require(requestAnimationFrame)[http://cellcraft.io/?server=](existingFilePath);
     }
     f();
-    resolve(require(_0x9a98[173])[http://cellcraft.io/?server=]());
+    resolve(require(requestAnimationFrame)[http://cellcraft.io/?server=]());
     if (null == socket && existingFilePath) {
       loop();
     }
-    require(_0x9a98[174])[]();
+    require(#region)[]();
     func();
   }
   function drawCanvasAll() {
@@ -486,25 +486,25 @@ var CONNECTION_URL;
     $(hide)[addClass]();
     $(#news)[addClass]();
     var i = 0;
-    for (; i < events[_0x9a98[175]][split]; i++) {
-      var coord = events[_0x9a98[175]][i];
-      if (0 > c && coord[_0x9a98[146]] < height / 2) {
-        c = coord[_0x9a98[176]];
-        coordtransform[_0x9a98[177]](coord[_0x9a98[146]], coord[_0x9a98[147]]);
-        PL$133[_0x9a98[178]](ae);
-        leftTouchStartPos[_0x9a98[177]](0, 0);
+    for (; i < events[#overlays][split]; i++) {
+      var coord = events[#overlays][i];
+      if (0 > c && coord[onmouseenter] < height / 2) {
+        c = coord[changedTouches];
+        coordtransform[identifier](coord[onmouseenter], coord[clientX]);
+        PL$133[reset](ae);
+        leftTouchStartPos[identifier](0, 0);
       }
       var d = ~~(height / 7);
-      if (coord[_0x9a98[146]] > height - d && coord[_0x9a98[147]] > number - d) {
+      if (coord[onmouseenter] > height - d && coord[clientX] > number - d) {
         scrollTo();
         on(17);
       }
-      if (coord[_0x9a98[146]] > height - d && coord[_0x9a98[147]] > number - 2 * d - 10 && coord[_0x9a98[147]] < number - d - 10) {
+      if (coord[onmouseenter] > height - d && coord[clientX] > number - 2 * d - 10 && coord[clientX] < number - d - 10) {
         scrollTo();
         on(22);
       }
     }
-    list = events[_0x9a98[179]];
+    list = events[copyFrom];
   }
   function getEvent(delta) {
     delta = +delta;
@@ -515,50 +515,50 @@ var CONNECTION_URL;
   }
   function addPoint() {
     if (drawCanvasAll(), matches) {
-      var manipulateInstructions = matches[_0x9a98[142]](_0x9a98[141]);
-      var opacity = matches[_0x9a98[180]];
-      var last = matches[_0x9a98[181]];
-      if (manipulateInstructions[_0x9a98[182]](0, 0, opacity, last), 2 < props[split]) {
+      var manipulateInstructions = matches[2d](#cBubbleCells);
+      var opacity = matches[touches];
+      var last = matches[width];
+      if (manipulateInstructions[height](0, 0, opacity, last), 2 < props[split]) {
         var boxes = 200;
         var propName = 0;
         for (; propName < props[split]; propName++) {
-          boxes = Math[_0x9a98[183]](props[propName], boxes);
+          boxes = Math[clearRect](props[propName], boxes);
         }
-        manipulateInstructions[_0x9a98[184]] = 3;
-        manipulateInstructions[_0x9a98[185]] = _0x9a98[186];
-        manipulateInstructions[_0x9a98[187]] = _0x9a98[186];
-        manipulateInstructions[_0x9a98[188]] = _0x9a98[189];
-        manipulateInstructions[_0x9a98[190]] = _0x9a98[189];
-        manipulateInstructions[_0x9a98[191]]();
-        manipulateInstructions[_0x9a98[192]](0, last - props[0] / boxes * (last - 10) + 10);
+        manipulateInstructions[max] = 3;
+        manipulateInstructions[lineWidth] = lineCap;
+        manipulateInstructions[round] = lineCap;
+        manipulateInstructions[lineJoin] = strokeStyle;
+        manipulateInstructions[#3071A9] = strokeStyle;
+        manipulateInstructions[fillStyle]();
+        manipulateInstructions[beginPath](0, last - props[0] / boxes * (last - 10) + 10);
         propName = 1;
-        for (; propName < props[split]; propName = propName + Math[_0x9a98[183]](~~(props[split] / opacity), 1)) {
+        for (; propName < props[split]; propName = propName + Math[clearRect](~~(props[split] / opacity), 1)) {
           var alphaS = propName / (props[split] - 1) * opacity;
           var minCircumeference = [];
           var suffix = -20;
           for (; 20 >= suffix; ++suffix) {
             if (!(0 > propName + suffix || propName + suffix >= props[split])) {
-              minCircumeference[_0x9a98[193]](props[propName + suffix]);
+              minCircumeference[moveTo](props[propName + suffix]);
             }
           }
-          minCircumeference = minCircumeference[_0x9a98[194]](function(h0, a) {
+          minCircumeference = minCircumeference[push](function(h0, a) {
             return h0 + a;
           }) / minCircumeference[split] / boxes;
-          manipulateInstructions[_0x9a98[195]](alphaS, last - minCircumeference * (last - 10) + 10);
+          manipulateInstructions[reduce](alphaS, last - minCircumeference * (last - 10) + 10);
         }
-        manipulateInstructions[_0x9a98[196]]();
-        manipulateInstructions[_0x9a98[197]] = .5;
-        manipulateInstructions[_0x9a98[195]](opacity, last);
-        manipulateInstructions[_0x9a98[195]](0, last);
-        manipulateInstructions[_0x9a98[198]]();
-        manipulateInstructions[_0x9a98[197]] = 1;
+        manipulateInstructions[lineTo]();
+        manipulateInstructions[stroke] = .5;
+        manipulateInstructions[reduce](opacity, last);
+        manipulateInstructions[reduce](0, last);
+        manipulateInstructions[globalAlpha]();
+        manipulateInstructions[stroke] = 1;
       }
       totalSeconds = props[split];
-      var c = ((totalSeconds % 60)[_0x9a98[199]](0), totalSeconds / 60);
-      var l = ((c % 60)[_0x9a98[199]](0), (c / 60)[_0x9a98[199]](0), Date[_0x9a98[200]]());
+      var c = ((totalSeconds % 60)[fill](0), totalSeconds / 60);
+      var l = ((c % 60)[fill](0), (c / 60)[fill](0), Date[toFixed]());
       getEvent((l - fl) / 1e3);
       document[countdown](_0x9a98[201])[0] = getEvent((l - fl) / 1e3);
-      document[countdown](_0x9a98[202])[0] = "" + (actual / 100)[_0x9a98[199]](0);
+      document[countdown](_0x9a98[202])[0] = "" + (actual / 100)[fill](0);
       document[countdown](_0x9a98[203])[0] = "" + axx;
       document[countdown](_0x9a98[204])[0] = "" + _a1;
     }
@@ -573,11 +573,11 @@ var CONNECTION_URL;
   function snap(a) {
     a[_0x9a98[205]]();
     var arrayKey = 0;
-    for (; arrayKey < a[_0x9a98[175]][split]; arrayKey++) {
-      var PL$89 = a[_0x9a98[175]][arrayKey];
-      if (c == PL$89[_0x9a98[176]]) {
-        PL$133[_0x9a98[177]](PL$89[_0x9a98[146]], PL$89[_0x9a98[147]]);
-        leftTouchStartPos[_0x9a98[178]](r);
+    for (; arrayKey < a[#overlays][split]; arrayKey++) {
+      var PL$89 = a[#overlays][arrayKey];
+      if (c == PL$89[changedTouches]) {
+        PL$133[identifier](PL$89[onmouseenter], PL$89[clientX]);
+        leftTouchStartPos[reset](r);
         leftTouchStartPos[_0x9a98[206]](ae);
         x = 3 * leftTouchStartPos[_0x9a98[207]] + height / 2;
         endRange = 3 * leftTouchStartPos[_0x9a98[208]] + number / 2;
@@ -585,7 +585,7 @@ var CONNECTION_URL;
         scrollTo();
       }
     }
-    list = a[_0x9a98[179]];
+    list = a[copyFrom];
   }
   function intercept() {
     var a = ix + 1;
@@ -594,13 +594,13 @@ var CONNECTION_URL;
     }
   }
   function range(a) {
-    list = a[_0x9a98[179]];
+    list = a[copyFrom];
     var id = 0;
-    for (; id < a[_0x9a98[175]][split]; id++) {
-      var history = a[_0x9a98[175]][id];
-      if (c == history[_0x9a98[176]]) {
+    for (; id < a[#overlays][split]; id++) {
+      var history = a[#overlays][id];
+      if (c == history[changedTouches]) {
         c = -1;
-        leftTouchStartPos[_0x9a98[177]](0, 0);
+        leftTouchStartPos[identifier](0, 0);
         break;
       }
     }
@@ -628,11 +628,11 @@ var CONNECTION_URL;
       for (; i < args[split]; i++) {
         var props = args[i];
         if (props[_0x9a98[214]]() && !props[_0x9a98[215]] && 20 < props[_0x9a98[216]] * max) {
-          newDuration = Math[_0x9a98[183]](props[_0x9a98[216]], newDuration);
+          newDuration = Math[clearRect](props[_0x9a98[216]], newDuration);
           minX = Math[_0x9a98[217]](props[_0x9a98[207]], minX);
           minY = Math[_0x9a98[217]](props[_0x9a98[208]], minY);
-          maxX = Math[_0x9a98[183]](props[_0x9a98[207]], maxX);
-          maxY = Math[_0x9a98[183]](props[_0x9a98[208]], maxY);
+          maxX = Math[clearRect](props[_0x9a98[207]], maxX);
+          maxY = Math[clearRect](props[_0x9a98[208]], maxY);
         }
       }
       rng = pageSignUp[_0x9a98[218]]({
@@ -667,8 +667,8 @@ var CONNECTION_URL;
   }
   function resolve(configuredFilePath) {
     if (configuredFilePath && configuredFilePath != existingFilePath) {
-      if (require(_0x9a98[173])[http://cellcraft.io/?server=]() != configuredFilePath) {
-        require(_0x9a98[173])[http://cellcraft.io/?server=](configuredFilePath);
+      if (require(requestAnimationFrame)[http://cellcraft.io/?server=]() != configuredFilePath) {
+        require(requestAnimationFrame)[http://cellcraft.io/?server=](configuredFilePath);
       }
       existingFilePath = source[settings][search] = configuredFilePath;
       require(_0x9a98[222])[value](_0x9a98[221], false);
@@ -686,14 +686,14 @@ var CONNECTION_URL;
     props = [];
     axx = 0;
     _a1 = 0;
-    fl = Date[_0x9a98[200]]();
+    fl = Date[toFixed]();
     isReplayingSong = false;
     require(_0x9a98[223])[addClass]();
     f();
   }
   function warnIfMissing() {
     setTimeout(spawn, 300);
-    require(_0x9a98[174])[_0x9a98[224]](300);
+    require(#region)[_0x9a98[224]](300);
     require(_0x9a98[225])[addClass]();
     require(_0x9a98[223])[addClass]();
   }
@@ -705,24 +705,24 @@ var CONNECTION_URL;
     q = null;
     require(_0x9a98[225])[addClass]();
     if (0 == show) {
-      require(_0x9a98[174])[_0x9a98[226]](300);
+      require(#region)[_0x9a98[226]](300);
     } else {
-      require(_0x9a98[174])[addClass]();
+      require(#region)[addClass]();
       isReplayingSong = false;
     }
   }
   function f() {
-    if (require(_0x9a98[173])[http://cellcraft.io/?server=]()) {
-      source[settings][search] = require(_0x9a98[173])[http://cellcraft.io/?server=]();
+    if (require(requestAnimationFrame)[http://cellcraft.io/?server=]()) {
+      source[settings][search] = require(requestAnimationFrame)[http://cellcraft.io/?server=]();
     } else {
       if (source[settings][search]) {
-        require(_0x9a98[173])[http://cellcraft.io/?server=](source[settings][search]);
+        require(requestAnimationFrame)[http://cellcraft.io/?server=](source[settings][search]);
       }
     }
-    if (require(_0x9a98[173])[http://cellcraft.io/?server=]()) {
-      require(_0x9a98[231])[_0x9a98[230]](require(_0x9a98[173]));
+    if (require(requestAnimationFrame)[http://cellcraft.io/?server=]()) {
+      require(_0x9a98[231])[_0x9a98[230]](require(requestAnimationFrame));
     } else {
-      require(_0x9a98[232])[_0x9a98[230]](require(_0x9a98[173]));
+      require(_0x9a98[232])[_0x9a98[230]](require(requestAnimationFrame));
     }
   }
   function loop() {
@@ -736,7 +736,7 @@ var CONNECTION_URL;
   function setCircular() {
     $(_0x9a98[244])[_0x9a98[238]](_0x9a98[237]);
     var width_box = $(_0x9a98[245])[_0x9a98[241]](_0x9a98[240]) / 100;
-    var i = $(_0x9a98[245])[_0x9a98[180]]();
+    var i = $(_0x9a98[245])[touches]();
     var _ileft = width_box * i;
     var e = 3e3;
     $(_0x9a98[244])[_0x9a98[243]]()[-300px]({
@@ -789,11 +789,11 @@ var CONNECTION_URL;
   function init() {
     jQuery(_0x9a98[250])[addClass]();
     document[countdown](_0x9a98[259])[_0x9a98[237]][_0x9a98[258]] = _0x9a98[260];
-    array[_0x9a98[193]]({
+    array[moveTo]({
       name : _0x9a98[261],
       color : _0x9a98[262],
       message : _0x9a98[263],
-      time : Date[_0x9a98[200]](),
+      time : Date[toFixed](),
       cache : null
     });
     run();
@@ -821,11 +821,11 @@ var CONNECTION_URL;
     jQuery(_0x9a98[250])[addClass]();
     document[countdown](_0x9a98[259])[_0x9a98[237]][_0x9a98[258]] = #ayarlr;
     jQuery(_0x9a98[225])[](400);
-    array[_0x9a98[193]]({
+    array[moveTo]({
       name : _0x9a98[261],
       color : _0x9a98[270],
       message : _0x9a98[271],
-      time : Date[_0x9a98[200]](),
+      time : Date[toFixed](),
       cache : null
     });
     run();
@@ -859,7 +859,7 @@ var CONNECTION_URL;
     PL$17 = 0;
     for (; PL$17 < PL$13[split]; PL$17++) {
       if (text >= PL$13[PL$17][sBubbleCells]) {
-        return (text / PL$13[PL$17][sBubbleCells])[_0x9a98[199]](value)[_0x9a98[235]](/\.?0+$/, .jpg) + PL$13[PL$17][_0x9a98[278]];
+        return (text / PL$13[PL$17][sBubbleCells])[fill](value)[_0x9a98[235]](/\.?0+$/, .jpg) + PL$13[PL$17][_0x9a98[278]];
       }
     }
     return text;
@@ -910,7 +910,7 @@ var CONNECTION_URL;
         }
         break;
       case 32:
-        indexMap[_0x9a98[193]](data[_0x9a98[284]](value, true));
+        indexMap[moveTo](data[_0x9a98[284]](value, true));
         value = value + 4;
         break;
       case 33:
@@ -923,7 +923,7 @@ var CONNECTION_URL;
           map[_0x9a98[285]] = name;
           map[_0x9a98[286]] = block;
         } else {
-          signedTransactions[_0x9a98[193]]({
+          signedTransactions[moveTo]({
             nodeId : id,
             animId : name
           });
@@ -944,7 +944,7 @@ var CONNECTION_URL;
         for (; v > previousThumbValue; ++previousThumbValue) {
           var o = data[_0x9a98[284]](value, true);
           value = value + 4;
-          fftBinsOfFreq[_0x9a98[193]]({
+          fftBinsOfFreq[moveTo]({
             id : o,
             name : fixRootEm()
           });
@@ -964,7 +964,7 @@ var CONNECTION_URL;
         value = value + 4;
         var previousThumbValue = 0;
         for (; oldTermination > previousThumbValue; ++previousThumbValue) {
-          bottom[_0x9a98[193]](data[_0x9a98[282]](value, true));
+          bottom[moveTo](data[_0x9a98[282]](value, true));
           value = value + 4;
         }
         remove();
@@ -1137,7 +1137,7 @@ var CONNECTION_URL;
       case 100:
         if (window[_0x9a98[324]] && window[_0x9a98[324]][_0x9a98[325]]) {
           window[_0x9a98[324]][_0x9a98[325]]();
-          require(_0x9a98[174])[_0x9a98[226]](100);
+          require(#region)[_0x9a98[226]](100);
         }
     }
   }
@@ -1195,11 +1195,11 @@ var CONNECTION_URL;
       glyphColor = floor + glyphColor;
     }
     glyphColor = _0x9a98[337] + glyphColor;
-    array[_0x9a98[193]]({
+    array[moveTo]({
       name : encode(),
       color : glyphColor,
       message : encode(),
-      time : Date[_0x9a98[200]](),
+      time : Date[toFixed](),
       cache : null
     });
     run();
@@ -1207,7 +1207,7 @@ var CONNECTION_URL;
   function run() {
     var n = 12;
     var duration = 0;
-    var _ = Date[_0x9a98[200]]();
+    var _ = Date[toFixed]();
     if (array[split] > 0) {
       duration = array[array[split] - 1][_0x9a98[338]];
       var i = 0;
@@ -1251,7 +1251,7 @@ var CONNECTION_URL;
         var artistTrack = _0x9a98[348] + src[_0x9a98[351]][_0x9a98[235]](emoRegExp, function(iccId, pos) {
           var i = emoMap[iccId];
           var subwiki = subwikiList[i];
-          return null == subwiki && (subwikiList[i] = new Image, subwiki = subwikiList[i], subwiki[ice2pop] = _0x9a98[349] + i + img/), PL$13[_0x9a98[193]]({
+          return null == subwiki && (subwikiList[i] = new Image, subwiki = subwikiList[i], subwiki[ice2pop] = _0x9a98[349] + i + img/), PL$13[moveTo]({
             pos : pos + start,
             img : subwiki
           }), start = start + (5 - iccId[split]), _0x9a98[350];
@@ -1266,15 +1266,15 @@ var CONNECTION_URL;
         finger[_0x9a98[353]](_0x9a98[346]);
       }
       var p2 = finger[_0x9a98[352]]();
-      var currentValue = col[_0x9a98[180]] + p2[_0x9a98[180]];
+      var currentValue = col[touches] + p2[touches];
       if (currentValue > value && (value = currentValue), o) {
         var PL$17 = 0;
         for (; PL$17 < PL$13[split]; PL$17++) {
-          PL$13[PL$17][_0x9a98[354]] = finger[_0x9a98[356]][_0x9a98[355]](artistTrack[#invite-link](0, PL$13[PL$17][_0x9a98[354]]))[_0x9a98[180]];
+          PL$13[PL$17][_0x9a98[354]] = finger[_0x9a98[356]][_0x9a98[355]](artistTrack[#invite-link](0, PL$13[PL$17][_0x9a98[354]]))[touches];
         }
         f[_0x9a98[357]] = PL$13;
       }
-      stack[_0x9a98[193]]({
+      stack[moveTo]({
         c1 : col,
         c2 : p2,
         emo : f[_0x9a98[357]]
@@ -1283,20 +1283,20 @@ var CONNECTION_URL;
     if (0 == stack[split]) {
       return e = null, void(sourceNode = null);
     }
-    var ratio = Math[_0x9a98[183]](Math[_0x9a98[217]](1.8 * number, height, 1e3) / 1e3, .5);
+    var ratio = Math[clearRect](Math[_0x9a98[217]](1.8 * number, height, 1e3) / 1e3, .5);
     if (!e) {
       e = document[_0x9a98[358]](focus);
-      sourceNode = e[_0x9a98[142]](_0x9a98[141]);
+      sourceNode = e[2d](#cBubbleCells);
     }
-    e[_0x9a98[180]] = Math[_0x9a98[183]](Math[_0x9a98[217]](value * ratio, height - 10), 1);
-    e[_0x9a98[181]] = Math[_0x9a98[183]](Math[_0x9a98[217]]((18 * stack[split] + 2) * ratio, number - 50), 1);
+    e[touches] = Math[clearRect](Math[_0x9a98[217]](value * ratio, height - 10), 1);
+    e[width] = Math[clearRect](Math[_0x9a98[217]]((18 * stack[split] + 2) * ratio, number - 50), 1);
     sourceNode[_0x9a98[359]](ratio, ratio);
     i = 0;
     for (; i < stack[split]; i++) {
       value = stack[i];
-      start = value[_0x9a98[360]][_0x9a98[180]];
-      duration = e[_0x9a98[181]] / ratio - 18 * (stack[split] - i);
-      sourceNode[_0x9a98[197]] = title ? .75 : .9;
+      start = value[_0x9a98[360]][touches];
+      duration = e[width] / ratio - 18 * (stack[split] - i);
+      sourceNode[stroke] = title ? .75 : .9;
       sourceNode[_0x9a98[361]](value[_0x9a98[360]], 0, duration);
       sourceNode[_0x9a98[361]](value[_0x9a98[362]], start, duration);
       var PL$17 = 0;
@@ -1304,8 +1304,8 @@ var CONNECTION_URL;
       for (; PL$17 < PL$13[split]; PL$17++) {
         t = PL$13[PL$17];
         var val = t[_0x9a98[363]];
-        if (val && val[_0x9a98[364]] && 0 != val[_0x9a98[180]]) {
-          sourceNode[_0x9a98[197]] = title ? .85 : 1;
+        if (val && val[_0x9a98[364]] && 0 != val[touches]) {
+          sourceNode[stroke] = title ? .85 : 1;
           sourceNode[_0x9a98[361]](val, start + 2 + t[_0x9a98[354]], duration - 2);
         }
       }
@@ -1460,9 +1460,9 @@ var CONNECTION_URL;
         result = new notes(i, key, index, value, newMax, ret);
         if (field && 1 == object && 25 >= value) {
           result[_0x9a98[409]] = true;
-          parts[_0x9a98[193]](result);
+          parts[moveTo](result);
         } else {
-          args[_0x9a98[193]](result);
+          args[moveTo](result);
         }
         cache[i] = result;
         result[_0x9a98[410]] = key;
@@ -1490,7 +1490,7 @@ var CONNECTION_URL;
           result[_0x9a98[419]] = tmp_result;
           result[_0x9a98[420]]();
           if (!(0 != object || result[_0x9a98[421]] || -1 == indexMap[_0x9a98[422]](i) || -1 != stack[_0x9a98[422]](result))) {
-            stack[_0x9a98[193]](result);
+            stack[moveTo](result);
             result[_0x9a98[421]] = true;
             if (1 == stack[split]) {
               angle = (.1 * angle + result[_0x9a98[207]]) / 1.1;
@@ -1547,7 +1547,7 @@ var CONNECTION_URL;
     }
   }
   function runner() {
-    if (on(42), half_xgap = Date[_0x9a98[200]]() - 20500, requestAnimationFrame() && third_hex && null != q) {
+    if (on(42), half_xgap = Date[toFixed]() - 20500, requestAnimationFrame() && third_hex && null != q) {
       var msg = prepareData(3 + 2 * q[split]);
       msg[_0x9a98[267]](0, 0);
       var store = 0;
@@ -1588,11 +1588,11 @@ var CONNECTION_URL;
     window[_0x9a98[432]](0, 0);
     height = source[_0x9a98[433]];
     number = source[_0x9a98[434]];
-    canvas[_0x9a98[180]] = height;
-    canvas[_0x9a98[181]] = number;
+    canvas[touches] = height;
+    canvas[width] = number;
     var fake_module = require(_0x9a98[435]);
     fake_module[0px](_0x9a98[436], _0x9a98[437]);
-    var f = fake_module[_0x9a98[181]]();
+    var f = fake_module[width]();
     if (f > number / 1.1) {
       fake_module[0px](_0x9a98[436], _0x9a98[438] + number / f / 1.1 + _0x9a98[439]);
     } else {
@@ -1600,7 +1600,7 @@ var CONNECTION_URL;
     }
     fake_module = require(_0x9a98[441]);
     fake_module[0px](_0x9a98[436], _0x9a98[437]);
-    f = fake_module[_0x9a98[181]]();
+    f = fake_module[width]();
     if (f > number / 1.25) {
       fake_module[0px](_0x9a98[436], _0x9a98[438] + number / f / 1.25 + _0x9a98[439]);
     } else {
@@ -1610,7 +1610,7 @@ var CONNECTION_URL;
   }
   function getEl() {
     var dt;
-    return dt = Math[_0x9a98[183]](number / 1080, height / 1920), isPaused ? dt * n * 1 : dt * n;
+    return dt = Math[clearRect](number / 1080, height / 1920), isPaused ? dt * n * 1 : dt * n;
   }
   function each() {
     if (0 != stack[split]) {
@@ -1627,7 +1627,7 @@ var CONNECTION_URL;
     var data;
     var key;
     var options;
-    var b = Date[_0x9a98[200]]();
+    var b = Date[toFixed]();
     if (++p, block = b, 0 < stack[split]) {
       each();
       key = data = 0;
@@ -1657,11 +1657,11 @@ var CONNECTION_URL;
     maybeDefer();
     debug();
     if (!name) {
-      callbacks[_0x9a98[182]](0, 0, height, number);
+      callbacks[height](0, 0, height, number);
     }
     if (name) {
-      callbacks[_0x9a98[190]] = title ? _0x9a98[442] : _0x9a98[443];
-      callbacks[_0x9a98[197]] = .05;
+      callbacks[#3071A9] = title ? _0x9a98[442] : _0x9a98[443];
+      callbacks[stroke] = .05;
       callbacks[_0x9a98[444]](0, 0, height, number);
     } else {
       calcStatus();
@@ -1673,35 +1673,35 @@ var CONNECTION_URL;
     callbacks[_0x9a98[448]](height / 2, number / 2);
     callbacks[_0x9a98[359]](max, max);
     callbacks[_0x9a98[448]](-angle, -ha);
-    callbacks[_0x9a98[185]] = _0x9a98[186];
+    callbacks[lineWidth] = lineCap;
     if (!flagQuiet) {
-      callbacks[_0x9a98[188]] = _0x9a98[449];
-      callbacks[_0x9a98[184]] = 20;
-      callbacks[_0x9a98[187]] = _0x9a98[186];
-      callbacks[_0x9a98[197]] = 1;
+      callbacks[lineJoin] = _0x9a98[449];
+      callbacks[max] = 20;
+      callbacks[round] = lineCap;
+      callbacks[stroke] = 1;
       if (match + 10 > ha - number / 2 / max) {
-        callbacks[_0x9a98[191]]();
-        callbacks[_0x9a98[192]](node, match);
-        callbacks[_0x9a98[195]](type, match);
-        callbacks[_0x9a98[196]]();
+        callbacks[fillStyle]();
+        callbacks[beginPath](node, match);
+        callbacks[reduce](type, match);
+        callbacks[lineTo]();
       }
       if (angle + height / 2 / max > type - 10) {
-        callbacks[_0x9a98[191]]();
-        callbacks[_0x9a98[192]](type, match);
-        callbacks[_0x9a98[195]](type, old);
-        callbacks[_0x9a98[196]]();
+        callbacks[fillStyle]();
+        callbacks[beginPath](type, match);
+        callbacks[reduce](type, old);
+        callbacks[lineTo]();
       }
       if (ha + number / 2 / max > old - 10) {
-        callbacks[_0x9a98[191]]();
-        callbacks[_0x9a98[192]](type, old);
-        callbacks[_0x9a98[195]](node, old);
-        callbacks[_0x9a98[196]]();
+        callbacks[fillStyle]();
+        callbacks[beginPath](type, old);
+        callbacks[reduce](node, old);
+        callbacks[lineTo]();
       }
       if (node + 10 > angle - height / 2 / max) {
-        callbacks[_0x9a98[191]]();
-        callbacks[_0x9a98[192]](node, old);
-        callbacks[_0x9a98[195]](node, match);
-        callbacks[_0x9a98[196]]();
+        callbacks[fillStyle]();
+        callbacks[beginPath](node, old);
+        callbacks[reduce](node, match);
+        callbacks[lineTo]();
       }
     }
     min = blockTimes[split];
@@ -1727,29 +1727,29 @@ var CONNECTION_URL;
       message = (3 * message + timeout) / 4;
       oldValue = (3 * oldValue + response) / 4;
       callbacks[_0x9a98[447]]();
-      callbacks[_0x9a98[188]] = _0x9a98[451];
-      callbacks[_0x9a98[184]] = 10;
-      callbacks[_0x9a98[187]] = _0x9a98[186];
-      callbacks[_0x9a98[197]] = .5;
-      callbacks[_0x9a98[191]]();
+      callbacks[lineJoin] = _0x9a98[451];
+      callbacks[max] = 10;
+      callbacks[round] = lineCap;
+      callbacks[stroke] = .5;
+      callbacks[fillStyle]();
       i = 0;
       for (; i < stack[split]; i++) {
-        callbacks[_0x9a98[192]](stack[i][_0x9a98[207]], stack[i][_0x9a98[208]]);
-        callbacks[_0x9a98[195]](message, oldValue);
+        callbacks[beginPath](stack[i][_0x9a98[207]], stack[i][_0x9a98[208]]);
+        callbacks[reduce](message, oldValue);
       }
-      callbacks[_0x9a98[196]]();
+      callbacks[lineTo]();
       callbacks[_0x9a98[452]]();
     }
-    if (callbacks[_0x9a98[452]](), callbacks[_0x9a98[197]] = 1, val && val[_0x9a98[180]] && callbacks[_0x9a98[361]](val, height - val[_0x9a98[180]] - 10, 10), e && e[_0x9a98[180]] && callbacks[_0x9a98[361]](e, 10, number - e[_0x9a98[181]] - 50), key = callback(), actual = Math[_0x9a98[183]](loc, key), loc = key, 0 != loc && (null == that ? that = new obj(24, title ? _0x9a98[453] : _0x9a98[454]) : that[_0x9a98[353]](title ? _0x9a98[453] : _0x9a98[454]), that[_0x9a98[344]](_0x9a98[455] + ~~(loc / 100)), 
-    key = that[_0x9a98[352]](), callbacks[_0x9a98[197]] = 1, callbacks[_0x9a98[361]](key, 15, 15)), (0 < stack[split] || source[_0x9a98[167]]) && (!result && (result = new obj(15, _0x9a98[453])), result[_0x9a98[344]](_0x9a98[456] + angle[_0x9a98[199]](0) + _0x9a98[457] + ha[_0x9a98[199]](0)), key = result[_0x9a98[352]](), data = key[_0x9a98[180]] + 20, options = key[_0x9a98[181]] + 2, callbacks[_0x9a98[191]](), callbacks[_0x9a98[192]](18, 50), callbacks[_0x9a98[458]](10 + data, 50, 10 + data, 
-    50 + options, 8), callbacks[_0x9a98[458]](10 + data, 50 + options, 10, 50 + options, 8), callbacks[_0x9a98[458]](10, 50 + options, 10, 50, 8), callbacks[_0x9a98[458]](10, 50, 10 + data, 50, 8), callbacks[_0x9a98[459]](), callbacks[_0x9a98[197]] = .7, callbacks[_0x9a98[190]] = _0x9a98[342], callbacks[_0x9a98[198]](), callbacks[_0x9a98[197]] = 1, callbacks[_0x9a98[361]](key, 20, 51), value && value[_0x9a98[180]] && callbacks[_0x9a98[361]](value, 10, 85)), privacyCheckRequired && !user && deactivatedEntityErr) {
-      socketHandler[_0x9a98[182]](0, 0, 200, 200);
+    if (callbacks[_0x9a98[452]](), callbacks[stroke] = 1, val && val[touches] && callbacks[_0x9a98[361]](val, height - val[touches] - 10, 10), e && e[touches] && callbacks[_0x9a98[361]](e, 10, number - e[width] - 50), key = callback(), actual = Math[clearRect](loc, key), loc = key, 0 != loc && (null == that ? that = new obj(24, title ? _0x9a98[453] : _0x9a98[454]) : that[_0x9a98[353]](title ? _0x9a98[453] : _0x9a98[454]), that[_0x9a98[344]](_0x9a98[455] + ~~(loc / 100)), 
+    key = that[_0x9a98[352]](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 15, 15)), (0 < stack[split] || source[onkeydown]) && (!result && (result = new obj(15, _0x9a98[453])), result[_0x9a98[344]](_0x9a98[456] + angle[fill](0) + _0x9a98[457] + ha[fill](0)), key = result[_0x9a98[352]](), data = key[touches] + 20, options = key[width] + 2, callbacks[fillStyle](), callbacks[beginPath](18, 50), callbacks[_0x9a98[458]](10 + data, 50, 10 + data, 
+    50 + options, 8), callbacks[_0x9a98[458]](10 + data, 50 + options, 10, 50 + options, 8), callbacks[_0x9a98[458]](10, 50 + options, 10, 50, 8), callbacks[_0x9a98[458]](10, 50, 10 + data, 50, 8), callbacks[_0x9a98[459]](), callbacks[stroke] = .7, callbacks[#3071A9] = _0x9a98[342], callbacks[globalAlpha](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 20, 51), value && value[touches] && callbacks[_0x9a98[361]](value, 10, 85)), privacyCheckRequired && !user && deactivatedEntityErr) {
+      socketHandler[height](0, 0, 200, 200);
       socketHandler[_0x9a98[447]]();
-      data = 200 / Math[_0x9a98[183]](type - node, old - match);
+      data = 200 / Math[clearRect](type - node, old - match);
       socketHandler[_0x9a98[359]](data, data);
       socketHandler[_0x9a98[448]](-node, -match);
-      socketHandler[_0x9a98[197]] = r ? .5 : .9;
-      socketHandler[_0x9a98[184]] = Math[_0x9a98[460]](1 / data);
+      socketHandler[stroke] = r ? .5 : .9;
+      socketHandler[max] = Math[_0x9a98[460]](1 / data);
       min = parts[split];
       i = 0;
       for (; min > i; i++) {
@@ -1771,7 +1771,7 @@ var CONNECTION_URL;
     }
     indexOf(callbacks);
     forEach(callbacks);
-    var func_start_pos = Date[_0x9a98[200]]() - b;
+    var func_start_pos = Date[toFixed]() - b;
     if (func_start_pos > 1e3 / 60) {
       h = h - .01;
     } else {
@@ -1789,38 +1789,38 @@ var CONNECTION_URL;
   function forEach(options) {
     if (supportTouch) {
       options[_0x9a98[447]]();
-      options[_0x9a98[197]] = 1;
+      options[stroke] = 1;
       var j = 0;
       for (; j < list[split]; j++) {
         var a = list[j];
-        if (a[_0x9a98[176]] == c) {
-          options[_0x9a98[191]]();
-          options[_0x9a98[188]] = _0x9a98[462];
-          options[_0x9a98[184]] = 6;
+        if (a[changedTouches] == c) {
+          options[fillStyle]();
+          options[lineJoin] = _0x9a98[462];
+          options[max] = 6;
           options[_0x9a98[463]](coordtransform[_0x9a98[207]], coordtransform[_0x9a98[208]], 40, 0, 2 * Math[_0x9a98[414]], true);
-          options[_0x9a98[196]]();
-          options[_0x9a98[191]]();
-          options[_0x9a98[188]] = _0x9a98[462];
-          options[_0x9a98[184]] = 2;
+          options[lineTo]();
+          options[fillStyle]();
+          options[lineJoin] = _0x9a98[462];
+          options[max] = 2;
           options[_0x9a98[463]](coordtransform[_0x9a98[207]], coordtransform[_0x9a98[208]], 60, 0, 2 * Math[_0x9a98[414]], true);
-          options[_0x9a98[196]]();
-          options[_0x9a98[191]]();
-          options[_0x9a98[188]] = _0x9a98[462];
+          options[lineTo]();
+          options[fillStyle]();
+          options[lineJoin] = _0x9a98[462];
           options[_0x9a98[463]](PL$133[_0x9a98[207]], PL$133[_0x9a98[208]], 40, 0, 2 * Math[_0x9a98[414]], true);
-          options[_0x9a98[196]]();
+          options[lineTo]();
         } else {
-          options[_0x9a98[191]]();
-          options[_0x9a98[188]] = _0x9a98[462];
-          options[_0x9a98[184]] = 6;
-          options[_0x9a98[463]](a[_0x9a98[146]], a[_0x9a98[147]], 40, 0, 2 * Math[_0x9a98[414]], true);
-          options[_0x9a98[196]]();
+          options[fillStyle]();
+          options[lineJoin] = _0x9a98[462];
+          options[max] = 6;
+          options[_0x9a98[463]](a[onmouseenter], a[clientX], 40, 0, 2 * Math[_0x9a98[414]], true);
+          options[lineTo]();
         }
       }
       options[_0x9a98[452]]();
     }
   }
   function calcStatus() {
-    callbacks[_0x9a98[197]] = 1;
+    callbacks[stroke] = 1;
     var a = !i;
     var dstWidth = 1;
     if (a) {
@@ -1861,25 +1861,25 @@ var CONNECTION_URL;
         images[index + _0x9a98[470]][ice2pop] = src + index + _0x9a98[471];
         img = images[index + dstWidth];
       }
-      cur = a = img && img[_0x9a98[364]] && 0 != img[_0x9a98[180]];
+      cur = a = img && img[_0x9a98[364]] && 0 != img[touches];
     }
-    if (a && cur || (title ? (callbacks[_0x9a98[190]] = _0x9a98[472], callbacks[_0x9a98[197]] = .4) : (callbacks[_0x9a98[190]] = _0x9a98[443], callbacks[_0x9a98[197]] = 1), callbacks[_0x9a98[444]](0, 0, height, number)), a) {
+    if (a && cur || (title ? (callbacks[#3071A9] = _0x9a98[472], callbacks[stroke] = .4) : (callbacks[#3071A9] = _0x9a98[443], callbacks[stroke] = 1), callbacks[_0x9a98[444]](0, 0, height, number)), a) {
       if (callbacks[_0x9a98[447]](), cur) {
         var i = 2 * dstWidth;
-        callbacks[_0x9a98[190]] = fp;
+        callbacks[#3071A9] = fp;
         callbacks[_0x9a98[359]](i * max, i * max);
-        var r = (-angle + aYs) % (img[_0x9a98[180]] * i);
-        var n = (-ha + aps) % (img[_0x9a98[181]] * i);
+        var r = (-angle + aYs) % (img[touches] * i);
+        var n = (-ha + aps) % (img[width] * i);
         if (r > 0) {
-          r = r - img[_0x9a98[180]] * i;
+          r = r - img[touches] * i;
         }
         if (n > 0) {
-          n = n - img[_0x9a98[181]] * i;
+          n = n - img[width] * i;
         }
         callbacks[_0x9a98[448]](r / i, n / i);
         callbacks[_0x9a98[444]](0, 0, (height / max - r) / i, (number / max - n) / i);
       } else {
-        callbacks[_0x9a98[184]] = 1 / max;
+        callbacks[max] = 1 / max;
         var j = Math[_0x9a98[217]](.2 * max, .3);
         if (title) {
           var h1 = ~~(17 + 153 * j);
@@ -1898,9 +1898,9 @@ var CONNECTION_URL;
             line = floor + line;
           }
         }
-        callbacks[_0x9a98[188]] = _0x9a98[337] + line;
+        callbacks[lineJoin] = _0x9a98[337] + line;
         if (title) {
-          callbacks[_0x9a98[188]] = _0x9a98[473];
+          callbacks[lineJoin] = _0x9a98[473];
         }
         callbacks[_0x9a98[359]](max, max);
         r = height / max;
@@ -1908,31 +1908,31 @@ var CONNECTION_URL;
         var GROUPSIZE = 50 * dstWidth;
         i = -.5 + (-angle + aYs) % GROUPSIZE;
         for (; r > i; i = i + GROUPSIZE) {
-          callbacks[_0x9a98[191]]();
-          callbacks[_0x9a98[192]](i, 0);
-          callbacks[_0x9a98[195]](i, n);
-          callbacks[_0x9a98[196]]();
+          callbacks[fillStyle]();
+          callbacks[beginPath](i, 0);
+          callbacks[reduce](i, n);
+          callbacks[lineTo]();
         }
         i = -.5 + (-ha + aps) % GROUPSIZE;
         for (; n > i; i = i + GROUPSIZE) {
-          callbacks[_0x9a98[191]]();
-          callbacks[_0x9a98[192]](0, i);
-          callbacks[_0x9a98[195]](r, i);
-          callbacks[_0x9a98[196]]();
+          callbacks[fillStyle]();
+          callbacks[beginPath](0, i);
+          callbacks[reduce](r, i);
+          callbacks[lineTo]();
         }
       }
       callbacks[_0x9a98[452]]();
     }
-    callbacks[_0x9a98[197]] = .8;
+    callbacks[stroke] = .8;
   }
   function indexOf(callbacks) {
     if (Yx) {
-      callbacks[_0x9a98[197]] = 1;
+      callbacks[stroke] = 1;
       var n = ~~(height / 7);
-      if (body && body[_0x9a98[364]] && body[_0x9a98[180]]) {
+      if (body && body[_0x9a98[364]] && body[touches]) {
         callbacks[_0x9a98[361]](body, height - n, number - n, n, n);
       }
-      if (element && element[_0x9a98[364]] && element[_0x9a98[180]]) {
+      if (element && element[_0x9a98[364]] && element[touches]) {
         callbacks[_0x9a98[361]](element, height - n, number - 2 * n - 10, n, n);
       }
     }
@@ -1952,22 +1952,22 @@ var CONNECTION_URL;
     if (typeof i === nickName) {
       i = 5;
     }
-    view[_0x9a98[191]]();
-    view[_0x9a98[192]](offset + i, start);
-    view[_0x9a98[195]](offset + len - i, start);
+    view[fillStyle]();
+    view[beginPath](offset + i, start);
+    view[reduce](offset + len - i, start);
     view[_0x9a98[474]](offset + len, start, offset + len, start + i);
-    view[_0x9a98[195]](offset + len, start + pos - i);
+    view[reduce](offset + len, start + pos - i);
     view[_0x9a98[474]](offset + len, start + pos, offset + len - i, start + pos);
-    view[_0x9a98[195]](offset + i, start + pos);
+    view[reduce](offset + i, start + pos);
     view[_0x9a98[474]](offset, start + pos, offset, start + pos - i);
-    view[_0x9a98[195]](offset, start + i);
+    view[reduce](offset, start + i);
     view[_0x9a98[474]](offset, start, offset + i, start);
     view[_0x9a98[459]]();
     if (item) {
-      view[_0x9a98[196]]();
+      view[lineTo]();
     }
     if (cmp) {
-      view[_0x9a98[198]]();
+      view[globalAlpha]();
     }
   }
   function remove() {
@@ -1977,30 +1977,30 @@ var CONNECTION_URL;
     } else {
       if (!val) {
         val = document[_0x9a98[358]](focus);
-        battery = val[_0x9a98[142]](_0x9a98[141]);
+        battery = val[2d](#cBubbleCells);
       }
       var me = battery;
       var y = 60;
       y = null == bottom ? y + 24 * fftBinsOfFreq[split] : y + 180;
       var item = Math[_0x9a98[217]](.22 * number, Math[_0x9a98[217]](200, .3 * height)) / 200;
-      val[_0x9a98[180]] = 200 * item;
-      val[_0x9a98[181]] = y * item;
+      val[touches] = 200 * item;
+      val[width] = y * item;
       me[_0x9a98[359]](item, item);
       if (title) {
-        me[_0x9a98[197]] = .8;
+        me[stroke] = .8;
       } else {
-        me[_0x9a98[197]] = .7;
+        me[stroke] = .7;
       }
-      me[_0x9a98[188]] = _0x9a98[342];
-      me[_0x9a98[190]] = _0x9a98[475];
+      me[lineJoin] = _0x9a98[342];
+      me[#3071A9] = _0x9a98[475];
       if (!title) {
-        me[_0x9a98[190]] = _0x9a98[342];
+        me[#3071A9] = _0x9a98[342];
       }
-      me[_0x9a98[184]] = 2;
+      me[max] = 2;
       getStart(me, 0, 0, 200, y, 8, true, true);
-      me[_0x9a98[190]] = _0x9a98[476];
+      me[#3071A9] = _0x9a98[476];
       if (!title) {
-        me[_0x9a98[190]] = _0x9a98[453];
+        me[#3071A9] = _0x9a98[453];
       }
       var e = _0x9a98[477];
       me[_0x9a98[478]] = _0x9a98[479];
@@ -2010,9 +2010,9 @@ var CONNECTION_URL;
       }
       me[_0x9a98[482]] = 1;
       me[_0x9a98[483]] = 1;
-      me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[_0x9a98[180]] / 2, 40);
+      me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[touches] / 2, 40);
       if (!title) {
-        me[_0x9a98[197]] = 1;
+        me[stroke] = 1;
       }
       var i;
       var options = [_0x9a98[485], _0x9a98[486], _0x9a98[487], _0x9a98[488], _0x9a98[489], _0x9a98[490], _0x9a98[491], _0x9a98[492], _0x9a98[493], _0x9a98[494], _0x9a98[495], _0x9a98[496], _0x9a98[497], _0x9a98[498], _0x9a98[499], _0x9a98[500], _0x9a98[501], _0x9a98[502], _0x9a98[503], _0x9a98[453], _0x9a98[453], _0x9a98[453], _0x9a98[453], _0x9a98[453], _0x9a98[453]];
@@ -2028,31 +2028,31 @@ var CONNECTION_URL;
             if (stack[0][_0x9a98[343]]) {
               e = stack[0][_0x9a98[343]];
             }
-            me[_0x9a98[190]] = _0x9a98[451];
+            me[#3071A9] = _0x9a98[451];
             if (!Wx) {
               e = i + 1 + _0x9a98[505] + e;
             }
-            me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[_0x9a98[180]] / 2, 70 + 24 * i);
+            me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[touches] / 2, 70 + 24 * i);
           } else {
-            me[_0x9a98[190]] = options[i];
+            me[#3071A9] = options[i];
             if (!title) {
-              me[_0x9a98[190]] = _0x9a98[453];
+              me[#3071A9] = _0x9a98[453];
             }
             if (!Wx) {
               e = i + 1 + _0x9a98[505] + e;
             }
-            me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[_0x9a98[180]] / 2, 70 + 24 * i);
+            me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[touches] / 2, 70 + 24 * i);
           }
         }
       } else {
         i = e = 0;
         for (; i < bottom[split]; ++i) {
           var o = e + bottom[i] * Math[_0x9a98[414]] * 2;
-          me[_0x9a98[190]] = params[i + 1];
-          me[_0x9a98[191]]();
-          me[_0x9a98[192]](100, 140);
+          me[#3071A9] = params[i + 1];
+          me[fillStyle]();
+          me[beginPath](100, 140);
           me[_0x9a98[463]](100, 140, 80, e, o, false);
-          me[_0x9a98[198]]();
+          me[globalAlpha]();
           e = o;
         }
       }
@@ -2279,15 +2279,15 @@ var CONNECTION_URL;
   var _takingTooLongTimeout = null;
   var isPaused = false;
   var media = function() {
-    var position = Date[_0x9a98[200]]();
+    var position = Date[toFixed]();
     var first = 1e3 / 60;
     return function() {
-      source[_0x9a98[172]](media);
-      var count = Date[_0x9a98[200]]();
+      source[onresize](media);
+      var count = Date[toFixed]();
       var diff = count - position;
       if (diff > .75 * first) {
         position = count - diff % first;
-        var zeroSizeMax = Date[_0x9a98[200]]();
+        var zeroSizeMax = Date[toFixed]();
         if (!requestAnimationFrame() || 240 > zeroSizeMax - pixelSizeTargetMax) {
           hide();
         } else {
@@ -2356,7 +2356,7 @@ var CONNECTION_URL;
   var third_hex = false;
   var pixelSizeTargetMax = 0;
   var privacyCheckRequired = false;
-  var Yx = _0x9a98[519] in source && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i[_0x9a98[156]](navigator[_0x9a98[155]]);
+  var Yx = _0x9a98[519] in source && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i[userAgent](navigator[onmouseup]);
   var Wx = false;
   if (Yx) {
     body = new Image;
@@ -2364,9 +2364,9 @@ var CONNECTION_URL;
     element = new Image;
     element[ice2pop] = _0x9a98[521];
   }
-  source[_0x9a98[167]] = false;
+  source[onkeydown] = false;
   clearbubble = setInterval(function() {
-    var w = Date[_0x9a98[200]]();
+    var w = Date[toFixed]();
     if (w - half_xgap > 3e5) {
       var tri = [_0x9a98[522], _0x9a98[523], _0x9a98[524], _0x9a98[525], _0x9a98[526]];
       var j = Math[server](Math[_0x9a98[387]]() * tri[split]);
@@ -2377,18 +2377,18 @@ var CONNECTION_URL;
     if (console[_0x9a98[255]](_0x9a98[527]), typeof window[_0x9a98[528]] == _0x9a98[529]) {
       var _adjPageUri;
       _adjPageUri = q == .jpg || null == q ? _0x9a98[530] : q;
-      window[_0x9a98[528]](_0x9a98[257], _0x9a98[531], _adjPageUri, CONNECTION_URL, (loc / 100)[_0x9a98[199]](0));
+      window[_0x9a98[528]](_0x9a98[257], _0x9a98[531], _adjPageUri, CONNECTION_URL, (loc / 100)[fill](0));
     }
   }, 3e4);
   updatestat = setInterval(function() {
-    if (null != CONNECTION_URL && (loc && props[_0x9a98[193]](loc / 100), duedate = new Date, requestAnimationFrame())) {
+    if (null != CONNECTION_URL && (loc && props[moveTo](loc / 100), duedate = new Date, requestAnimationFrame())) {
       var msg = prepareData(5);
       msg[_0x9a98[267]](0, 90);
       msg[_0x9a98[268]](1, 2200049715, true);
       log(msg);
     }
     if (PL$120[split] > 0) {
-      var x = Date[_0x9a98[200]]();
+      var x = Date[toFixed]();
       var PL$24 = 0;
       for (; PL$24 < PL$120[split]; PL$24++) {
         if (x >= 6e4 + PL$120[PL$24][_0x9a98[532]]) {
@@ -2513,14 +2513,14 @@ var CONNECTION_URL;
   };
   source[_0x9a98[559]] = resolve;
   source[_0x9a98[560]] = function(a) {
-    require(_0x9a98[174])[_0x9a98[226]](100);
+    require(#region)[_0x9a98[226]](100);
     require(_0x9a98[223])[addClass]();
   };
   source[_0x9a98[561]] = function() {
     show = 1;
     if (0 == stack[split]) {
       q = null;
-      source[_0x9a98[167]] = true;
+      source[onkeydown] = true;
       on(1);
     }
     warnIfMissing();
@@ -2592,7 +2592,7 @@ var CONNECTION_URL;
     if (_x$2) {
       require(_0x9a98[576])[addClass]();
       require(_0x9a98[577])[addClass]();
-      require(_0x9a98[162])[addClass]();
+      require(onmousedown)[addClass]();
     } else {
       require(_0x9a98[576])[]();
       require(_0x9a98[577])[]();
@@ -2606,7 +2606,7 @@ var CONNECTION_URL;
     } else {
       privacyCheckRequired = true;
       if (deactivatedEntityErr) {
-        socketHandler[_0x9a98[182]](0, 0, 200, 200);
+        socketHandler[height](0, 0, 200, 200);
       }
       require(_0x9a98[579])[]();
     }
@@ -2782,11 +2782,11 @@ var CONNECTION_URL;
       this[_0x9a98[617]] = true;
       this[_0x9a98[407]] = true;
       if (onlyCss && 0 < this[_0x9a98[618]]) {
-        blockTimes[_0x9a98[193]](this);
+        blockTimes[moveTo](this);
       }
     },
     getNameSize : function() {
-      return next ? 50 + ~~(.3 * this[_0x9a98[216]]) : Math[_0x9a98[183]](~~(.3 * this[_0x9a98[216]]), 24);
+      return next ? 50 + ~~(.3 * this[_0x9a98[216]]) : Math[clearRect](~~(.3 * this[_0x9a98[216]]), 24);
     },
     setName : function(a) {
       if (a !== this[_0x9a98[343]] && (this[_0x9a98[343]] = a)) {
@@ -2848,7 +2848,7 @@ var CONNECTION_URL;
           }
         }
         this[_0x9a98[631]] = true;
-        this[_0x9a98[632]] = authors && authors[_0x9a98[364]] && 0 != authors[_0x9a98[180]] ? authors : null;
+        this[_0x9a98[632]] = authors && authors[_0x9a98[364]] && 0 != authors[touches] ? authors : null;
       } else {
         if (this[_0x9a98[623]] != .jpg && 1 != replyAsHtml) {
           authors = null;
@@ -2862,7 +2862,7 @@ var CONNECTION_URL;
             }
           }
           this[_0x9a98[631]] = true;
-          this[_0x9a98[632]] = authors && authors[_0x9a98[364]] && 0 != authors[_0x9a98[180]] ? authors : null;
+          this[_0x9a98[632]] = authors && authors[_0x9a98[364]] && 0 != authors[touches] ? authors : null;
         } else {
           this[_0x9a98[631]] = false;
           this[_0x9a98[632]] = null;
@@ -2877,13 +2877,13 @@ var CONNECTION_URL;
         this[_0x9a98[508]][_0x9a98[339]](artistTrack, 1);
       }
       if (0 == this[_0x9a98[219]][split] && a > 0) {
-        this[_0x9a98[219]][_0x9a98[193]]({
+        this[_0x9a98[219]][moveTo]({
           ref : this,
           size : this[_0x9a98[216]],
           x : this[_0x9a98[207]],
           y : this[_0x9a98[208]]
         });
-        this[_0x9a98[508]][_0x9a98[193]](Math[_0x9a98[387]]() - .5);
+        this[_0x9a98[508]][moveTo](Math[_0x9a98[387]]() - .5);
       }
       for (; this[_0x9a98[219]][split] < a;) {
         var hashhexlower = ~~(Math[_0x9a98[387]]() * this[_0x9a98[219]][split]);
@@ -3013,7 +3013,7 @@ var CONNECTION_URL;
         var j;
         var s;
         var i = this[_0x9a98[407]] ? this[_0x9a98[406]]() : 1;
-        if (a[_0x9a98[191]](), _) {
+        if (a[fillStyle](), _) {
           if (0 != this[_0x9a98[417]] || .4 > max ? this[_0x9a98[507]] = this[_0x9a98[216]] : (s = this[_0x9a98[216]] < this[_0x9a98[507]] ? 2 : 12, this[_0x9a98[507]] = (s * this[_0x9a98[507]] + this[_0x9a98[216]]) / (s + 1)), previousRow) {
             this[_0x9a98[413]] -= Math[_0x9a98[414]] / 1e3;
             if (this[_0x9a98[413]] < -Math[_0x9a98[414]]) {
@@ -3023,11 +3023,11 @@ var CONNECTION_URL;
             var sign = this[_0x9a98[507]] * t[j];
             var value = this[_0x9a98[413]];
             var DEADZONE = 2 * Math[_0x9a98[414]] / j;
-            a[_0x9a98[192]](this[_0x9a98[207]] + sign * Math[_0x9a98[637]](value), this[_0x9a98[208]] - sign * Math[_0x9a98[638]](value));
+            a[beginPath](this[_0x9a98[207]] + sign * Math[_0x9a98[637]](value), this[_0x9a98[208]] - sign * Math[_0x9a98[638]](value));
             s = 1;
             for (; j > s; s++) {
               value = value + DEADZONE;
-              a[_0x9a98[195]](this[_0x9a98[207]] + sign * Math[_0x9a98[637]](value), this[_0x9a98[208]] - sign * Math[_0x9a98[638]](value));
+              a[reduce](this[_0x9a98[207]] + sign * Math[_0x9a98[637]](value), this[_0x9a98[208]] - sign * Math[_0x9a98[638]](value));
             }
             a[_0x9a98[459]]();
           } else {
@@ -3036,25 +3036,25 @@ var CONNECTION_URL;
         } else {
           this[_0x9a98[640]]();
           j = this[_0x9a98[633]]();
-          a[_0x9a98[192]](this[_0x9a98[219]][0][_0x9a98[207]], this[_0x9a98[219]][0][_0x9a98[208]]);
+          a[beginPath](this[_0x9a98[219]][0][_0x9a98[207]], this[_0x9a98[219]][0][_0x9a98[208]]);
           s = 1;
           for (; j > s; ++s) {
-            a[_0x9a98[195]](this[_0x9a98[219]][s][_0x9a98[207]], this[_0x9a98[219]][s][_0x9a98[208]]);
+            a[reduce](this[_0x9a98[219]][s][_0x9a98[207]], this[_0x9a98[219]][s][_0x9a98[208]]);
           }
           a[_0x9a98[459]]();
         }
         j = 25 < this[_0x9a98[216]] || !_ || r && (max > .4 || 20 < this[_0x9a98[216]]);
         s = r ? j || 1 != this[_0x9a98[417]] ? this[_0x9a98[374]] && !mmConfig ? .7 : .4 : .95 : this[_0x9a98[374]] && mmConfig ? .7 : .95;
-        a[_0x9a98[197]] = this[_0x9a98[617]] ? s * (1 - i) : s;
-        a[_0x9a98[190]] = state ? _0x9a98[453] : this[_0x9a98[298]];
-        a[_0x9a98[198]]();
+        a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
+        a[#3071A9] = state ? _0x9a98[453] : this[_0x9a98[298]];
+        a[globalAlpha]();
         if (!(!j || stop && !this[_0x9a98[374]])) {
           s = this[_0x9a98[374]] && mmConfig && !r ? .7 : .95;
-          a[_0x9a98[197]] = this[_0x9a98[617]] ? s * (1 - i) : s;
-          a[_0x9a98[184]] = r ? this[_0x9a98[374]] || 25 < this[_0x9a98[216]] ? 6 : 4 : this[_0x9a98[374]] && 80 > this[_0x9a98[216]] ? 8 : 10;
-          a[_0x9a98[187]] = this[_0x9a98[374]] ? _0x9a98[641] : _0x9a98[186];
-          a[_0x9a98[188]] = state ? _0x9a98[642] : r ? this[_0x9a98[298]] : this[_0x9a98[415]];
-          a[_0x9a98[196]]();
+          a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
+          a[max] = r ? this[_0x9a98[374]] || 25 < this[_0x9a98[216]] ? 6 : 4 : this[_0x9a98[374]] && 80 > this[_0x9a98[216]] ? 8 : 10;
+          a[round] = this[_0x9a98[374]] ? _0x9a98[641] : lineCap;
+          a[lineJoin] = state ? _0x9a98[642] : r ? this[_0x9a98[298]] : this[_0x9a98[415]];
+          a[lineTo]();
         }
         if (this[_0x9a98[631]] && current) {
           if (!this[_0x9a98[632]]) {
@@ -3063,7 +3063,7 @@ var CONNECTION_URL;
           if (this[_0x9a98[632]]) {
             a[_0x9a98[447]]();
             s = r ? 0 != this[_0x9a98[419]] ? .5 : .3 : 0 != this[_0x9a98[419]] ? .85 : .95;
-            a[_0x9a98[197]] = this[_0x9a98[617]] ? s * (1 - i) : s;
+            a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
             a[_0x9a98[643]]();
             s = previousRow ? this[_0x9a98[507]] * t[this[_0x9a98[412]]] : this[_0x9a98[507]];
             if (s < this[_0x9a98[216]]) {
@@ -3092,22 +3092,22 @@ var CONNECTION_URL;
       } else {
         var factor;
         var e = elm;
-        if (e && e[_0x9a98[364]] && 0 != e[_0x9a98[180]]) {
+        if (e && e[_0x9a98[364]] && 0 != e[touches]) {
           factor = .2 > volume ? volume / .2 : 1 - (volume - .2) / .8;
           var c = this[_0x9a98[216]] / 20;
-          var transX = e[_0x9a98[180]] * c * factor;
-          var y3 = e[_0x9a98[181]] * c * factor;
-          a[_0x9a98[197]] = .7 * factor * factor;
+          var transX = e[touches] * c * factor;
+          var y3 = e[width] * c * factor;
+          a[stroke] = .7 * factor * factor;
           a[_0x9a98[361]](e, this[_0x9a98[207]] - transX / 2, this[_0x9a98[208]] - y3 / 2, transX, y3);
         }
         if (.9 > volume) {
           factor = volume / .9;
-          a[_0x9a98[191]]();
+          a[fillStyle]();
           a[_0x9a98[463]](this[_0x9a98[207]], this[_0x9a98[208]], 1.3 * this[_0x9a98[216]] + 500 * factor, 0, 2 * Math[_0x9a98[414]], false);
-          a[_0x9a98[197]] = .2 * (1 - factor) * (1 - factor);
-          a[_0x9a98[184]] = ~~(20 + .02 * this[_0x9a98[216]]);
-          a[_0x9a98[188]] = _0x9a98[646];
-          a[_0x9a98[196]]();
+          a[stroke] = .2 * (1 - factor) * (1 - factor);
+          a[max] = ~~(20 + .02 * this[_0x9a98[216]]);
+          a[lineJoin] = _0x9a98[646];
+          a[lineTo]();
         }
       }
     },
@@ -3115,7 +3115,7 @@ var CONNECTION_URL;
       var inputWin = (test || this[_0x9a98[421]]) && this[_0x9a98[343]] && this[_0x9a98[627]];
       var winRef = id && (this[_0x9a98[421]] || 0 == stack[split]);
       if (inputWin || winRef) {
-        g[_0x9a98[197]] = this[_0x9a98[617]] ? 1 - txt : 1;
+        g[stroke] = this[_0x9a98[617]] ? 1 - txt : 1;
         var op;
         var totalBright;
         var i;
@@ -3128,18 +3128,18 @@ var CONNECTION_URL;
             op[_0x9a98[626]](~~(this[_0x9a98[625]]() / 2 + .5));
             op[_0x9a98[647]](length);
             u = op[_0x9a98[352]]();
-            totalBright = u[_0x9a98[180]] / length;
-            i = u[_0x9a98[181]] / length;
-            g[_0x9a98[361]](u, this[_0x9a98[207]] - totalBright / 2, animationRate - i / 2 - (u[_0x9a98[181]] / .75 / length + 2), totalBright, i);
+            totalBright = u[touches] / length;
+            i = u[width] / length;
+            g[_0x9a98[361]](u, this[_0x9a98[207]] - totalBright / 2, animationRate - i / 2 - (u[width] / .75 / length + 2), totalBright, i);
           }
           op = this[_0x9a98[627]];
           op[_0x9a98[626]](this[_0x9a98[625]]());
           op[_0x9a98[647]](length);
           u = op[_0x9a98[352]]();
-          totalBright = u[_0x9a98[180]] / length;
-          i = u[_0x9a98[181]] / length;
+          totalBright = u[touches] / length;
+          i = u[width] / length;
           g[_0x9a98[361]](u, this[_0x9a98[207]] - totalBright / 2, animationRate - i / 2, totalBright, i);
-          animationRate = animationRate + (u[_0x9a98[181]] / 1.5 / length + 4);
+          animationRate = animationRate + (u[width] / 1.5 / length + 4);
         }
         if (winRef) {
           if (null == this[_0x9a98[648]]) {
@@ -3150,8 +3150,8 @@ var CONNECTION_URL;
           op[_0x9a98[344]](~~(this[_0x9a98[216]] * this[_0x9a98[216]] / 100));
           op[_0x9a98[647]](length);
           u = op[_0x9a98[352]]();
-          totalBright = u[_0x9a98[180]] / length;
-          i = u[_0x9a98[181]] / length;
+          totalBright = u[touches] / length;
+          i = u[width] / length;
           g[_0x9a98[361]](u, this[_0x9a98[207]] - totalBright / 2, animationRate - i / 2, totalBright, i);
         }
       }
@@ -3159,26 +3159,26 @@ var CONNECTION_URL;
     drawMinimapCell : function(progress, progressadvanced) {
       var neededStaticPorts = this[_0x9a98[403]] * progressadvanced;
       var e = neededStaticPorts > .6 ? this[_0x9a98[403]] : ~~(.6 / progressadvanced);
-      if (progress[_0x9a98[191]](), row && this[_0x9a98[412]] >= 3 && neededStaticPorts > 2) {
+      if (progress[fillStyle](), row && this[_0x9a98[412]] >= 3 && neededStaticPorts > 2) {
         var n = this[_0x9a98[412]];
         var temp = e * t[n];
         var value = this[_0x9a98[413]];
         var s = 2 * Math[_0x9a98[414]] / n;
-        progress[_0x9a98[192]](this[_0x9a98[401]] + temp * Math[_0x9a98[637]](value), this[_0x9a98[402]] - temp * Math[_0x9a98[638]](value));
+        progress[beginPath](this[_0x9a98[401]] + temp * Math[_0x9a98[637]](value), this[_0x9a98[402]] - temp * Math[_0x9a98[638]](value));
         var MAX_INT32 = 1;
         for (; n > MAX_INT32; MAX_INT32++) {
           value = value + s;
-          progress[_0x9a98[195]](this[_0x9a98[401]] + temp * Math[_0x9a98[637]](value), this[_0x9a98[402]] - temp * Math[_0x9a98[638]](value));
+          progress[reduce](this[_0x9a98[401]] + temp * Math[_0x9a98[637]](value), this[_0x9a98[402]] - temp * Math[_0x9a98[638]](value));
         }
         progress[_0x9a98[459]]();
       } else {
         progress[_0x9a98[463]](this[_0x9a98[401]], this[_0x9a98[402]], e, 0, 2 * Math[_0x9a98[414]], false);
       }
-      progress[_0x9a98[190]] = state ? _0x9a98[453] : this[_0x9a98[298]];
-      progress[_0x9a98[198]]();
+      progress[#3071A9] = state ? _0x9a98[453] : this[_0x9a98[298]];
+      progress[globalAlpha]();
       if (neededStaticPorts > 2 && !stop) {
-        progress[_0x9a98[188]] = state ? _0x9a98[649] : this[_0x9a98[374]] ? this[_0x9a98[415]] : title ? _0x9a98[346] : _0x9a98[649];
-        progress[_0x9a98[196]]();
+        progress[lineJoin] = state ? _0x9a98[649] : this[_0x9a98[374]] ? this[_0x9a98[415]] : title ? _0x9a98[346] : _0x9a98[649];
+        progress[lineTo]();
       }
       if (1 == this[_0x9a98[285]]) {
         progress[_0x9a98[447]]();
@@ -3228,7 +3228,7 @@ var CONNECTION_URL;
       }
     },
     render : function() {
-      if (null == this[_0x9a98[653]] && (this[_0x9a98[653]] = document[_0x9a98[358]](focus), this[_0x9a98[356]] = this[_0x9a98[653]][_0x9a98[142]](_0x9a98[141])), this[_0x9a98[650]]) {
+      if (null == this[_0x9a98[653]] && (this[_0x9a98[653]] = document[_0x9a98[358]](focus), this[_0x9a98[356]] = this[_0x9a98[653]][2d](#cBubbleCells)), this[_0x9a98[650]]) {
         this[_0x9a98[650]] = false;
         var MEMOIZED_FACT = this[_0x9a98[653]];
         var map = this[_0x9a98[356]];
@@ -3244,33 +3244,33 @@ var CONNECTION_URL;
         }
         map[_0x9a98[478]] = len;
         var step = ~~(.2 * i);
-        MEMOIZED_FACT[_0x9a98[180]] = (map[_0x9a98[355]](e)[_0x9a98[180]] + 2 * value) * n;
-        MEMOIZED_FACT[_0x9a98[181]] = (i + step) * n;
+        MEMOIZED_FACT[touches] = (map[_0x9a98[355]](e)[touches] + 2 * value) * n;
+        MEMOIZED_FACT[width] = (i + step) * n;
         map[_0x9a98[478]] = len;
         map[_0x9a98[359]](n, n);
-        map[_0x9a98[197]] = 1;
+        map[stroke] = 1;
         if (this[_0x9a98[511]]) {
-          map[_0x9a98[184]] = value;
-          map[_0x9a98[188]] = this[_0x9a98[512]];
+          map[max] = value;
+          map[lineJoin] = this[_0x9a98[512]];
           map[_0x9a98[655]](e, value, i - step / 2);
         }
-        map[_0x9a98[190]] = this[_0x9a98[510]];
+        map[#3071A9] = this[_0x9a98[510]];
         map[_0x9a98[484]](e, value, i - step / 2);
       }
       return this[_0x9a98[653]];
     },
     getWidth : function() {
-      return callbacks[_0x9a98[355]](this._value)[_0x9a98[180]] + 6;
+      return callbacks[_0x9a98[355]](this._value)[touches] + 6;
     }
   };
-  if (!Date[_0x9a98[200]]) {
-    Date[_0x9a98[200]] = function() {
+  if (!Date[toFixed]) {
+    Date[toFixed] = function() {
       return (new Date)[_0x9a98[656]]();
     };
   }
   (function() {
-    if (!source[_0x9a98[172]]) {
-      source[_0x9a98[172]] = function(_nextEventFunc) {
+    if (!source[onresize]) {
+      source[onresize] = function(_nextEventFunc) {
         return setTimeout(_nextEventFunc, 1e3 / 60);
       };
     }
@@ -3332,7 +3332,7 @@ var CONNECTION_URL;
               this[_0x9a98[668]]();
               this[_0x9a98[661]][this[_0x9a98[667]](datum)][_0x9a98[220]](datum);
             } else {
-              this[_0x9a98[660]][_0x9a98[193]](datum);
+              this[_0x9a98[660]][moveTo](datum);
             }
           }
         },
@@ -3346,10 +3346,10 @@ var CONNECTION_URL;
           var fftBinsOfFreq = this[_0x9a98[659]] + 1;
           var i = this[_0x9a98[657]] / 2;
           var e = this[_0x9a98[658]] / 2;
-          this[_0x9a98[661]][_0x9a98[193]](new args(this[_0x9a98[207]], this[_0x9a98[208]], i, e, fftBinsOfFreq));
-          this[_0x9a98[661]][_0x9a98[193]](new args(this[_0x9a98[207]] + i, this[_0x9a98[208]], i, e, fftBinsOfFreq));
-          this[_0x9a98[661]][_0x9a98[193]](new args(this[_0x9a98[207]], this[_0x9a98[208]] + e, i, e, fftBinsOfFreq));
-          this[_0x9a98[661]][_0x9a98[193]](new args(this[_0x9a98[207]] + i, this[_0x9a98[208]] + e, i, e, fftBinsOfFreq));
+          this[_0x9a98[661]][moveTo](new args(this[_0x9a98[207]], this[_0x9a98[208]], i, e, fftBinsOfFreq));
+          this[_0x9a98[661]][moveTo](new args(this[_0x9a98[207]] + i, this[_0x9a98[208]], i, e, fftBinsOfFreq));
+          this[_0x9a98[661]][moveTo](new args(this[_0x9a98[207]], this[_0x9a98[208]] + e, i, e, fftBinsOfFreq));
+          this[_0x9a98[661]][moveTo](new args(this[_0x9a98[207]] + i, this[_0x9a98[208]] + e, i, e, fftBinsOfFreq));
           fftBinsOfFreq = this[_0x9a98[660]];
           this[_0x9a98[660]] = [];
           i = 0;
@@ -3403,11 +3403,11 @@ var CONNECTION_URL;
         accountsCallbacks[_0x9a98[415]] = stack[0][_0x9a98[415]];
         accountsCallbacks[_0x9a98[408]](stack[0][_0x9a98[343]]);
       }
-      e[_0x9a98[182]](0, 0, 32, 32);
+      e[height](0, 0, 32, 32);
       e[_0x9a98[447]]();
       e[_0x9a98[448]](16, 16);
       e[_0x9a98[359]](.4, .4);
-      e[_0x9a98[185]] = _0x9a98[186];
+      e[lineWidth] = lineCap;
       accountsCallbacks[_0x9a98[450]](e);
       e[_0x9a98[452]]();
       var artistTrack = document[countdown](_0x9a98[675]);
@@ -3418,9 +3418,9 @@ var CONNECTION_URL;
     var accountsCallbacks = new notes(0, 0, 0, 32, _0x9a98[683], .jpg);
     accountsCallbacks[_0x9a98[415]] = _0x9a98[684];
     var _ = document[_0x9a98[358]](focus);
-    _[_0x9a98[180]] = 32;
-    _[_0x9a98[181]] = 32;
-    var e = _[_0x9a98[142]](_0x9a98[141]);
+    _[touches] = 32;
+    _[width] = 32;
+    var e = _[2d](#cBubbleCells);
     _pollWhileActive();
     setInterval(_pollWhileActive, 7500);
     setInterval(run, 1e3);
