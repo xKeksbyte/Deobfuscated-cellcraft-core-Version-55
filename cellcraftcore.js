@@ -921,7 +921,7 @@ var CONNECTION_URL;
         var map = cache[id];
         if (map) {
           map[animId] = name;
-          map[_0x9a98[286]] = block;
+          map[animStartTime] = block;
         } else {
           signedTransactions[moveTo]({
             nodeId : id,
@@ -952,9 +952,9 @@ var CONNECTION_URL;
         if (0 == Pa) {
           var pH = .jpg;
           if (v >= 10) {
-            pH = _0x9a98[287];
+            pH =  or more;
           }
-          jQuery(_0x9a98[290])[_0x9a98[289]](_0x9a98[288] + v + pH);
+          jQuery(#onlinestat)[html](Players  + v + pH);
         }
         remove();
         break;
@@ -970,13 +970,13 @@ var CONNECTION_URL;
         remove();
         break;
       case 64:
-        node = data[_0x9a98[291]](value, true);
+        node = data[getFloat64](value, true);
         value = value + 8;
-        match = data[_0x9a98[291]](value, true);
+        match = data[getFloat64](value, true);
         value = value + 8;
-        type = data[_0x9a98[291]](value, true);
+        type = data[getFloat64](value, true);
         value = value + 8;
-        old = data[_0x9a98[291]](value, true);
+        old = data[getFloat64](value, true);
         value = value + 8;
         newValue = (type - node) / 2;
         horAdjust = (old - match) / 2;
@@ -988,7 +988,7 @@ var CONNECTION_URL;
         }
         replyAsHtml = data[getInt16](value, true);
         value = value + 2;
-        pdz = data[_0x9a98[292]](value, true);
+        pdz = data[getInt32](value, true);
         value = value + 4;
         style = merge(pdz);
         break;
@@ -1001,23 +1001,23 @@ var CONNECTION_URL;
         winRef = !!(4 & f);
         if (ruleValidationResult > 0) {
           if (!(inputWin || winRef)) {
-            require(_0x9a98[293])[addClass]();
+            require(#info)[addClass]();
           }
           if (inputWin) {
-            require(_0x9a98[293])[]();
-            $(_0x9a98[294])[]();
-            $(_0x9a98[295])[addClass]();
+            require(#info)[]();
+            $(#frozenCellOn)[]();
+            $(#frozenCellOff)[addClass]();
           } else {
-            $(_0x9a98[294])[addClass]();
-            $(_0x9a98[295])[]();
+            $(#frozenCellOn)[addClass]();
+            $(#frozenCellOff)[]();
           }
           if (winRef) {
-            require(_0x9a98[293])[]();
-            $(_0x9a98[296])[]();
-            $(_0x9a98[297])[addClass]();
+            require(#info)[]();
+            $(#frozenMOn)[]();
+            $(#frozenMOff)[addClass]();
           } else {
-            $(_0x9a98[296])[addClass]();
-            $(_0x9a98[297])[]();
+            $(#frozenMOn)[addClass]();
+            $(#frozenMOff)[]();
           }
         }
         break;
@@ -1045,8 +1045,8 @@ var CONNECTION_URL;
           require(#curser)[#advert](600);
         } else {
           require(#curser)[text](result);
-          require(#curser)[0px](_0x9a98[298], 1 == d ? _0x9a98[299] : _0x9a98[300]);
-          require(#curser)[_0x9a98[301]]()[]();
+          require(#curser)[0px](color, 1 == d ? #00C000 : #FF0000);
+          require(#curser)[finish]()[]();
           if (idx > 0) {
             _takingTooLongTimeout = setTimeout(function() {
               $(#curser)[#advert](600);
@@ -1056,7 +1056,7 @@ var CONNECTION_URL;
         break;
       case 90:
         Pa = 1;
-        uptime = data[_0x9a98[291]](value, true);
+        uptime = data[getFloat64](value, true);
         value = value + 8;
         var delta = Math[server](uptime / 60);
         var deltaX = Math[server](delta / 60);
@@ -1064,26 +1064,26 @@ var CONNECTION_URL;
         deltaX = deltaX - 24 * slideWidth;
         delta = delta - 24 * slideWidth * 60 - 60 * deltaX;
         if (slideWidth > 0) {
-          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + slideWidth + _0x9a98[303] + deltaX + getElementById + (10 > delta ? floor : .jpg) + delta + _0x9a98[304]);
+          jQuery(#uptime)[html](:: Uptime  + slideWidth +  day(s)  + deltaX + getElementById + (10 > delta ? floor : .jpg) + delta +  );
         } else {
-          jQuery(_0x9a98[305])[_0x9a98[289]](_0x9a98[302] + deltaX + getElementById + (10 > delta ? floor : .jpg) + delta + _0x9a98[304]);
+          jQuery(#uptime)[html](:: Uptime  + deltaX + getElementById + (10 > delta ? floor : .jpg) + delta +  );
         }
-        onlinestat = data[_0x9a98[291]](value, true);
+        onlinestat = data[getFloat64](value, true);
         value = value + 8;
-        jQuery(_0x9a98[290])[_0x9a98[289]](_0x9a98[288] + onlinestat);
-        onlinestat = data[_0x9a98[291]](value, true);
+        jQuery(#onlinestat)[html](Players  + onlinestat);
+        onlinestat = data[getFloat64](value, true);
         value = value + 8;
-        jQuery(_0x9a98[306])[_0x9a98[289]](parse(onlinestat, 1));
-        onlinestat = data[_0x9a98[291]](value, true);
+        jQuery(#mapsize)[html](parse(onlinestat, 1));
+        onlinestat = data[getFloat64](value, true);
         value = value + 8;
-        jQuery(_0x9a98[307])[_0x9a98[289]](parse(onlinestat, 1));
+        jQuery(#mapfood)[html](parse(onlinestat, 1));
         var timeSubmittedDiff = new Date - duedate;
-        if (jQuery(_0x9a98[310])[_0x9a98[289]](_0x9a98[308] + timeSubmittedDiff + _0x9a98[309]), data[_0x9a98[311]] > 36) {
-          onlinestat = data[_0x9a98[291]](value, true);
+        if (jQuery(#latency)[html]( :: Latency  + timeSubmittedDiff + ms), data[byteLength] > 36) {
+          onlinestat = data[getFloat64](value, true);
           m = min(onlinestat);
           if (mode != m) {
             mode = m;
-            jQuery(_0x9a98[312])[_0x9a98[289]](mode);
+            jQuery(#smode)[html](mode);
           }
         }
         break;
@@ -1091,42 +1091,42 @@ var CONNECTION_URL;
         ban = data[getUint8](value, true);
         ngiScroll_timeout = 5e3;
         value = value + 1;
-        jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
-        jQuery(_0x9a98[315])[_0x9a98[289]](_0x9a98[316]);
-        jQuery(_0x9a98[317])[]();
+        jQuery(#servermsg)[empty](<div>);
+        jQuery(#servermsg)[html](<div style='width: 336px; background-color: red; margin: 10px auto; border-radius: 15px; padding: 5px 15px 5px 15px;'><h2>You have been banned!</h2></div>);
+        jQuery(#warning)[]();
         setCircular();
-        setTimeout(_0x9a98[318], 3e3);
+        setTimeout($("#warning").hide(), 3e3);
         break;
       case 92:
         connlimit = data[getUint8](value, true);
         ngiScroll_timeout = 5e3;
         value = value + 1;
-        jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
-        jQuery(_0x9a98[315])[_0x9a98[289]](_0x9a98[319]);
-        jQuery(_0x9a98[317])[]();
+        jQuery(#servermsg)[empty](<div>);
+        jQuery(#servermsg)[html](<div style='width: 336px; background-color: red; margin: 10px auto; border-radius: 15px; padding: 5px 15px 5px 15px;'><h2>Too many connections from your IP</h2></div>);
+        jQuery(#warning)[]();
         setCircular();
-        setTimeout(_0x9a98[318], 3e3);
+        setTimeout($("#warning").hide(), 3e3);
         break;
       case 93:
         slotslimit = data[getUint8](value, true);
         ngiScroll_timeout = 5e3;
         value = value + 1;
-        jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
-        jQuery(_0x9a98[315])[_0x9a98[289]](_0x9a98[320]);
-        jQuery(_0x9a98[317])[]();
+        jQuery(#servermsg)[empty](<div>);
+        jQuery(#servermsg)[html](_0x9a98[320]);
+        jQuery(#warning)[]();
         setCircular();
-        setTimeout(_0x9a98[318], 3e3);
+        setTimeout($("#warning").hide(), 3e3);
         break;
       case 94:
         nickslimit = data[getUint8](value, true);
         jQuery(_0x9a98[321])[value](insert, true);
         ngiScroll_timeout = 4e3;
         value = value + 1;
-        jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
-        jQuery(_0x9a98[315])[_0x9a98[289]](_0x9a98[322]);
-        jQuery(_0x9a98[317])[]();
+        jQuery(#servermsg)[empty](<div>);
+        jQuery(#servermsg)[html](_0x9a98[322]);
+        jQuery(#warning)[]();
         setCircular();
-        setTimeout(_0x9a98[318], 3e3);
+        setTimeout($("#warning").hide(), 3e3);
         var autoResumeTimer = setTimeout(function() {
           autoResumeTimer = setInterval(window[search][_0x9a98[323]](), 100);
         }, 3e3);
@@ -1239,7 +1239,7 @@ var CONNECTION_URL;
       }
       var f = src[_0x9a98[340]];
       if (o) {
-        f[_0x9a98[341]] = new obj(15, src[_0x9a98[298]], true, _0x9a98[342]);
+        f[_0x9a98[341]] = new obj(15, src[color], true, _0x9a98[342]);
         f[_0x9a98[341]][_0x9a98[344]](src[_0x9a98[343]]);
         if (title) {
           f[_0x9a98[345]] = new obj(15, _0x9a98[347]);
@@ -1326,7 +1326,7 @@ var CONNECTION_URL;
     var axx = Math[server](b[wasSimpleDrawing] * b[wasSimpleDrawing] / 100);
     var h = false;
     .jpg;
-    if (PL$120[split] > 12 && PL$120[_0x9a98[339]](0, 1), axx >= 16 && !b[_0x9a98[374]] && j != i && (h = true, j == q ? axx > 1e3 ? transform(_0x9a98[375] + parse(axx, 1) + _0x9a98[376]) : axx > 500 ? transform(_0x9a98[377] + parse(axx, 1) + _0x9a98[376]) : 100 > axx && transform(_0x9a98[378]) : axx > 1e3 && j != i && transform(_0x9a98[379] + a[_0x9a98[298]] + _0x9a98[380] + normalizeDefault(j) + _0x9a98[381] + parse(axx, 1) + _0x9a98[382])), b[_0x9a98[374]] && (h = true, j == q)) {
+    if (PL$120[split] > 12 && PL$120[_0x9a98[339]](0, 1), axx >= 16 && !b[_0x9a98[374]] && j != i && (h = true, j == q ? axx > 1e3 ? transform(_0x9a98[375] + parse(axx, 1) + _0x9a98[376]) : axx > 500 ? transform(_0x9a98[377] + parse(axx, 1) + _0x9a98[376]) : 100 > axx && transform(_0x9a98[378]) : axx > 1e3 && j != i && transform(_0x9a98[379] + a[color] + _0x9a98[380] + normalizeDefault(j) + _0x9a98[381] + parse(axx, 1) + _0x9a98[382])), b[_0x9a98[374]] && (h = true, j == q)) {
       var tri = [_0x9a98[383], _0x9a98[384], _0x9a98[385], _0x9a98[386]];
       var j = Math[server](Math[_0x9a98[387]]() * tri[split]);
       transform(tri[j]);
@@ -1334,7 +1334,7 @@ var CONNECTION_URL;
     if (i == q && j != q) {
       transform(_0x9a98[388]);
     }
-    if (j == q && i != q && a[_0x9a98[298]] != b[_0x9a98[298]]) {
+    if (j == q && i != q && a[color] != b[color]) {
       if (15 > axx) {
         ++axx;
         if (45 == axx) {
@@ -1411,9 +1411,9 @@ var CONNECTION_URL;
       var value;
       var index;
       var key;
-      key = markup[_0x9a98[292]](data, true);
+      key = markup[getInt32](data, true);
       data = data + 4;
-      index = markup[_0x9a98[292]](data, true);
+      index = markup[getInt32](data, true);
       data = data + 4;
       value = markup[getUint16](data, true);
       data = data + 2;
@@ -1449,7 +1449,7 @@ var CONNECTION_URL;
         result[_0x9a98[399]] = result[x];
         result[_0x9a98[400]] = result[wasSimpleDrawing];
         if (field) {
-          result[_0x9a98[298]] = newMax;
+          result[color] = newMax;
           result[_0x9a98[408]](ret);
         }
       } else {
@@ -1517,7 +1517,7 @@ var CONNECTION_URL;
       result = cache[signedTransactions[signedTransactionsCounter][_0x9a98[423]]];
       if (null != result) {
         result[animId] = signedTransactions[signedTransactionsCounter][animId];
-        result[_0x9a98[286]] = block;
+        result[animStartTime] = block;
       }
     }
     signedTransactions = [];
@@ -2069,7 +2069,7 @@ var CONNECTION_URL;
     var index = 0;
     for (; endPos > index; index++) {
       config = args[index];
-      x = (config[_0x9a98[298]] + "")[4](/[^0-9a-f]/gi, .jpg);
+      x = (config[color] + "")[4](/[^0-9a-f]/gi, .jpg);
       if (x[split] < 6) {
         x = x[0] + x[0] + x[1] + x[1] + x[2] + x[2];
       }
@@ -2100,7 +2100,7 @@ var CONNECTION_URL;
     this[_0x9a98[398]] = this[minusEq] = pan_;
     this[_0x9a98[399]] = this[x] = $http;
     this[_0x9a98[400]] = this[wasSimpleDrawing] = this[_0x9a98[507]] = val;
-    this[_0x9a98[298]] = count;
+    this[color] = count;
     this[init] = [];
     this[_0x9a98[508]] = [];
     this[_0x9a98[408]](format);
@@ -2468,7 +2468,7 @@ var CONNECTION_URL;
   source[_0x9a98[534]] = function(quicktext) {
     if (a) {
       if (quicktext[split] < 1) {
-        quicktext = _0x9a98[304];
+        quicktext =  ;
       }
       q = quicktext;
       var probeManager = [_0x9a98[535], _0x9a98[536], _0x9a98[537], _0x9a98[538], _0x9a98[539], _0x9a98[540], _0x9a98[541], _0x9a98[542], _0x9a98[543], _0x9a98[542], _0x9a98[544], _0x9a98[545], _0x9a98[546], _0x9a98[547], _0x9a98[548], _0x9a98[549]];
@@ -3046,14 +3046,14 @@ var CONNECTION_URL;
         j = 25 < this[wasSimpleDrawing] || !_ || r && (max > .4 || 20 < this[wasSimpleDrawing]);
         s = r ? j || 1 != this[_0x9a98[417]] ? this[_0x9a98[374]] && !mmConfig ? .7 : .4 : .95 : this[_0x9a98[374]] && mmConfig ? .7 : .95;
         a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
-        a[#3071A9] = state ? _0x9a98[453] : this[_0x9a98[298]];
+        a[#3071A9] = state ? _0x9a98[453] : this[color];
         a[globalAlpha]();
         if (!(!j || stop && !this[_0x9a98[374]])) {
           s = this[_0x9a98[374]] && mmConfig && !r ? .7 : .95;
           a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
           a[max] = r ? this[_0x9a98[374]] || 25 < this[wasSimpleDrawing] ? 6 : 4 : this[_0x9a98[374]] && 80 > this[wasSimpleDrawing] ? 8 : 10;
           a[round] = this[_0x9a98[374]] ? _0x9a98[641] : lineCap;
-          a[lineJoin] = state ? _0x9a98[642] : r ? this[_0x9a98[298]] : this[_0x9a98[415]];
+          a[lineJoin] = state ? _0x9a98[642] : r ? this[color] : this[_0x9a98[415]];
           a[lineTo]();
         }
         if (this[_0x9a98[631]] && current) {
@@ -3086,7 +3086,7 @@ var CONNECTION_URL;
       }
     },
     drawFlash : function(a) {
-      var volume = (block - this[_0x9a98[286]]) / 800;
+      var volume = (block - this[animStartTime]) / 800;
       if (volume = 0 > volume ? 0 : volume > 1 ? 1 : volume, volume >= 1) {
         this[animId] = 0;
       } else {
@@ -3174,7 +3174,7 @@ var CONNECTION_URL;
       } else {
         progress[_0x9a98[463]](this[_0x9a98[401]], this[_0x9a98[402]], e, 0, 2 * Math[_0x9a98[414]], false);
       }
-      progress[#3071A9] = state ? _0x9a98[453] : this[_0x9a98[298]];
+      progress[#3071A9] = state ? _0x9a98[453] : this[color];
       progress[globalAlpha]();
       if (neededStaticPorts > 2 && !stop) {
         progress[lineJoin] = state ? _0x9a98[649] : this[_0x9a98[374]] ? this[_0x9a98[415]] : title ? _0x9a98[346] : _0x9a98[649];
@@ -3399,7 +3399,7 @@ var CONNECTION_URL;
   require(function() {
     function _pollWhileActive() {
       if (0 < stack[split]) {
-        accountsCallbacks[_0x9a98[298]] = stack[0][_0x9a98[298]];
+        accountsCallbacks[color] = stack[0][color];
         accountsCallbacks[_0x9a98[415]] = stack[0][_0x9a98[415]];
         accountsCallbacks[_0x9a98[408]](stack[0][_0x9a98[343]]);
       }
