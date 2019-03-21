@@ -1248,7 +1248,7 @@ var CONNECTION_URL;
         }
         var PL$13 = [];
         var start = 2;
-        var artistTrack = createElement + src[_0x9a98[351]][4](emoRegExp, function(iccId, pos) {
+        var artistTrack = createElement + src[drawImage][4](emoRegExp, function(iccId, pos) {
           var i = emoMap[iccId];
           var subwiki = subwikiList[i];
           return null == subwiki && (subwikiList[i] = new Image, subwiki = subwikiList[i], subwiki[ice2pop] = scale + i + img/), PL$13[moveTo]({
@@ -1258,26 +1258,26 @@ var CONNECTION_URL;
         });
         f[measureText][pos](artistTrack);
       }
-      var col = f[message][_0x9a98[352]]();
+      var col = f[message][c2]();
       var finger = f[measureText];
       if (title) {
-        finger[_0x9a98[353]](emo);
+        finger[img](emo);
       } else {
-        finger[_0x9a98[353]](_ctx);
+        finger[img](_ctx);
       }
-      var p2 = finger[_0x9a98[352]]();
+      var p2 = finger[c2]();
       var currentValue = col[touches] + p2[touches];
       if (currentValue > value && (value = currentValue), o) {
         var PL$17 = 0;
         for (; PL$17 < PL$13[split]; PL$17++) {
-          PL$13[PL$17][_0x9a98[354]] = finger[_0x9a98[356]][_0x9a98[355]](artistTrack[#invite-link](0, PL$13[PL$17][_0x9a98[354]]))[touches];
+          PL$13[PL$17][complete] = finger[&amp;][/&/g](artistTrack[#invite-link](0, PL$13[PL$17][complete]))[touches];
         }
-        f[_0x9a98[357]] = PL$13;
+        f[/</g] = PL$13;
       }
       stack[moveTo]({
         c1 : col,
         c2 : p2,
-        emo : f[_0x9a98[357]]
+        emo : f[/</g]
       });
     }
     if (0 == stack[split]) {
@@ -1285,74 +1285,74 @@ var CONNECTION_URL;
     }
     var ratio = Math[clearRect](Math[size](1.8 * number, height, 1e3) / 1e3, .5);
     if (!e) {
-      e = document[_0x9a98[358]](focus);
+      e = document[&lt;](focus);
       sourceNode = e[2d](#cBubbleCells);
     }
     e[touches] = Math[clearRect](Math[size](value * ratio, height - 10), 1);
     e[width] = Math[clearRect](Math[size]((18 * stack[split] + 2) * ratio, number - 50), 1);
-    sourceNode[_0x9a98[359]](ratio, ratio);
+    sourceNode[/>/g](ratio, ratio);
     i = 0;
     for (; i < stack[split]; i++) {
       value = stack[i];
-      start = value[_0x9a98[360]][touches];
+      start = value[&gt;][touches];
       duration = e[width] / ratio - 18 * (stack[split] - i);
       sourceNode[stroke] = title ? .75 : .9;
-      sourceNode[_0x9a98[361]](value[_0x9a98[360]], 0, duration);
-      sourceNode[_0x9a98[361]](value[_0x9a98[362]], start, duration);
+      sourceNode[/"/g](value[&gt;], 0, duration);
+      sourceNode[/"/g](value[&quot;], start, duration);
       var PL$17 = 0;
-      var PL$13 = value[_0x9a98[357]];
+      var PL$13 = value[/</g];
       for (; PL$17 < PL$13[split]; PL$17++) {
         t = PL$13[PL$17];
-        var val = t[_0x9a98[363]];
-        if (val && val[_0x9a98[364]] && 0 != val[touches]) {
+        var val = t[An unnamed cell];
+        if (val && val[isVirus] && 0 != val[touches]) {
           sourceNode[stroke] = title ? .85 : 1;
-          sourceNode[_0x9a98[361]](val, start + 2 + t[_0x9a98[354]], duration - 2);
+          sourceNode[/"/g](val, start + 2 + t[complete], duration - 2);
         }
       }
     }
   }
   function normalizeDefault(val) {
-    return val = val[4](_0x9a98[365], _0x9a98[366]), val = val[4](_0x9a98[367], _0x9a98[368]), val = val[4](_0x9a98[369], _0x9a98[370]), val = val[4](_0x9a98[371], _0x9a98[372]);
+    return val = val[4](Wow! , <br>mass gained), val = val[4](Nice! , Grr! Not the<br>small players!), val = val[4](<font style='color:, '>), val = val[4](</font> just<br>gained ,  mass!);
   }
   function extend(a, b) {
     var j = a[setColor];
     var i = b[setColor];
     if (j == .jpg) {
-      j = _0x9a98[373];
+      j = And a other<br>virus gone!;
     }
     if (i == .jpg) {
-      i = _0x9a98[373];
+      i = And a other<br>virus gone!;
     }
     var axx = Math[server](b[wasSimpleDrawing] * b[wasSimpleDrawing] / 100);
     var h = false;
     .jpg;
-    if (PL$120[split] > 12 && PL$120[emotes/](0, 1), axx >= 16 && !b[_0x9a98[374]] && j != i && (h = true, j == q ? axx > 1e3 ? transform(_0x9a98[375] + parse(axx, 1) + _0x9a98[376]) : axx > 500 ? transform(_0x9a98[377] + parse(axx, 1) + _0x9a98[376]) : 100 > axx && transform(_0x9a98[378]) : axx > 1e3 && j != i && transform(_0x9a98[379] + a[color] + _0x9a98[380] + normalizeDefault(j) + _0x9a98[381] + parse(axx, 1) + _0x9a98[382])), b[_0x9a98[374]] && (h = true, j == q)) {
-      var tri = [_0x9a98[383], _0x9a98[384], _0x9a98[385], _0x9a98[386]];
-      var j = Math[server](Math[_0x9a98[387]]() * tri[split]);
+    if (PL$120[split] > 12 && PL$120[emotes/](0, 1), axx >= 16 && !b[Virus makes<br>your CELLcraft strong!] && j != i && (h = true, j == q ? axx > 1e3 ? transform(Yumm, a virus! + parse(axx, 1) + It's green and<br>gives mass!) : axx > 500 ? transform(random + parse(axx, 1) + It's green and<br>gives mass!) : 100 > axx && transform(Yikes, Carfull!) : axx > 1e3 && j != i && transform(Try splitting your<br>cell (space key)! + a[color] + Try eating a<br>green virus! + normalizeDefault(j) + WOW!  + parse(axx, 1) +  food<br>cells consumed!)), b[Virus makes<br>your CELLcraft strong!] && (h = true, j == q)) {
+      var tri = [10 cells<br>consumed!, Yay! ,  cells<br>consumed!, <br> ];
+      var j = Math[server](Math[destroy]() * tri[split]);
       transform(tri[j]);
     }
     if (i == q && j != q) {
-      transform(_0x9a98[388]);
+      transform(ox);
     }
     if (j == q && i != q && a[color] != b[color]) {
       if (15 > axx) {
         ++axx;
         if (45 == axx) {
-          transform(_0x9a98[389]);
+          transform(oy);
         }
         if (100 == axx) {
-          transform(_0x9a98[390]);
+          transform(oSize);
         }
         if (axx % 1e3 == 0) {
-          transform(_0x9a98[391] + parse(axx, 1) + _0x9a98[392]);
+          transform(nx + parse(axx, 1) + ny);
         }
       } else {
         ++_a1;
         if (10 == _a1) {
-          transform(_0x9a98[393]);
+          transform(nSize);
         }
         if (_a1 % 100 == 0) {
-          transform(_0x9a98[394] + parse(_a1, 1) + _0x9a98[395]);
+          transform(updateTime + parse(_a1, 1) + hasOwnProperty);
         }
       }
     }
@@ -1370,7 +1370,7 @@ var CONNECTION_URL;
     if (PL$120[split] > 0) {
       var PL$24 = 0;
       for (; PL$24 < PL$120[split]; ++PL$24) {
-        dateString = dateString + (PL$120[PL$24][progress-percent] + _0x9a98[396]);
+        dateString = dateString + (PL$120[PL$24][progress-percent] + updatePos);
       }
     }
     if (cDateString != dateString) {
@@ -1391,14 +1391,14 @@ var CONNECTION_URL;
       data = data + 8;
       if (d && p) {
         extend(d, p);
-        p[_0x9a98[397]](true);
-        p[_0x9a98[398]] = p[minusEq];
-        p[_0x9a98[399]] = p[x];
-        p[_0x9a98[400]] = p[wasSimpleDrawing];
-        p[_0x9a98[401]] = d[minusEq];
-        p[_0x9a98[402]] = d[x];
-        p[_0x9a98[403]] = p[wasSimpleDrawing];
-        p[_0x9a98[404]] = block;
+        p[shouldUpdate](true);
+        p[setName] = p[minusEq];
+        p[smallFood] = p[x];
+        p[ka] = p[wasSimpleDrawing];
+        p[la] = d[minusEq];
+        p[shape] = d[x];
+        p[rotate] = p[wasSimpleDrawing];
+        p[PI] = block;
       }
     }
     signedTransactionsCounter = 0;
@@ -1441,16 +1441,16 @@ var CONNECTION_URL;
         }
       }
       var result = null;
-      if (cache[_0x9a98[405]](i)) {
+      if (cache[colorDimmed](i)) {
         result = cache[i];
-        result[_0x9a98[406]]();
-        result[_0x9a98[407]] = true;
-        result[_0x9a98[398]] = result[minusEq];
-        result[_0x9a98[399]] = result[x];
-        result[_0x9a98[400]] = result[wasSimpleDrawing];
+        result[isAgitated]();
+        result[cellType] = true;
+        result[setName] = result[minusEq];
+        result[smallFood] = result[x];
+        result[ka] = result[wasSimpleDrawing];
         if (field) {
           result[color] = newMax;
-          result[_0x9a98[408]](ret);
+          result[flag](ret);
         }
       } else {
         if (!field) {
@@ -1459,39 +1459,39 @@ var CONNECTION_URL;
         }
         result = new notes(i, key, index, value, newMax, ret);
         if (field && 1 == object && 25 >= value) {
-          result[_0x9a98[409]] = true;
+          result[imageId] = true;
           parts[moveTo](result);
         } else {
           args[moveTo](result);
         }
         cache[i] = result;
-        result[_0x9a98[410]] = key;
-        result[_0x9a98[411]] = index;
+        result[imageId] = key;
+        result[ownCell] = index;
         if (row && field && (0 == object || 3 == object)) {
-          result[_0x9a98[412]] = options[i % 100];
-          result[_0x9a98[413]] = (2 * Math[_0x9a98[387]]() - 1) * Math[_0x9a98[414]];
+          result[indexOf] = options[i % 100];
+          result[nodeId] = (2 * Math[destroy]() - 1) * Math[abs];
         }
       }
-      if (result[_0x9a98[401]] = key, result[_0x9a98[402]] = index, result[_0x9a98[403]] = value, result[_0x9a98[404]] = block, field) {
-        if (result[_0x9a98[409]]) {
-          result[_0x9a98[415]] = newMax;
+      if (result[la] = key, result[shape] = index, result[rotate] = value, result[PI] = block, field) {
+        if (result[imageId]) {
+          result[abs] = newMax;
         } else {
           i = (~~(x * s) << 16 | ~~(y * s) << 8 | ~~(b * s)).toString(16);
           for (; 6 > i[split];) {
             i = floor + i;
           }
-          result[_0x9a98[415]] = #F5F6CE + i;
+          result[abs] = #F5F6CE + i;
         }
-        result[_0x9a98[374]] = filteredErrors;
-        result[_0x9a98[416]] = modVal;
-        result[_0x9a98[417]] = object;
-        result[_0x9a98[418]] = fileStatus;
+        result[Virus makes<br>your CELLcraft strong!] = filteredErrors;
+        result[setUint16] = modVal;
+        result[charCodeAt] = object;
+        result[readyState] = fileStatus;
         if (1 != object) {
-          result[_0x9a98[419]] = tmp_result;
-          result[_0x9a98[420]]();
-          if (!(0 != object || result[_0x9a98[421]] || -1 == indexMap[_0x9a98[422]](i) || -1 != stack[_0x9a98[422]](result))) {
+          result[OPEN] = tmp_result;
+          result[Skipping draw]();
+          if (!(0 != object || result[warn] || -1 == indexMap[scrollTo](i) || -1 != stack[scrollTo](result))) {
             stack[moveTo](result);
-            result[_0x9a98[421]] = true;
+            result[warn] = true;
             if (1 == stack[split]) {
               angle = (.1 * angle + result[minusEq]) / 1.1;
               ha = (.1 * ha + result[x]) / 1.1;
@@ -1508,13 +1508,13 @@ var CONNECTION_URL;
       data = data + 4;
       result = cache[i];
       if (null != result) {
-        result[_0x9a98[397]]();
+        result[shouldUpdate]();
       }
     }
     resumeJson = signedTransactions[split];
     signedTransactionsCounter = 0;
     for (; resumeJson > signedTransactionsCounter; signedTransactionsCounter++) {
-      result = cache[signedTransactions[signedTransactionsCounter][_0x9a98[423]]];
+      result = cache[signedTransactions[signedTransactionsCounter][innerWidth]];
       if (null != result) {
         result[animId] = signedTransactions[signedTransactionsCounter][animId];
         result[animStartTime] = block;
@@ -1530,13 +1530,13 @@ var CONNECTION_URL;
     if (requestAnimationFrame()) {
       topS = x - height / 2;
       var topE = endRange - number / 2;
-      if (a || topS * topS + topE * topE >= 64 && !(.01 > Math[_0x9a98[424]](descname - suspended) && .01 > Math[_0x9a98[424]](start - copy))) {
+      if (a || topS * topS + topE * topE >= 64 && !(.01 > Math[innerHeight](descname - suspended) && .01 > Math[innerHeight](start - copy))) {
         descname = suspended;
         start = copy;
         topS = prepareData(13);
         topS[setUint8](0, 16);
-        topS[_0x9a98[425]](1, suspended, true);
-        topS[_0x9a98[425]](5, copy, true);
+        topS[#helloDialog](1, suspended, true);
+        topS[#helloDialog](5, copy, true);
         if (b) {
           topS[setUint32](9, b, true);
         } else {
@@ -1636,8 +1636,8 @@ var CONNECTION_URL;
       var i = 0;
       for (; min > i; i++) {
         stack_i = stack[i];
-        if (stack_i[_0x9a98[407]]) {
-          stack_i[_0x9a98[406]]();
+        if (stack_i[cellType]) {
+          stack_i[isAgitated]();
         }
         data = data + stack_i[minusEq] / min;
         key = key + stack_i[x] / min;
@@ -1671,7 +1671,7 @@ var CONNECTION_URL;
     });
     callbacks[_0x9a98[447]]();
     callbacks[_0x9a98[448]](height / 2, number / 2);
-    callbacks[_0x9a98[359]](max, max);
+    callbacks[/>/g](max, max);
     callbacks[_0x9a98[448]](-angle, -ha);
     callbacks[lineWidth] = lineCap;
     if (!flagQuiet) {
@@ -1740,13 +1740,13 @@ var CONNECTION_URL;
       callbacks[lineTo]();
       callbacks[_0x9a98[452]]();
     }
-    if (callbacks[_0x9a98[452]](), callbacks[stroke] = 1, val && val[touches] && callbacks[_0x9a98[361]](val, height - val[touches] - 10, 10), e && e[touches] && callbacks[_0x9a98[361]](e, 10, number - e[width] - 50), key = callback(), actual = Math[clearRect](loc, key), loc = key, 0 != loc && (null == that ? that = new obj(24, title ? _0x9a98[453] : _0x9a98[454]) : that[_0x9a98[353]](title ? _0x9a98[453] : _0x9a98[454]), that[pos](_0x9a98[455] + ~~(loc / 100)), 
-    key = that[_0x9a98[352]](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 15, 15)), (0 < stack[split] || source[onkeydown]) && (!result && (result = new obj(15, _0x9a98[453])), result[pos](_0x9a98[456] + angle[fill](0) + _0x9a98[457] + ha[fill](0)), key = result[_0x9a98[352]](), data = key[touches] + 20, options = key[width] + 2, callbacks[fillStyle](), callbacks[beginPath](18, 50), callbacks[_0x9a98[458]](10 + data, 50, 10 + data, 
-    50 + options, 8), callbacks[_0x9a98[458]](10 + data, 50 + options, 10, 50 + options, 8), callbacks[_0x9a98[458]](10, 50 + options, 10, 50, 8), callbacks[_0x9a98[458]](10, 50, 10 + data, 50, 8), callbacks[_0x9a98[459]](), callbacks[stroke] = .7, callbacks[#3071A9] = render, callbacks[globalAlpha](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 20, 51), value && value[touches] && callbacks[_0x9a98[361]](value, 10, 85)), privacyCheckRequired && !user && deactivatedEntityErr) {
+    if (callbacks[_0x9a98[452]](), callbacks[stroke] = 1, val && val[touches] && callbacks[/"/g](val, height - val[touches] - 10, 10), e && e[touches] && callbacks[/"/g](e, 10, number - e[width] - 50), key = callback(), actual = Math[clearRect](loc, key), loc = key, 0 != loc && (null == that ? that = new obj(24, title ? _0x9a98[453] : _0x9a98[454]) : that[img](title ? _0x9a98[453] : _0x9a98[454]), that[pos](_0x9a98[455] + ~~(loc / 100)), 
+    key = that[c2](), callbacks[stroke] = 1, callbacks[/"/g](key, 15, 15)), (0 < stack[split] || source[onkeydown]) && (!result && (result = new obj(15, _0x9a98[453])), result[pos](_0x9a98[456] + angle[fill](0) + _0x9a98[457] + ha[fill](0)), key = result[c2](), data = key[touches] + 20, options = key[width] + 2, callbacks[fillStyle](), callbacks[beginPath](18, 50), callbacks[_0x9a98[458]](10 + data, 50, 10 + data, 
+    50 + options, 8), callbacks[_0x9a98[458]](10 + data, 50 + options, 10, 50 + options, 8), callbacks[_0x9a98[458]](10, 50 + options, 10, 50, 8), callbacks[_0x9a98[458]](10, 50, 10 + data, 50, 8), callbacks[_0x9a98[459]](), callbacks[stroke] = .7, callbacks[#3071A9] = render, callbacks[globalAlpha](), callbacks[stroke] = 1, callbacks[/"/g](key, 20, 51), value && value[touches] && callbacks[/"/g](value, 10, 85)), privacyCheckRequired && !user && deactivatedEntityErr) {
       socketHandler[height](0, 0, 200, 200);
       socketHandler[_0x9a98[447]]();
       data = 200 / Math[clearRect](type - node, old - match);
-      socketHandler[_0x9a98[359]](data, data);
+      socketHandler[/>/g](data, data);
       socketHandler[_0x9a98[448]](-node, -match);
       socketHandler[stroke] = r ? .5 : .9;
       socketHandler[max] = Math[_0x9a98[460]](1 / data);
@@ -1754,7 +1754,7 @@ var CONNECTION_URL;
       i = 0;
       for (; min > i; i++) {
         options = parts[i];
-        if (options[_0x9a98[407]] && (options[minusEq] != options[_0x9a98[401]] || options[x] != options[_0x9a98[402]])) {
+        if (options[cellType] && (options[minusEq] != options[la] || options[x] != options[shape])) {
           options[_0x9a98[461]](socketHandler, data);
         }
       }
@@ -1762,7 +1762,7 @@ var CONNECTION_URL;
       i = 0;
       for (; min > i; i++) {
         options = args[i];
-        if (3 != options[_0x9a98[417]] && 1 != options[_0x9a98[417]] || options[_0x9a98[407]] && (options[minusEq] != options[_0x9a98[401]] || options[x] != options[_0x9a98[402]])) {
+        if (3 != options[charCodeAt] && 1 != options[charCodeAt] || options[cellType] && (options[minusEq] != options[la] || options[x] != options[shape])) {
           options[_0x9a98[461]](socketHandler, data);
         }
       }
@@ -1797,22 +1797,22 @@ var CONNECTION_URL;
           options[fillStyle]();
           options[lineJoin] = _0x9a98[462];
           options[max] = 6;
-          options[_0x9a98[463]](coordtransform[minusEq], coordtransform[x], 40, 0, 2 * Math[_0x9a98[414]], true);
+          options[_0x9a98[463]](coordtransform[minusEq], coordtransform[x], 40, 0, 2 * Math[abs], true);
           options[lineTo]();
           options[fillStyle]();
           options[lineJoin] = _0x9a98[462];
           options[max] = 2;
-          options[_0x9a98[463]](coordtransform[minusEq], coordtransform[x], 60, 0, 2 * Math[_0x9a98[414]], true);
+          options[_0x9a98[463]](coordtransform[minusEq], coordtransform[x], 60, 0, 2 * Math[abs], true);
           options[lineTo]();
           options[fillStyle]();
           options[lineJoin] = _0x9a98[462];
-          options[_0x9a98[463]](PL$133[minusEq], PL$133[x], 40, 0, 2 * Math[_0x9a98[414]], true);
+          options[_0x9a98[463]](PL$133[minusEq], PL$133[x], 40, 0, 2 * Math[abs], true);
           options[lineTo]();
         } else {
           options[fillStyle]();
           options[lineJoin] = _0x9a98[462];
           options[max] = 6;
-          options[_0x9a98[463]](a[onmouseenter], a[clientX], 40, 0, 2 * Math[_0x9a98[414]], true);
+          options[_0x9a98[463]](a[onmouseenter], a[clientX], 40, 0, 2 * Math[abs], true);
           options[lineTo]();
         }
       }
@@ -1861,13 +1861,13 @@ var CONNECTION_URL;
         images[index + _0x9a98[470]][ice2pop] = src + index + _0x9a98[471];
         img = images[index + dstWidth];
       }
-      cur = a = img && img[_0x9a98[364]] && 0 != img[touches];
+      cur = a = img && img[isVirus] && 0 != img[touches];
     }
     if (a && cur || (title ? (callbacks[#3071A9] = _0x9a98[472], callbacks[stroke] = .4) : (callbacks[#3071A9] = _0x9a98[443], callbacks[stroke] = 1), callbacks[_0x9a98[444]](0, 0, height, number)), a) {
       if (callbacks[_0x9a98[447]](), cur) {
         var i = 2 * dstWidth;
         callbacks[#3071A9] = fp;
-        callbacks[_0x9a98[359]](i * max, i * max);
+        callbacks[/>/g](i * max, i * max);
         var r = (-angle + aYs) % (img[touches] * i);
         var n = (-ha + aps) % (img[width] * i);
         if (r > 0) {
@@ -1902,7 +1902,7 @@ var CONNECTION_URL;
         if (title) {
           callbacks[lineJoin] = _0x9a98[473];
         }
-        callbacks[_0x9a98[359]](max, max);
+        callbacks[/>/g](max, max);
         r = height / max;
         n = number / max;
         var GROUPSIZE = 50 * dstWidth;
@@ -1929,11 +1929,11 @@ var CONNECTION_URL;
     if (Yx) {
       callbacks[stroke] = 1;
       var n = ~~(height / 7);
-      if (body && body[_0x9a98[364]] && body[touches]) {
-        callbacks[_0x9a98[361]](body, height - n, number - n, n, n);
+      if (body && body[isVirus] && body[touches]) {
+        callbacks[/"/g](body, height - n, number - n, n, n);
       }
-      if (element && element[_0x9a98[364]] && element[touches]) {
-        callbacks[_0x9a98[361]](element, height - n, number - 2 * n - 10, n, n);
+      if (element && element[isVirus] && element[touches]) {
+        callbacks[/"/g](element, height - n, number - 2 * n - 10, n, n);
       }
     }
   }
@@ -1941,7 +1941,7 @@ var CONNECTION_URL;
     var resp = 0;
     var i = 0;
     for (; i < stack[split]; i++) {
-      resp = resp + stack[i][_0x9a98[403]] * stack[i][_0x9a98[403]];
+      resp = resp + stack[i][rotate] * stack[i][rotate];
     }
     return resp;
   }
@@ -1976,7 +1976,7 @@ var CONNECTION_URL;
       battery = null;
     } else {
       if (!val) {
-        val = document[_0x9a98[358]](focus);
+        val = document[&lt;](focus);
         battery = val[2d](#cBubbleCells);
       }
       var me = battery;
@@ -1985,7 +1985,7 @@ var CONNECTION_URL;
       var item = Math[size](.22 * number, Math[size](200, .3 * height)) / 200;
       val[touches] = 200 * item;
       val[width] = y * item;
-      me[_0x9a98[359]](item, item);
+      me[/>/g](item, item);
       if (title) {
         me[stroke] = .8;
       } else {
@@ -2010,7 +2010,7 @@ var CONNECTION_URL;
       }
       me[_0x9a98[482]] = 1;
       me[_0x9a98[483]] = 1;
-      me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[touches] / 2, 40);
+      me[_0x9a98[484]](e, 100 - me[/&/g](e)[touches] / 2, 40);
       if (!title) {
         me[stroke] = 1;
       }
@@ -2020,11 +2020,11 @@ var CONNECTION_URL;
         me[_0x9a98[478]] = _0x9a98[504];
         i = 0;
         for (; i < fftBinsOfFreq[split]; ++i) {
-          e = fftBinsOfFreq[i][setColor] || _0x9a98[373];
+          e = fftBinsOfFreq[i][setColor] || And a other<br>virus gone!;
           if (!test) {
-            e = _0x9a98[373];
+            e = And a other<br>virus gone!;
           }
-          if (-1 != indexMap[_0x9a98[422]](fftBinsOfFreq[i][_0x9a98[445]])) {
+          if (-1 != indexMap[scrollTo](fftBinsOfFreq[i][_0x9a98[445]])) {
             if (stack[0][setColor]) {
               e = stack[0][setColor];
             }
@@ -2032,7 +2032,7 @@ var CONNECTION_URL;
             if (!Wx) {
               e = i + 1 + _0x9a98[505] + e;
             }
-            me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[touches] / 2, 70 + 24 * i);
+            me[_0x9a98[484]](e, 100 - me[/&/g](e)[touches] / 2, 70 + 24 * i);
           } else {
             me[#3071A9] = options[i];
             if (!title) {
@@ -2041,13 +2041,13 @@ var CONNECTION_URL;
             if (!Wx) {
               e = i + 1 + _0x9a98[505] + e;
             }
-            me[_0x9a98[484]](e, 100 - me[_0x9a98[355]](e)[touches] / 2, 70 + 24 * i);
+            me[_0x9a98[484]](e, 100 - me[/&/g](e)[touches] / 2, 70 + 24 * i);
           }
         }
       } else {
         i = e = 0;
         for (; i < bottom[split]; ++i) {
-          var o = e + bottom[i] * Math[_0x9a98[414]] * 2;
+          var o = e + bottom[i] * Math[abs] * 2;
           me[#3071A9] = params[i + 1];
           me[fillStyle]();
           me[beginPath](100, 140);
@@ -2080,7 +2080,7 @@ var CONNECTION_URL;
       for (; 6 > path[split];) {
         path = floor + path;
       }
-      config[_0x9a98[415]] = #F5F6CE + path;
+      config[abs] = #F5F6CE + path;
     }
   }
   function updateDevicesAfterDelay() {
@@ -2089,21 +2089,21 @@ var CONNECTION_URL;
     var i = 0;
     for (; num > i; i++) {
       buildFile = args[i];
-      if ((0 == buildFile[_0x9a98[417]] || 3 == buildFile[_0x9a98[417]]) && buildFile[_0x9a98[412]] < 3) {
-        buildFile[_0x9a98[412]] = options[buildFile[_0x9a98[445]] % 100];
-        buildFile[_0x9a98[413]] = (2 * Math[_0x9a98[387]]() - 1) * Math[_0x9a98[414]];
+      if ((0 == buildFile[charCodeAt] || 3 == buildFile[charCodeAt]) && buildFile[indexOf] < 3) {
+        buildFile[indexOf] = options[buildFile[_0x9a98[445]] % 100];
+        buildFile[nodeId] = (2 * Math[destroy]() - 1) * Math[abs];
       }
     }
   }
   function notes(velocity_, pan_, $http, val, count, format) {
     this[_0x9a98[445]] = velocity_;
-    this[_0x9a98[398]] = this[minusEq] = pan_;
-    this[_0x9a98[399]] = this[x] = $http;
-    this[_0x9a98[400]] = this[wasSimpleDrawing] = this[_0x9a98[507]] = val;
+    this[setName] = this[minusEq] = pan_;
+    this[smallFood] = this[x] = $http;
+    this[ka] = this[wasSimpleDrawing] = this[_0x9a98[507]] = val;
     this[color] = count;
     this[init] = [];
     this[_0x9a98[508]] = [];
-    this[_0x9a98[408]](format);
+    this[flag](format);
   }
   function obj(b, x, method, object) {
     if (b) {
@@ -2369,7 +2369,7 @@ var CONNECTION_URL;
     var w = Date[toFixed]();
     if (w - half_xgap > 3e5) {
       var tri = [_0x9a98[522], _0x9a98[523], _0x9a98[524], _0x9a98[525], _0x9a98[526]];
-      var j = Math[server](Math[_0x9a98[387]]() * tri[split]);
+      var j = Math[server](Math[destroy]() * tri[split]);
       transform(tri[j]);
     }
   }, 2e4);
@@ -2474,7 +2474,7 @@ var CONNECTION_URL;
       var probeManager = [_0x9a98[535], _0x9a98[536], _0x9a98[537], _0x9a98[538], _0x9a98[539], _0x9a98[540], _0x9a98[541], _0x9a98[542], _0x9a98[543], _0x9a98[542], _0x9a98[544], _0x9a98[545], _0x9a98[546], _0x9a98[547], _0x9a98[548], _0x9a98[549]];
       var e = quicktext[_0x9a98[550]]();
       on(42);
-      if (probeManager[_0x9a98[422]](e) > -1) {
+      if (probeManager[scrollTo](e) > -1) {
         alert(_0x9a98[551]);
       } else {
         if (CONNECTION_URL == instant) {
@@ -2486,7 +2486,7 @@ var CONNECTION_URL;
         data[parse] = q;
         initSortMenu();
       }
-      if (-1 != g[_0x9a98[422]](e)) {
+      if (-1 != g[scrollTo](e)) {
         console[log](_0x9a98[552]);
         require(_0x9a98[553])[]();
         require(_0x9a98[553])[0px](_0x9a98[554], _0x9a98[555] + d + e + _0x9a98[556]);
@@ -2682,7 +2682,7 @@ var CONNECTION_URL;
   };
   if (null != source[settings]) {
     if (null == source[settings][_0x9a98[609]]) {
-      source[settings][_0x9a98[609]] = ~~(100 * Math[_0x9a98[387]]());
+      source[settings][_0x9a98[609]] = ~~(100 * Math[destroy]());
     }
     _newsource = +source[settings][_0x9a98[609]];
     source[_0x9a98[610]] = _newsource;
@@ -2748,7 +2748,7 @@ var CONNECTION_URL;
     rotate : 0,
     destroy : function(onlyCss) {
       var i;
-      if (this[_0x9a98[409]]) {
+      if (this[imageId]) {
         var length = parts[split];
         i = 0;
         for (; length > i; i++) {
@@ -2768,19 +2768,19 @@ var CONNECTION_URL;
         }
       }
       delete cache[this[_0x9a98[445]]];
-      if (this[_0x9a98[421]]) {
-        i = stack[_0x9a98[422]](this);
+      if (this[warn]) {
+        i = stack[scrollTo](this);
         if (-1 != i) {
           gx = true;
           stack[emotes/](i, 1);
         }
       }
-      i = indexMap[_0x9a98[422]](this[_0x9a98[445]]);
+      i = indexMap[scrollTo](this[_0x9a98[445]]);
       if (-1 != i) {
         indexMap[emotes/](i, 1);
       }
       this[_0x9a98[617]] = true;
-      this[_0x9a98[407]] = true;
+      this[cellType] = true;
       if (onlyCss && 0 < this[_0x9a98[618]]) {
         blockTimes[moveTo](this);
       }
@@ -2792,21 +2792,21 @@ var CONNECTION_URL;
       if (a !== this[setColor] && (this[setColor] = a)) {
         var e = this[setColor][_0x9a98[550]]();
         var o = .jpg;
-        if (e && e[0] == _0x9a98[619] && -1 != e[_0x9a98[422]](_0x9a98[620])) {
-          a = e[_0x9a98[422]](_0x9a98[620]);
+        if (e && e[0] == _0x9a98[619] && -1 != e[scrollTo](_0x9a98[620])) {
+          a = e[scrollTo](_0x9a98[620]);
           var hash_1 = a;
           if (-1 != a) {
-            if (-1 != e[_0x9a98[422]](_0x9a98[621])) {
+            if (-1 != e[scrollTo](_0x9a98[621])) {
               ++hash_1;
             }
             o = e[_0x9a98[622]](1, a);
             e = e[_0x9a98[622]](hash_1 + 1, e[split]);
-            if (-1 != g[_0x9a98[422]](o)) {
+            if (-1 != g[scrollTo](o)) {
               e = o;
             }
           }
         }
-        if (e && -1 != g[_0x9a98[422]](e)) {
+        if (e && -1 != g[scrollTo](e)) {
           this[_0x9a98[623]] = e;
         } else {
           this[_0x9a98[623]] = .jpg;
@@ -2837,23 +2837,23 @@ var CONNECTION_URL;
       }
     },
     reloadImage : function() {
-      if (0 != this[_0x9a98[419]]) {
+      if (0 != this[OPEN]) {
         var authors = null;
         if (current) {
-          authors = images[this[_0x9a98[419]]];
+          authors = images[this[OPEN]];
           if (null == authors) {
-            images[this[_0x9a98[419]]] = new Image;
-            authors = images[this[_0x9a98[419]]];
-            authors[ice2pop] = src + ("" + this[_0x9a98[419]]) + img/;
+            images[this[OPEN]] = new Image;
+            authors = images[this[OPEN]];
+            authors[ice2pop] = src + ("" + this[OPEN]) + img/;
           }
         }
         this[_0x9a98[631]] = true;
-        this[_0x9a98[632]] = authors && authors[_0x9a98[364]] && 0 != authors[touches] ? authors : null;
+        this[_0x9a98[632]] = authors && authors[isVirus] && 0 != authors[touches] ? authors : null;
       } else {
         if (this[_0x9a98[623]] != .jpg && 1 != replyAsHtml) {
           authors = null;
           if (current) {
-            if (entry[_0x9a98[405]](this[_0x9a98[623]])) {
+            if (entry[colorDimmed](this[_0x9a98[623]])) {
               authors = entry[this[_0x9a98[623]]];
             } else {
               entry[this[_0x9a98[623]]] = new Image;
@@ -2862,7 +2862,7 @@ var CONNECTION_URL;
             }
           }
           this[_0x9a98[631]] = true;
-          this[_0x9a98[632]] = authors && authors[_0x9a98[364]] && 0 != authors[touches] ? authors : null;
+          this[_0x9a98[632]] = authors && authors[isVirus] && 0 != authors[touches] ? authors : null;
         } else {
           this[_0x9a98[631]] = false;
           this[_0x9a98[632]] = null;
@@ -2872,7 +2872,7 @@ var CONNECTION_URL;
     createPoints : function() {
       var a = this[_0x9a98[633]]();
       for (; this[init][split] > a;) {
-        var artistTrack = ~~(Math[_0x9a98[387]]() * this[init][split]);
+        var artistTrack = ~~(Math[destroy]() * this[init][split]);
         this[init][emotes/](artistTrack, 1);
         this[_0x9a98[508]][emotes/](artistTrack, 1);
       }
@@ -2883,10 +2883,10 @@ var CONNECTION_URL;
           x : this[minusEq],
           y : this[x]
         });
-        this[_0x9a98[508]][moveTo](Math[_0x9a98[387]]() - .5);
+        this[_0x9a98[508]][moveTo](Math[destroy]() - .5);
       }
       for (; this[init][split] < a;) {
-        var hashhexlower = ~~(Math[_0x9a98[387]]() * this[init][split]);
+        var hashhexlower = ~~(Math[destroy]() * this[init][split]);
         var row = this[init][hashhexlower];
         this[init][emotes/](hashhexlower, 0, {
           ref : this,
@@ -2908,7 +2908,7 @@ var CONNECTION_URL;
         return 16;
       }
       var n = this[wasSimpleDrawing] * h;
-      if (this[_0x9a98[374]]) {
+      if (this[Virus makes<br>your CELLcraft strong!]) {
         return n > 30 ? 1e3 > n ? ~~n : 1e3 : 30;
       }
       var m = 20 > this[wasSimpleDrawing] ? 0 : 10;
@@ -2923,7 +2923,7 @@ var CONNECTION_URL;
       for (; b > c; ++c) {
         var field = v[(c - 1 + b) % b];
         var msg = v[(c + 1) % b];
-        v[c] += (Math[_0x9a98[387]]() - .5) * (this[_0x9a98[416]] ? 3 : 1);
+        v[c] += (Math[destroy]() - .5) * (this[setUint16] ? 3 : 1);
         v[c] *= .7;
         if (10 < v[c]) {
           v[c] = 10;
@@ -2934,25 +2934,25 @@ var CONNECTION_URL;
         v[c] = (field + msg + 8 * v[c]) / 10;
       }
       var updatedAt = this;
-      var offset = this[_0x9a98[374]] ? 0 : (this[_0x9a98[445]] / 1e3 + block / 1e4) % (2 * Math[_0x9a98[414]]);
+      var offset = this[Virus makes<br>your CELLcraft strong!] ? 0 : (this[_0x9a98[445]] / 1e3 + block / 1e4) % (2 * Math[abs]);
       var maxDist = 0;
       var i = 0;
       for (; b > i; ++i) {
         var html = a[i][wasSimpleDrawing];
         var n = a[(i - 1 + b) % b][wasSimpleDrawing];
         var d = a[(i + 1) % b][wasSimpleDrawing];
-        if (15 < this[wasSimpleDrawing] && (null != rng || 4 == this[_0x9a98[417]]) && 20 < this[wasSimpleDrawing] * max && 0 != this[_0x9a98[445]]) {
+        if (15 < this[wasSimpleDrawing] && (null != rng || 4 == this[charCodeAt]) && 20 < this[wasSimpleDrawing] * max && 0 != this[_0x9a98[445]]) {
           var maximizingNode = false;
           var n = a[i][minusEq];
           var offset = a[i][x];
-          if (null != rng && ((this[_0x9a98[374]] ? 100 : 60) < this[wasSimpleDrawing] || this[_0x9a98[421]])) {
+          if (null != rng && ((this[Virus makes<br>your CELLcraft strong!] ? 100 : 60) < this[wasSimpleDrawing] || this[warn])) {
             rng[_0x9a98[636]](n - 5, offset - 5, 10, 10, function(a) {
               if (a[_0x9a98[635]] != updatedAt && 25 > (n - a[minusEq]) * (n - a[minusEq]) + (offset - a[x]) * (offset - a[x])) {
                 maximizingNode = true;
               }
             });
           }
-          if (4 == this[_0x9a98[417]]) {
+          if (4 == this[charCodeAt]) {
             maximizingNode = !maximizingNode;
           }
           if ((!maximizingNode && a[i][minusEq] < node || a[i][x] < match || a[i][minusEq] > type || a[i][x] > old) && this[minusEq] > node - 100 && this[x] > match - 100 && this[minusEq] < type + 100 && this[x] < old + 100) {
@@ -2969,11 +2969,11 @@ var CONNECTION_URL;
         if (0 > html) {
           html = 0;
         }
-        html = this[_0x9a98[416]] ? (19 * html + this[wasSimpleDrawing]) / 20 : (12 * html + this[wasSimpleDrawing]) / 13;
+        html = this[setUint16] ? (19 * html + this[wasSimpleDrawing]) / 20 : (12 * html + this[wasSimpleDrawing]) / 13;
         a[i][wasSimpleDrawing] = (n + d + 8 * html) / 10;
-        n = 2 * Math[_0x9a98[414]] / b;
+        n = 2 * Math[abs] / b;
         d = a[i][wasSimpleDrawing];
-        if (this[_0x9a98[374]] && 0 == i % 2) {
+        if (this[Virus makes<br>your CELLcraft strong!] && 0 == i % 2) {
           d = d + 5;
         }
         a[i][minusEq] = this[minusEq] + Math[_0x9a98[637]](n * i + offset) * d;
@@ -2988,10 +2988,10 @@ var CONNECTION_URL;
       if (0 == this[_0x9a98[445]]) {
         return 1;
       }
-      var a = (block - this[_0x9a98[404]]) / 120;
+      var a = (block - this[PI]) / 120;
       var self = 0 > a ? 0 : a > 1 ? 1 : a;
-      if (this[minusEq] = self * (this[_0x9a98[401]] - this[_0x9a98[398]]) + this[_0x9a98[398]], this[x] = self * (this[_0x9a98[402]] - this[_0x9a98[399]]) + this[_0x9a98[399]], this[wasSimpleDrawing] = self * (this[_0x9a98[403]] - this[_0x9a98[400]]) + this[_0x9a98[400]], self >= 1 && (this[_0x9a98[407]] = false, this[_0x9a98[617]])) {
-        var tagParseOptions = blockTimes[_0x9a98[422]](this);
+      if (this[minusEq] = self * (this[la] - this[setName]) + this[setName], this[x] = self * (this[shape] - this[smallFood]) + this[smallFood], this[wasSimpleDrawing] = self * (this[rotate] - this[ka]) + this[ka], self >= 1 && (this[cellType] = false, this[_0x9a98[617]])) {
+        var tagParseOptions = blockTimes[scrollTo](this);
         if (-1 != tagParseOptions) {
           blockTimes[emotes/](tagParseOptions, 1);
         }
@@ -3004,25 +3004,25 @@ var CONNECTION_URL;
     drawOneCell : function(a) {
       if (this[NEGATIVE_INFINITY]()) {
         ++this[_0x9a98[618]];
-        var previousRow = row && this[_0x9a98[412]] >= 3;
-        var _ = !this[_0x9a98[374]] && (ccw_flag > max || 1.2 - .002 * this[wasSimpleDrawing] * this[wasSimpleDrawing] > max) && !this[_0x9a98[416]] && 0 != this[_0x9a98[445]] || previousRow || 5 > this[_0x9a98[633]]();
+        var previousRow = row && this[indexOf] >= 3;
+        var _ = !this[Virus makes<br>your CELLcraft strong!] && (ccw_flag > max || 1.2 - .002 * this[wasSimpleDrawing] * this[wasSimpleDrawing] > max) && !this[setUint16] && 0 != this[_0x9a98[445]] || previousRow || 5 > this[_0x9a98[633]]();
         if (!_ && this[shouldRender]) {
           this[_0x9a98[639]]();
         }
         this[shouldRender] = _;
         var j;
         var s;
-        var i = this[_0x9a98[407]] ? this[_0x9a98[406]]() : 1;
+        var i = this[cellType] ? this[isAgitated]() : 1;
         if (a[fillStyle](), _) {
-          if (0 != this[_0x9a98[417]] || .4 > max ? this[_0x9a98[507]] = this[wasSimpleDrawing] : (s = this[wasSimpleDrawing] < this[_0x9a98[507]] ? 2 : 12, this[_0x9a98[507]] = (s * this[_0x9a98[507]] + this[wasSimpleDrawing]) / (s + 1)), previousRow) {
-            this[_0x9a98[413]] -= Math[_0x9a98[414]] / 1e3;
-            if (this[_0x9a98[413]] < -Math[_0x9a98[414]]) {
-              this[_0x9a98[413]] += 2 * Math[_0x9a98[414]];
+          if (0 != this[charCodeAt] || .4 > max ? this[_0x9a98[507]] = this[wasSimpleDrawing] : (s = this[wasSimpleDrawing] < this[_0x9a98[507]] ? 2 : 12, this[_0x9a98[507]] = (s * this[_0x9a98[507]] + this[wasSimpleDrawing]) / (s + 1)), previousRow) {
+            this[nodeId] -= Math[abs] / 1e3;
+            if (this[nodeId] < -Math[abs]) {
+              this[nodeId] += 2 * Math[abs];
             }
-            j = this[_0x9a98[412]];
+            j = this[indexOf];
             var sign = this[_0x9a98[507]] * t[j];
-            var value = this[_0x9a98[413]];
-            var DEADZONE = 2 * Math[_0x9a98[414]] / j;
+            var value = this[nodeId];
+            var DEADZONE = 2 * Math[abs] / j;
             a[beginPath](this[minusEq] + sign * Math[_0x9a98[637]](value), this[x] - sign * Math[_0x9a98[638]](value));
             s = 1;
             for (; j > s; s++) {
@@ -3031,7 +3031,7 @@ var CONNECTION_URL;
             }
             a[_0x9a98[459]]();
           } else {
-            a[_0x9a98[463]](this[minusEq], this[x], this[_0x9a98[507]], 0, 2 * Math[_0x9a98[414]], false);
+            a[_0x9a98[463]](this[minusEq], this[x], this[_0x9a98[507]], 0, 2 * Math[abs], false);
           }
         } else {
           this[_0x9a98[640]]();
@@ -3044,44 +3044,44 @@ var CONNECTION_URL;
           a[_0x9a98[459]]();
         }
         j = 25 < this[wasSimpleDrawing] || !_ || r && (max > .4 || 20 < this[wasSimpleDrawing]);
-        s = r ? j || 1 != this[_0x9a98[417]] ? this[_0x9a98[374]] && !mmConfig ? .7 : .4 : .95 : this[_0x9a98[374]] && mmConfig ? .7 : .95;
+        s = r ? j || 1 != this[charCodeAt] ? this[Virus makes<br>your CELLcraft strong!] && !mmConfig ? .7 : .4 : .95 : this[Virus makes<br>your CELLcraft strong!] && mmConfig ? .7 : .95;
         a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
         a[#3071A9] = state ? _0x9a98[453] : this[color];
         a[globalAlpha]();
-        if (!(!j || stop && !this[_0x9a98[374]])) {
-          s = this[_0x9a98[374]] && mmConfig && !r ? .7 : .95;
+        if (!(!j || stop && !this[Virus makes<br>your CELLcraft strong!])) {
+          s = this[Virus makes<br>your CELLcraft strong!] && mmConfig && !r ? .7 : .95;
           a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
-          a[max] = r ? this[_0x9a98[374]] || 25 < this[wasSimpleDrawing] ? 6 : 4 : this[_0x9a98[374]] && 80 > this[wasSimpleDrawing] ? 8 : 10;
-          a[round] = this[_0x9a98[374]] ? _0x9a98[641] : lineCap;
-          a[lineJoin] = state ? _0x9a98[642] : r ? this[color] : this[_0x9a98[415]];
+          a[max] = r ? this[Virus makes<br>your CELLcraft strong!] || 25 < this[wasSimpleDrawing] ? 6 : 4 : this[Virus makes<br>your CELLcraft strong!] && 80 > this[wasSimpleDrawing] ? 8 : 10;
+          a[round] = this[Virus makes<br>your CELLcraft strong!] ? _0x9a98[641] : lineCap;
+          a[lineJoin] = state ? _0x9a98[642] : r ? this[color] : this[abs];
           a[lineTo]();
         }
         if (this[_0x9a98[631]] && current) {
           if (!this[_0x9a98[632]]) {
-            this[_0x9a98[420]]();
+            this[Skipping draw]();
           }
           if (this[_0x9a98[632]]) {
             a[_0x9a98[447]]();
-            s = r ? 0 != this[_0x9a98[419]] ? .5 : .3 : 0 != this[_0x9a98[419]] ? .85 : .95;
+            s = r ? 0 != this[OPEN] ? .5 : .3 : 0 != this[OPEN] ? .85 : .95;
             a[stroke] = this[_0x9a98[617]] ? s * (1 - i) : s;
             a[_0x9a98[643]]();
-            s = previousRow ? this[_0x9a98[507]] * t[this[_0x9a98[412]]] : this[_0x9a98[507]];
+            s = previousRow ? this[_0x9a98[507]] * t[this[indexOf]] : this[_0x9a98[507]];
             if (s < this[wasSimpleDrawing]) {
               s = this[wasSimpleDrawing];
             }
-            a[_0x9a98[361]](this[_0x9a98[632]], this[minusEq] - s, this[x] - s, 2 * s, 2 * s);
+            a[/"/g](this[_0x9a98[632]], this[minusEq] - s, this[x] - s, 2 * s, 2 * s);
             a[_0x9a98[452]]();
           }
         }
         if (1 == this[animId]) {
           this[_0x9a98[644]](a);
         }
-        if (0 == this[_0x9a98[417]] && 30 <= this[wasSimpleDrawing]) {
+        if (0 == this[charCodeAt] && 30 <= this[wasSimpleDrawing]) {
           this[_0x9a98[645]](a, i);
         }
       } else {
-        if (this[_0x9a98[407]]) {
-          this[_0x9a98[406]]();
+        if (this[cellType]) {
+          this[isAgitated]();
         }
       }
     },
@@ -3092,18 +3092,18 @@ var CONNECTION_URL;
       } else {
         var factor;
         var e = elm;
-        if (e && e[_0x9a98[364]] && 0 != e[touches]) {
+        if (e && e[isVirus] && 0 != e[touches]) {
           factor = .2 > volume ? volume / .2 : 1 - (volume - .2) / .8;
           var c = this[wasSimpleDrawing] / 20;
           var transX = e[touches] * c * factor;
           var y3 = e[width] * c * factor;
           a[stroke] = .7 * factor * factor;
-          a[_0x9a98[361]](e, this[minusEq] - transX / 2, this[x] - y3 / 2, transX, y3);
+          a[/"/g](e, this[minusEq] - transX / 2, this[x] - y3 / 2, transX, y3);
         }
         if (.9 > volume) {
           factor = volume / .9;
           a[fillStyle]();
-          a[_0x9a98[463]](this[minusEq], this[x], 1.3 * this[wasSimpleDrawing] + 500 * factor, 0, 2 * Math[_0x9a98[414]], false);
+          a[_0x9a98[463]](this[minusEq], this[x], 1.3 * this[wasSimpleDrawing] + 500 * factor, 0, 2 * Math[abs], false);
           a[stroke] = .2 * (1 - factor) * (1 - factor);
           a[max] = ~~(20 + .02 * this[wasSimpleDrawing]);
           a[lineJoin] = _0x9a98[646];
@@ -3112,8 +3112,8 @@ var CONNECTION_URL;
       }
     },
     drawText : function(g, txt) {
-      var inputWin = (test || this[_0x9a98[421]]) && this[setColor] && this[_0x9a98[627]];
-      var winRef = id && (this[_0x9a98[421]] || 0 == stack[split]);
+      var inputWin = (test || this[warn]) && this[setColor] && this[_0x9a98[627]];
+      var winRef = id && (this[warn] || 0 == stack[split]);
       if (inputWin || winRef) {
         g[stroke] = this[_0x9a98[617]] ? 1 - txt : 1;
         var op;
@@ -3127,18 +3127,18 @@ var CONNECTION_URL;
             op = this[_0x9a98[624]];
             op[_0x9a98[626]](~~(this[_0x9a98[625]]() / 2 + .5));
             op[_0x9a98[647]](length);
-            u = op[_0x9a98[352]]();
+            u = op[c2]();
             totalBright = u[touches] / length;
             i = u[width] / length;
-            g[_0x9a98[361]](u, this[minusEq] - totalBright / 2, animationRate - i / 2 - (u[width] / .75 / length + 2), totalBright, i);
+            g[/"/g](u, this[minusEq] - totalBright / 2, animationRate - i / 2 - (u[width] / .75 / length + 2), totalBright, i);
           }
           op = this[_0x9a98[627]];
           op[_0x9a98[626]](this[_0x9a98[625]]());
           op[_0x9a98[647]](length);
-          u = op[_0x9a98[352]]();
+          u = op[c2]();
           totalBright = u[touches] / length;
           i = u[width] / length;
-          g[_0x9a98[361]](u, this[minusEq] - totalBright / 2, animationRate - i / 2, totalBright, i);
+          g[/"/g](u, this[minusEq] - totalBright / 2, animationRate - i / 2, totalBright, i);
           animationRate = animationRate + (u[width] / 1.5 / length + 4);
         }
         if (winRef) {
@@ -3149,35 +3149,35 @@ var CONNECTION_URL;
           op[_0x9a98[626]](~~(this[_0x9a98[625]]() / 2 + .5));
           op[pos](~~(this[wasSimpleDrawing] * this[wasSimpleDrawing] / 100));
           op[_0x9a98[647]](length);
-          u = op[_0x9a98[352]]();
+          u = op[c2]();
           totalBright = u[touches] / length;
           i = u[width] / length;
-          g[_0x9a98[361]](u, this[minusEq] - totalBright / 2, animationRate - i / 2, totalBright, i);
+          g[/"/g](u, this[minusEq] - totalBright / 2, animationRate - i / 2, totalBright, i);
         }
       }
     },
     drawMinimapCell : function(progress, progressadvanced) {
-      var neededStaticPorts = this[_0x9a98[403]] * progressadvanced;
-      var e = neededStaticPorts > .6 ? this[_0x9a98[403]] : ~~(.6 / progressadvanced);
-      if (progress[fillStyle](), row && this[_0x9a98[412]] >= 3 && neededStaticPorts > 2) {
-        var n = this[_0x9a98[412]];
+      var neededStaticPorts = this[rotate] * progressadvanced;
+      var e = neededStaticPorts > .6 ? this[rotate] : ~~(.6 / progressadvanced);
+      if (progress[fillStyle](), row && this[indexOf] >= 3 && neededStaticPorts > 2) {
+        var n = this[indexOf];
         var temp = e * t[n];
-        var value = this[_0x9a98[413]];
-        var s = 2 * Math[_0x9a98[414]] / n;
-        progress[beginPath](this[_0x9a98[401]] + temp * Math[_0x9a98[637]](value), this[_0x9a98[402]] - temp * Math[_0x9a98[638]](value));
+        var value = this[nodeId];
+        var s = 2 * Math[abs] / n;
+        progress[beginPath](this[la] + temp * Math[_0x9a98[637]](value), this[shape] - temp * Math[_0x9a98[638]](value));
         var MAX_INT32 = 1;
         for (; n > MAX_INT32; MAX_INT32++) {
           value = value + s;
-          progress[reduce](this[_0x9a98[401]] + temp * Math[_0x9a98[637]](value), this[_0x9a98[402]] - temp * Math[_0x9a98[638]](value));
+          progress[reduce](this[la] + temp * Math[_0x9a98[637]](value), this[shape] - temp * Math[_0x9a98[638]](value));
         }
         progress[_0x9a98[459]]();
       } else {
-        progress[_0x9a98[463]](this[_0x9a98[401]], this[_0x9a98[402]], e, 0, 2 * Math[_0x9a98[414]], false);
+        progress[_0x9a98[463]](this[la], this[shape], e, 0, 2 * Math[abs], false);
       }
       progress[#3071A9] = state ? _0x9a98[453] : this[color];
       progress[globalAlpha]();
       if (neededStaticPorts > 2 && !stop) {
-        progress[lineJoin] = state ? _0x9a98[649] : this[_0x9a98[374]] ? this[_0x9a98[415]] : title ? _ctx : _0x9a98[649];
+        progress[lineJoin] = state ? _0x9a98[649] : this[Virus makes<br>your CELLcraft strong!] ? this[abs] : title ? _ctx : _0x9a98[649];
         progress[lineTo]();
       }
       if (1 == this[animId]) {
@@ -3228,10 +3228,10 @@ var CONNECTION_URL;
       }
     },
     render : function() {
-      if (null == this[_0x9a98[653]] && (this[_0x9a98[653]] = document[_0x9a98[358]](focus), this[_0x9a98[356]] = this[_0x9a98[653]][2d](#cBubbleCells)), this[_0x9a98[650]]) {
+      if (null == this[_0x9a98[653]] && (this[_0x9a98[653]] = document[&lt;](focus), this[&amp;] = this[_0x9a98[653]][2d](#cBubbleCells)), this[_0x9a98[650]]) {
         this[_0x9a98[650]] = false;
         var MEMOIZED_FACT = this[_0x9a98[653]];
-        var map = this[_0x9a98[356]];
+        var map = this[&amp;];
         var e = this[_0x9a98[652]];
         var n = this[_0x9a98[651]];
         var i = this[_0x9a98[509]];
@@ -3244,10 +3244,10 @@ var CONNECTION_URL;
         }
         map[_0x9a98[478]] = len;
         var step = ~~(.2 * i);
-        MEMOIZED_FACT[touches] = (map[_0x9a98[355]](e)[touches] + 2 * value) * n;
+        MEMOIZED_FACT[touches] = (map[/&/g](e)[touches] + 2 * value) * n;
         MEMOIZED_FACT[width] = (i + step) * n;
         map[_0x9a98[478]] = len;
-        map[_0x9a98[359]](n, n);
+        map[/>/g](n, n);
         map[stroke] = 1;
         if (this[_0x9a98[511]]) {
           map[max] = value;
@@ -3260,7 +3260,7 @@ var CONNECTION_URL;
       return this[_0x9a98[653]];
     },
     getWidth : function() {
-      return callbacks[_0x9a98[355]](this._value)[touches] + 6;
+      return callbacks[/&/g](this._value)[touches] + 6;
     }
   };
   if (!Date[toFixed]) {
@@ -3400,13 +3400,13 @@ var CONNECTION_URL;
     function _pollWhileActive() {
       if (0 < stack[split]) {
         accountsCallbacks[color] = stack[0][color];
-        accountsCallbacks[_0x9a98[415]] = stack[0][_0x9a98[415]];
-        accountsCallbacks[_0x9a98[408]](stack[0][setColor]);
+        accountsCallbacks[abs] = stack[0][abs];
+        accountsCallbacks[flag](stack[0][setColor]);
       }
       e[height](0, 0, 32, 32);
       e[_0x9a98[447]]();
       e[_0x9a98[448]](16, 16);
-      e[_0x9a98[359]](.4, .4);
+      e[/>/g](.4, .4);
       e[lineWidth] = lineCap;
       accountsCallbacks[_0x9a98[450]](e);
       e[_0x9a98[452]]();
@@ -3416,8 +3416,8 @@ var CONNECTION_URL;
       artistTrack[_0x9a98[682]][_0x9a98[681]](GET_AUTH_URL_TIMEOUT, artistTrack);
     }
     var accountsCallbacks = new notes(0, 0, 0, 32, _0x9a98[683], .jpg);
-    accountsCallbacks[_0x9a98[415]] = _0x9a98[684];
-    var _ = document[_0x9a98[358]](focus);
+    accountsCallbacks[abs] = _0x9a98[684];
+    var _ = document[&lt;](focus);
     _[touches] = 32;
     _[width] = 32;
     var e = _[2d](#cBubbleCells);
