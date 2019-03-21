@@ -769,14 +769,14 @@ var CONNECTION_URL;
       opfilter = bottom = null;
       loc = 0;
       third_hex = false;
-      jQuery(close)[]();
+      jQuery(#dispconn)[]();
       socket = new WebSocket(url);
-      socket[_0x9a98[251]] = _0x9a98[252];
+      socket[close] = arraybuffer;
       socket[.progress-wrap2] = init;
       socket[onopen] = onSocketMessage;
       socket[onmessage] = fn;
-      socket[_0x9a98[253]] = function() {
-        console[_0x9a98[255]](_0x9a98[254], arguments);
+      socket[binaryType] = function() {
+        console[log]( buffer, arguments);
       };
     }
   }
@@ -784,15 +784,15 @@ var CONNECTION_URL;
     return new DataView(new ArrayBuffer(a));
   }
   function log(x) {
-    socket[_0x9a98[257]](x[_0x9a98[256]]);
+    socket[visibility](x[visibility]);
   }
   function init() {
-    jQuery(close)[addClass]();
-    document[countdown](_0x9a98[259])[ws://][_0x9a98[258]] = _0x9a98[260];
+    jQuery(#dispconn)[addClass]();
+    document[countdown](connecting)[ws://][send] = hidden;
     array[moveTo]({
-      name : _0x9a98[261],
-      color : _0x9a98[262],
-      message : _0x9a98[263],
+      name : CellCraft.io,
+      color : #0AFF0A,
+      message : Welcome, Crafter! Ready to mine some cells?,
       time : Date[toFixed](),
       cache : null
     });
@@ -801,30 +801,30 @@ var CONNECTION_URL;
     ngiScroll_timeout = 2e3;
     duedate = new Date;
     pixelSizeTargetMax = duedate;
-    $(_0x9a98[265])[_0x9a98[264]](.jpg);
-    $(_0x9a98[265])[addClass]();
+    $(#curser)[text](.jpg);
+    $(#curser)[addClass]();
     buildJS(true);
-    console[_0x9a98[255]](_0x9a98[266]);
+    console[log](socket open);
     PL$120 = [];
     msg = prepareData(5);
-    msg[_0x9a98[267]](0, 254);
-    msg[_0x9a98[268]](1, 5, true);
+    msg[setUint8](0, 254);
+    msg[setUint32](1, 5, true);
     log(msg);
     msg = prepareData(5);
-    msg[_0x9a98[267]](0, 255);
-    msg[_0x9a98[268]](1, 1332775218, true);
+    msg[setUint8](0, 255);
+    msg[setUint32](1, 1332775218, true);
     log(msg);
     runner();
   }
   function fn() {
-    console[_0x9a98[255]](_0x9a98[269]);
-    jQuery(close)[addClass]();
-    document[countdown](_0x9a98[259])[ws://][_0x9a98[258]] = #ayarlr;
+    console[log](socket close);
+    jQuery(#dispconn)[addClass]();
+    document[countdown](connecting)[ws://][send] = #ayarlr;
     jQuery(fadeOut)[](400);
     array[moveTo]({
-      name : _0x9a98[261],
-      color : _0x9a98[270],
-      message : _0x9a98[271],
+      name : CellCraft.io,
+      color : #FF0A0A,
+      message : Disconnected from server,
       time : Date[toFixed](),
       cache : null
     });
@@ -839,27 +839,27 @@ var CONNECTION_URL;
     var PL$17;
     var PL$13 = [{
       value : 1e18,
-      symbol : _0x9a98[272]
+      symbol : E
     }, {
       value : 1e15,
-      symbol : _0x9a98[273]
+      symbol : P
     }, {
       value : 1e12,
-      symbol : _0x9a98[274]
+      symbol : T
     }, {
       value : 1e9,
-      symbol : _0x9a98[275]
+      symbol : G
     }, {
       value : 1e6,
-      symbol : _0x9a98[276]
+      symbol : M
     }, {
       value : 1e3,
-      symbol : _0x9a98[277]
+      symbol : k
     }];
     PL$17 = 0;
     for (; PL$17 < PL$13[split]; PL$17++) {
       if (text >= PL$13[PL$17][sBubbleCells]) {
-        return (text / PL$13[PL$17][sBubbleCells])[fill](value)[4](/\.?0+$/, .jpg) + PL$13[PL$17][_0x9a98[278]];
+        return (text / PL$13[PL$17][sBubbleCells])[fill](value)[4](/\.?0+$/, .jpg) + PL$13[PL$17][symbol];
       }
     }
     return text;
@@ -868,24 +868,24 @@ var CONNECTION_URL;
     function fixRootEm() {
       var hex;
       var signature = .jpg;
-      for (; 0 != (hex = data[_0x9a98[280]](value, true));) {
+      for (; 0 != (hex = data[getUint16](value, true));) {
         value = value + 2;
-        signature = signature + String[_0x9a98[279]](hex);
+        signature = signature + String[fromCharCode](hex);
       }
       return value = value + 2, signature;
     }
     var value = 0;
     var t = false;
-    switch(240 == data[_0x9a98[281]](value) && (value = value + 5), data[_0x9a98[281]](value++)) {
+    switch(240 == data[getUint8](value) && (value = value + 5), data[getUint8](value++)) {
       case 16:
         draw(data, value);
         break;
       case 17:
-        newValue = data[_0x9a98[282]](value, true);
+        newValue = data[getFloat32](value, true);
         value = value + 4;
-        horAdjust = data[_0x9a98[282]](value, true);
+        horAdjust = data[getFloat32](value, true);
         value = value + 4;
-        w = data[_0x9a98[282]](value, true);
+        w = data[getFloat32](value, true);
         value = value + 4;
         break;
       case 20:
@@ -899,9 +899,9 @@ var CONNECTION_URL;
         signedTransactions = [];
         break;
       case 21:
-        timeout = data[_0x9a98[283]](value, true);
+        timeout = data[getInt16](value, true);
         value = value + 2;
-        response = data[_0x9a98[283]](value, true);
+        response = data[getInt16](value, true);
         value = value + 2;
         if (!Ax) {
           Ax = true;
@@ -910,17 +910,17 @@ var CONNECTION_URL;
         }
         break;
       case 32:
-        indexMap[moveTo](data[_0x9a98[284]](value, true));
+        indexMap[moveTo](data[getUint32](value, true));
         value = value + 4;
         break;
       case 33:
-        var id = data[_0x9a98[284]](value, true);
+        var id = data[getUint32](value, true);
         value = value + 4;
-        var name = data[_0x9a98[281]](value, true);
+        var name = data[getUint8](value, true);
         value++;
         var map = cache[id];
         if (map) {
-          map[_0x9a98[285]] = name;
+          map[animId] = name;
           map[_0x9a98[286]] = block;
         } else {
           signedTransactions[moveTo]({
@@ -937,12 +937,12 @@ var CONNECTION_URL;
           Wx = false;
         }
         bottom = null;
-        var v = data[_0x9a98[284]](value, true);
+        var v = data[getUint32](value, true);
         value = value + 4;
         fftBinsOfFreq = [];
         previousThumbValue = 0;
         for (; v > previousThumbValue; ++previousThumbValue) {
-          var o = data[_0x9a98[284]](value, true);
+          var o = data[getUint32](value, true);
           value = value + 4;
           fftBinsOfFreq[moveTo]({
             id : o,
@@ -960,11 +960,11 @@ var CONNECTION_URL;
         break;
       case 50:
         bottom = [];
-        var oldTermination = data[_0x9a98[284]](value, true);
+        var oldTermination = data[getUint32](value, true);
         value = value + 4;
         var previousThumbValue = 0;
         for (; oldTermination > previousThumbValue; ++previousThumbValue) {
-          bottom[moveTo](data[_0x9a98[282]](value, true));
+          bottom[moveTo](data[getFloat32](value, true));
           value = value + 4;
         }
         remove();
@@ -986,16 +986,16 @@ var CONNECTION_URL;
           ha = horAdjust;
           max = w;
         }
-        replyAsHtml = data[_0x9a98[283]](value, true);
+        replyAsHtml = data[getInt16](value, true);
         value = value + 2;
         pdz = data[_0x9a98[292]](value, true);
         value = value + 4;
         style = merge(pdz);
         break;
       case 80:
-        ruleValidationResult = data[_0x9a98[280]](value, true);
+        ruleValidationResult = data[getUint16](value, true);
         value = value + 2;
-        var f = data[_0x9a98[281]](value++);
+        var f = data[getUint8](value++);
         Lx = !!(1 & f);
         inputWin = !!(2 & f);
         winRef = !!(4 & f);
@@ -1022,7 +1022,7 @@ var CONNECTION_URL;
         }
         break;
       case 81:
-        key = data[_0x9a98[281]](value, true);
+        key = data[getUint8](value, true);
         value = value + 1;
         break;
       case 89:
@@ -1030,26 +1030,26 @@ var CONNECTION_URL;
         var d;
         var idx;
         var result = .jpg;
-        for (; 0 != (m = data[_0x9a98[280]](value, true));) {
+        for (; 0 != (m = data[getUint16](value, true));) {
           value = value + 2;
-          result = result + String[_0x9a98[279]](m);
+          result = result + String[fromCharCode](m);
         }
         value = value + 2;
-        d = data[_0x9a98[281]](value++);
-        idx = data[_0x9a98[280]](value, true);
+        d = data[getUint8](value++);
+        idx = data[getUint16](value, true);
         value = value + 2;
         if (_takingTooLongTimeout) {
           clearTimeout(_takingTooLongTimeout);
         }
         if (result == .jpg) {
-          require(_0x9a98[265])[#advert](600);
+          require(#curser)[#advert](600);
         } else {
-          require(_0x9a98[265])[_0x9a98[264]](result);
-          require(_0x9a98[265])[0px](_0x9a98[298], 1 == d ? _0x9a98[299] : _0x9a98[300]);
-          require(_0x9a98[265])[_0x9a98[301]]()[]();
+          require(#curser)[text](result);
+          require(#curser)[0px](_0x9a98[298], 1 == d ? _0x9a98[299] : _0x9a98[300]);
+          require(#curser)[_0x9a98[301]]()[]();
           if (idx > 0) {
             _takingTooLongTimeout = setTimeout(function() {
-              $(_0x9a98[265])[#advert](600);
+              $(#curser)[#advert](600);
             }, 1e3 * idx);
           }
         }
@@ -1088,7 +1088,7 @@ var CONNECTION_URL;
         }
         break;
       case 91:
-        ban = data[_0x9a98[281]](value, true);
+        ban = data[getUint8](value, true);
         ngiScroll_timeout = 5e3;
         value = value + 1;
         jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
@@ -1098,7 +1098,7 @@ var CONNECTION_URL;
         setTimeout(_0x9a98[318], 3e3);
         break;
       case 92:
-        connlimit = data[_0x9a98[281]](value, true);
+        connlimit = data[getUint8](value, true);
         ngiScroll_timeout = 5e3;
         value = value + 1;
         jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
@@ -1108,7 +1108,7 @@ var CONNECTION_URL;
         setTimeout(_0x9a98[318], 3e3);
         break;
       case 93:
-        slotslimit = data[_0x9a98[281]](value, true);
+        slotslimit = data[getUint8](value, true);
         ngiScroll_timeout = 5e3;
         value = value + 1;
         jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
@@ -1118,7 +1118,7 @@ var CONNECTION_URL;
         setTimeout(_0x9a98[318], 3e3);
         break;
       case 94:
-        nickslimit = data[_0x9a98[281]](value, true);
+        nickslimit = data[getUint8](value, true);
         jQuery(_0x9a98[321])[value](insert, true);
         ngiScroll_timeout = 4e3;
         value = value + 1;
@@ -1171,13 +1171,13 @@ var CONNECTION_URL;
     function encode() {
       var i;
       var paginationStr = .jpg;
-      for (; 0 != (i = fn[_0x9a98[280]](value, true));) {
+      for (; 0 != (i = fn[getUint16](value, true));) {
         value = value + 2;
-        paginationStr = paginationStr + String[_0x9a98[279]](i);
+        paginationStr = paginationStr + String[fromCharCode](i);
       }
       return value = value + 2, paginationStr;
     }
-    var e = fn[_0x9a98[281]](value++);
+    var e = fn[getUint8](value++);
     if (2 & e) {
       value = value + 4;
     }
@@ -1187,9 +1187,9 @@ var CONNECTION_URL;
     if (8 & e) {
       value = value + 16;
     }
-    var longNameFlag = fn[_0x9a98[281]](value++);
-    var shortNameFlag = fn[_0x9a98[281]](value++);
-    var b = fn[_0x9a98[281]](value++);
+    var longNameFlag = fn[getUint8](value++);
+    var shortNameFlag = fn[getUint8](value++);
+    var b = fn[getUint8](value++);
     var glyphColor = (longNameFlag << 16 | shortNameFlag << 8 | b).toString(16);
     for (; glyphColor[split] < 6;) {
       glyphColor = floor + glyphColor;
@@ -1382,12 +1382,12 @@ var CONNECTION_URL;
     pixelSizeTargetMax = block;
     gx = false;
     privacyCheckRequired = true;
-    var resumeJson = markup[_0x9a98[280]](data, true);
+    var resumeJson = markup[getUint16](data, true);
     data = data + 2;
     var signedTransactionsCounter = 0;
     for (; resumeJson > signedTransactionsCounter; ++signedTransactionsCounter) {
-      var d = cache[markup[_0x9a98[284]](data, true)];
-      var p = cache[markup[_0x9a98[284]](data + 4, true)];
+      var d = cache[markup[getUint32](data, true)];
+      var p = cache[markup[getUint32](data + 4, true)];
       data = data + 8;
       if (d && p) {
         extend(d, p);
@@ -1403,7 +1403,7 @@ var CONNECTION_URL;
     }
     signedTransactionsCounter = 0;
     for (;;) {
-      var i = markup[_0x9a98[284]](data, true);
+      var i = markup[getUint32](data, true);
       if (data = data + 4, 0 == i) {
         break;
       }
@@ -1415,18 +1415,18 @@ var CONNECTION_URL;
       data = data + 4;
       index = markup[_0x9a98[292]](data, true);
       data = data + 4;
-      value = markup[_0x9a98[280]](data, true);
+      value = markup[getUint16](data, true);
       data = data + 2;
-      var fileStatus = markup[_0x9a98[281]](data++);
+      var fileStatus = markup[getUint8](data++);
       var field = !!(1 & fileStatus);
       if (field) {
         var filteredErrors = !!(2 & fileStatus);
         var modVal = !!(16 & fileStatus);
-        var object = markup[_0x9a98[281]](data++);
-        var tmp_result = object >= 4 ? markup[_0x9a98[281]](data++) : 0;
-        var x = markup[_0x9a98[281]](data++);
-        var y = markup[_0x9a98[281]](data++);
-        var b = markup[_0x9a98[281]](data++);
+        var object = markup[getUint8](data++);
+        var tmp_result = object >= 4 ? markup[getUint8](data++) : 0;
+        var x = markup[getUint8](data++);
+        var y = markup[getUint8](data++);
+        var b = markup[getUint8](data++);
         var i = (x << 16 | y << 8 | b).toString(16);
         for (; 6 > i[split];) {
           i = floor + i;
@@ -1435,8 +1435,8 @@ var CONNECTION_URL;
         var ret = .jpg;
         if (0 == object) {
           var errors;
-          for (; errors = markup[_0x9a98[280]](data, true), data = data + 2, 0 != errors;) {
-            ret = ret + String[_0x9a98[279]](errors);
+          for (; errors = markup[getUint16](data, true), data = data + 2, 0 != errors;) {
+            ret = ret + String[fromCharCode](errors);
           }
         }
       }
@@ -1500,11 +1500,11 @@ var CONNECTION_URL;
         }
       }
     }
-    resumeJson = markup[_0x9a98[284]](data, true);
+    resumeJson = markup[getUint32](data, true);
     data = data + 4;
     signedTransactionsCounter = 0;
     for (; resumeJson > signedTransactionsCounter; signedTransactionsCounter++) {
-      var i = markup[_0x9a98[284]](data, true);
+      var i = markup[getUint32](data, true);
       data = data + 4;
       result = cache[i];
       if (null != result) {
@@ -1516,7 +1516,7 @@ var CONNECTION_URL;
     for (; resumeJson > signedTransactionsCounter; signedTransactionsCounter++) {
       result = cache[signedTransactions[signedTransactionsCounter][_0x9a98[423]]];
       if (null != result) {
-        result[_0x9a98[285]] = signedTransactions[signedTransactionsCounter][_0x9a98[285]];
+        result[animId] = signedTransactions[signedTransactionsCounter][animId];
         result[_0x9a98[286]] = block;
       }
     }
@@ -1534,13 +1534,13 @@ var CONNECTION_URL;
         descname = suspended;
         start = copy;
         topS = prepareData(13);
-        topS[_0x9a98[267]](0, 16);
+        topS[setUint8](0, 16);
         topS[_0x9a98[425]](1, suspended, true);
         topS[_0x9a98[425]](5, copy, true);
         if (b) {
-          topS[_0x9a98[268]](9, b, true);
+          topS[setUint32](9, b, true);
         } else {
-          topS[_0x9a98[268]](9, 0, true);
+          topS[setUint32](9, 0, true);
         }
         log(topS);
       }
@@ -1549,7 +1549,7 @@ var CONNECTION_URL;
   function runner() {
     if (on(42), half_xgap = Date[toFixed]() - 20500, requestAnimationFrame() && third_hex && null != q) {
       var msg = prepareData(3 + 2 * q[split]);
-      msg[_0x9a98[267]](0, 0);
+      msg[setUint8](0, 0);
       var store = 0;
       for (; store < q[split]; ++store) {
         if (0 == store) {
@@ -1564,8 +1564,8 @@ var CONNECTION_URL;
     if (requestAnimationFrame() && PL$42[split] < 200 && PL$42[split] > 0) {
       var data = prepareData(2 + 2 * PL$42[split]);
       var i = 0;
-      data[_0x9a98[267]](i++, 99);
-      data[_0x9a98[267]](i++, 0);
+      data[setUint8](i++, 99);
+      data[setUint8](i++, 0);
       var PL$41 = 0;
       for (; PL$41 < PL$42[split]; ++PL$41) {
         data[_0x9a98[426]](i, PL$42[_0x9a98[427]](PL$41), true);
@@ -1580,7 +1580,7 @@ var CONNECTION_URL;
   function on(position) {
     if (requestAnimationFrame()) {
       var data = prepareData(1);
-      data[_0x9a98[267]](0, position);
+      data[setUint8](0, position);
       log(data);
     }
   }
@@ -2374,17 +2374,17 @@ var CONNECTION_URL;
     }
   }, 2e4);
   google1 = setInterval(function() {
-    if (console[_0x9a98[255]](_0x9a98[527]), typeof window[_0x9a98[528]] == _0x9a98[529]) {
+    if (console[log](_0x9a98[527]), typeof window[_0x9a98[528]] == _0x9a98[529]) {
       var _adjPageUri;
       _adjPageUri = q == .jpg || null == q ? _0x9a98[530] : q;
-      window[_0x9a98[528]](_0x9a98[257], _0x9a98[531], _adjPageUri, CONNECTION_URL, (loc / 100)[fill](0));
+      window[_0x9a98[528]](visibility, _0x9a98[531], _adjPageUri, CONNECTION_URL, (loc / 100)[fill](0));
     }
   }, 3e4);
   updatestat = setInterval(function() {
     if (null != CONNECTION_URL && (loc && props[moveTo](loc / 100), duedate = new Date, requestAnimationFrame())) {
       var msg = prepareData(5);
-      msg[_0x9a98[267]](0, 90);
-      msg[_0x9a98[268]](1, 2200049715, true);
+      msg[setUint8](0, 90);
+      msg[setUint32](1, 2200049715, true);
       log(msg);
     }
     if (PL$120[split] > 0) {
@@ -2487,11 +2487,11 @@ var CONNECTION_URL;
         initSortMenu();
       }
       if (-1 != g[_0x9a98[422]](e)) {
-        console[_0x9a98[255]](_0x9a98[552]);
+        console[log](_0x9a98[552]);
         require(_0x9a98[553])[]();
         require(_0x9a98[553])[0px](_0x9a98[554], _0x9a98[555] + d + e + _0x9a98[556]);
       } else {
-        console[_0x9a98[255]](_0x9a98[557]);
+        console[log](_0x9a98[557]);
         require(_0x9a98[553])[addClass]();
       }
       show = 1;
@@ -2500,7 +2500,7 @@ var CONNECTION_URL;
   source[_0x9a98[558]] = function(attrs) {
     if (attrs[split] > 0) {
       var value = prepareData(4 + 2 * attrs[split]);
-      value[_0x9a98[267]](0, 100);
+      value[setUint8](0, 100);
       value[_0x9a98[426]](1, attrs[split]);
       var data = 3;
       var a;
@@ -3073,7 +3073,7 @@ var CONNECTION_URL;
             a[_0x9a98[452]]();
           }
         }
-        if (1 == this[_0x9a98[285]]) {
+        if (1 == this[animId]) {
           this[_0x9a98[644]](a);
         }
         if (0 == this[_0x9a98[417]] && 30 <= this[wasSimpleDrawing]) {
@@ -3088,7 +3088,7 @@ var CONNECTION_URL;
     drawFlash : function(a) {
       var volume = (block - this[_0x9a98[286]]) / 800;
       if (volume = 0 > volume ? 0 : volume > 1 ? 1 : volume, volume >= 1) {
-        this[_0x9a98[285]] = 0;
+        this[animId] = 0;
       } else {
         var factor;
         var e = elm;
@@ -3180,7 +3180,7 @@ var CONNECTION_URL;
         progress[lineJoin] = state ? _0x9a98[649] : this[_0x9a98[374]] ? this[_0x9a98[415]] : title ? _0x9a98[346] : _0x9a98[649];
         progress[lineTo]();
       }
-      if (1 == this[_0x9a98[285]]) {
+      if (1 == this[animId]) {
         progress[_0x9a98[447]]();
         this[_0x9a98[644]](progress);
         progress[_0x9a98[452]]();
