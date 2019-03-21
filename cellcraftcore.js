@@ -174,84 +174,84 @@ var CONNECTION_URL;
       if (typeof node_json[canvas] !== nickName) {
         data[canvas] = node_json[canvas];
       }
-      if (typeof node_json[_0x9a98[101]] !== nickName) {
-        data[_0x9a98[101]] = node_json[_0x9a98[101]];
+      if (typeof node_json[undefined] !== nickName) {
+        data[undefined] = node_json[undefined];
       }
-      if (typeof node_json[_0x9a98[102]] !== nickName) {
-        data[_0x9a98[102]] = node_json[_0x9a98[102]];
+      if (typeof node_json[sColors] !== nickName) {
+        data[sColors] = node_json[sColors];
       }
-      if (typeof node_json[_0x9a98[103]] !== nickName) {
-        data[_0x9a98[103]] = node_json[_0x9a98[103]];
+      if (typeof node_json[sNames] !== nickName) {
+        data[sNames] = node_json[sNames];
       }
-      if (typeof node_json[_0x9a98[104]] !== nickName) {
-        data[_0x9a98[104]] = node_json[_0x9a98[104]];
+      if (typeof node_json[sMass] !== nickName) {
+        data[sMass] = node_json[sMass];
       }
-      if (typeof node_json[_0x9a98[105]] !== nickName) {
-        data[_0x9a98[105]] = node_json[_0x9a98[105]];
+      if (typeof node_json[sMapBorder] !== nickName) {
+        data[sMapBorder] = node_json[sMapBorder];
       }
-      if (typeof node_json[_0x9a98[106]] !== nickName) {
-        data[_0x9a98[106]] = node_json[_0x9a98[106]];
+      if (typeof node_json[sGrid] !== nickName) {
+        data[sGrid] = node_json[sGrid];
       }
-      if (typeof node_json[_0x9a98[107]] !== nickName) {
-        data[_0x9a98[107]] = node_json[_0x9a98[107]];
+      if (typeof node_json[sFancyGrid] !== nickName) {
+        data[sFancyGrid] = node_json[sFancyGrid];
       }
-      if (typeof node_json[_0x9a98[108]] !== nickName) {
-        data[_0x9a98[108]] = node_json[_0x9a98[108]];
+      if (typeof node_json[sDark] !== nickName) {
+        data[sDark] = node_json[sDark];
       }
-      if (typeof node_json[_0x9a98[109]] !== nickName) {
-        data[_0x9a98[109]] = node_json[_0x9a98[109]];
+      if (typeof node_json[sAcid] !== nickName) {
+        data[sAcid] = node_json[sAcid];
       }
-      if (typeof node_json[_0x9a98[110]] !== nickName) {
-        data[_0x9a98[110]] = node_json[_0x9a98[110]];
+      if (typeof node_json[sZoom] !== nickName) {
+        data[sZoom] = node_json[sZoom];
       }
-      if (typeof node_json[_0x9a98[111]] !== nickName) {
-        data[_0x9a98[111]] = node_json[_0x9a98[111]];
+      if (typeof node_json[sLeaderboard] !== nickName) {
+        data[sLeaderboard] = node_json[sLeaderboard];
       }
       if (typeof node_json[sSkins] !== nickName) {
         data[sSkins] = node_json[sSkins];
       }
-      if (typeof node_json[_0x9a98[112]] !== nickName) {
-        data[_0x9a98[112]] = node_json[_0x9a98[112]];
+      if (typeof node_json[sChat] !== nickName) {
+        data[sChat] = node_json[sChat];
       }
-      if (typeof node_json[_0x9a98[113]] !== nickName) {
-        data[_0x9a98[113]] = node_json[_0x9a98[113]];
+      if (typeof node_json[sSmoothRender] !== nickName) {
+        data[sSmoothRender] = node_json[sSmoothRender];
       }
-      if (typeof node_json[_0x9a98[114]] !== nickName) {
-        data[_0x9a98[114]] = node_json[_0x9a98[114]];
+      if (typeof node_json[sLargeNames] !== nickName) {
+        data[sLargeNames] = node_json[sLargeNames];
       }
       if (typeof node_json[sMinimap] !== nickName) {
         data[sMinimap] = node_json[sMinimap];
       }
-      if (typeof node_json[_0x9a98[115]] !== nickName) {
-        data[_0x9a98[115]] = node_json[_0x9a98[115]];
+      if (typeof node_json[sTransparentViruses] !== nickName) {
+        data[sTransparentViruses] = node_json[sTransparentViruses];
       }
-      if (typeof node_json[_0x9a98[116]] !== nickName) {
-        data[_0x9a98[116]] = node_json[_0x9a98[116]];
+      if (typeof node_json[sPolygonShapes] !== nickName) {
+        data[sPolygonShapes] = node_json[sPolygonShapes];
       }
     }
     a = false;
     if (data[parse]) {
-      require(_0x9a98[119])[_0x9a98[118]](_0x9a98[117], data[parse]);
+      require(prop)[value](sBubbleCells, data[parse]);
     }
-    require(_0x9a98[122])[_0x9a98[118]](_0x9a98[121], data[canvas])[_0x9a98[120]]();
-    require(_0x9a98[123])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[101]])[_0x9a98[120]]();
-    require(_0x9a98[124])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[102]])[_0x9a98[120]]();
-    require(_0x9a98[125])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[103]])[_0x9a98[120]]();
-    require(_0x9a98[126])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[104]])[_0x9a98[120]]();
-    require(_0x9a98[127])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[105]])[_0x9a98[120]]();
-    require(_0x9a98[128])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[106]])[_0x9a98[120]]();
-    require(_0x9a98[129])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[107]])[_0x9a98[120]]();
-    require(_0x9a98[130])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[108]])[_0x9a98[120]]();
-    require(_0x9a98[131])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[109]])[_0x9a98[120]]();
-    require(_0x9a98[132])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[110]])[_0x9a98[120]]();
-    require(_0x9a98[133])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[111]])[_0x9a98[120]]();
-    require(_0x9a98[134])[_0x9a98[118]](_0x9a98[121], data[sSkins])[_0x9a98[120]]();
-    require(_0x9a98[135])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[112]])[_0x9a98[120]]();
-    require(_0x9a98[136])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[113]])[_0x9a98[120]]();
-    require(_0x9a98[137])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[114]])[_0x9a98[120]]();
-    require(_0x9a98[138])[_0x9a98[118]](_0x9a98[121], data[sMinimap])[_0x9a98[120]]();
-    require(_0x9a98[139])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[115]])[_0x9a98[120]]();
-    require(_0x9a98[140])[_0x9a98[118]](_0x9a98[121], data[_0x9a98[116]])[_0x9a98[120]]();
+    require(checked)[value](change, data[canvas])[#nick]();
+    require(#cSkins)[value](change, data[undefined])[#nick]();
+    require(#cColors)[value](change, data[sColors])[#nick]();
+    require(#cNames)[value](change, data[sNames])[#nick]();
+    require(#cMass)[value](change, data[sMass])[#nick]();
+    require(#cMapBorder)[value](change, data[sMapBorder])[#nick]();
+    require(#cGrid)[value](change, data[sGrid])[#nick]();
+    require(#cFancyGrid)[value](change, data[sFancyGrid])[#nick]();
+    require(#cDark)[value](change, data[sDark])[#nick]();
+    require(_0x9a98[131])[value](change, data[sAcid])[#nick]();
+    require(_0x9a98[132])[value](change, data[sZoom])[#nick]();
+    require(_0x9a98[133])[value](change, data[sLeaderboard])[#nick]();
+    require(_0x9a98[134])[value](change, data[sSkins])[#nick]();
+    require(_0x9a98[135])[value](change, data[sChat])[#nick]();
+    require(_0x9a98[136])[value](change, data[sSmoothRender])[#nick]();
+    require(_0x9a98[137])[value](change, data[sLargeNames])[#nick]();
+    require(_0x9a98[138])[value](change, data[sMinimap])[#nick]();
+    require(_0x9a98[139])[value](change, data[sTransparentViruses])[#nick]();
+    require(_0x9a98[140])[value](change, data[sPolygonShapes])[#nick]();
     a = true;
     opfilter = canvas = document[countdown](focus);
     callbacks = opfilter[_0x9a98[142]](_0x9a98[141]);
@@ -393,8 +393,8 @@ var CONNECTION_URL;
             hasSongChanged = false;
             require(_0x9a98[162])[addClass]();
             document[countdown](_0x9a98[165])[_0x9a98[168]]();
-            refresh(document[countdown](_0x9a98[165])[_0x9a98[117]]);
-            document[countdown](_0x9a98[165])[_0x9a98[117]] = .jpg;
+            refresh(document[countdown](_0x9a98[165])[sBubbleCells]);
+            document[countdown](_0x9a98[165])[sBubbleCells] = .jpg;
           } else {
             if (!_x$2) {
               document[countdown](_0x9a98[165])[http://cellcraft.io/skins/]();
@@ -671,7 +671,7 @@ var CONNECTION_URL;
         require(_0x9a98[173])[http://cellcraft.io/?server=](configuredFilePath);
       }
       existingFilePath = source[settings][search] = configuredFilePath;
-      require(_0x9a98[222])[_0x9a98[118]](_0x9a98[221], false);
+      require(_0x9a98[222])[value](_0x9a98[221], false);
       if (reverseIsSingle) {
         loop();
       }
@@ -858,8 +858,8 @@ var CONNECTION_URL;
     }];
     PL$17 = 0;
     for (; PL$17 < PL$13[split]; PL$17++) {
-      if (text >= PL$13[PL$17][_0x9a98[117]]) {
-        return (text / PL$13[PL$17][_0x9a98[117]])[_0x9a98[199]](value)[_0x9a98[235]](/\.?0+$/, .jpg) + PL$13[PL$17][_0x9a98[278]];
+      if (text >= PL$13[PL$17][sBubbleCells]) {
+        return (text / PL$13[PL$17][sBubbleCells])[_0x9a98[199]](value)[_0x9a98[235]](/\.?0+$/, .jpg) + PL$13[PL$17][_0x9a98[278]];
       }
     }
     return text;
@@ -1119,7 +1119,7 @@ var CONNECTION_URL;
         break;
       case 94:
         nickslimit = data[_0x9a98[281]](value, true);
-        jQuery(_0x9a98[321])[_0x9a98[118]](_0x9a98[221], true);
+        jQuery(_0x9a98[321])[value](_0x9a98[221], true);
         ngiScroll_timeout = 4e3;
         value = value + 1;
         jQuery(_0x9a98[315])[_0x9a98[314]](_0x9a98[313]);
@@ -2120,27 +2120,27 @@ var CONNECTION_URL;
   function initSortMenu() {
     if (a) {
       data[canvas] = current;
-      data[_0x9a98[101]] = !state;
-      data[_0x9a98[102]] = test;
-      data[_0x9a98[103]] = id;
-      data[_0x9a98[104]] = !flagQuiet;
-      data[_0x9a98[105]] = i;
-      data[_0x9a98[106]] = b;
-      data[_0x9a98[107]] = title;
-      data[_0x9a98[108]] = name;
-      data[_0x9a98[109]] = model;
-      data[_0x9a98[110]] = save;
-      data[_0x9a98[111]] = !_x$2;
+      data[undefined] = !state;
+      data[sColors] = test;
+      data[sNames] = id;
+      data[sMass] = !flagQuiet;
+      data[sMapBorder] = i;
+      data[sGrid] = b;
+      data[sFancyGrid] = title;
+      data[sDark] = name;
+      data[sAcid] = model;
+      data[sZoom] = save;
+      data[sLeaderboard] = !_x$2;
       data[sSkins] = user;
-      data[_0x9a98[113]] = next;
-      data[_0x9a98[114]] = mmConfig;
-      data[_0x9a98[115]] = row;
-      data[_0x9a98[116]] = r;
+      data[sSmoothRender] = next;
+      data[sLargeNames] = mmConfig;
+      data[sTransparentViruses] = row;
+      data[sPolygonShapes] = r;
       source[settings][sCellBorders] = JSON[_0x9a98[533]](data);
     }
   }
   function less(v, n) {
-    require(_0x9a98[337] + v)[_0x9a98[118]](_0x9a98[121], n)[_0x9a98[120]]();
+    require(_0x9a98[337] + v)[value](change, n)[#nick]();
     var e = require(_0x9a98[337] + v)[_0x9a98[607]](_0x9a98[606], document[countdown](sCellBorders));
     if (e) {
       e[-300px]({
@@ -2423,48 +2423,48 @@ var CONNECTION_URL;
   var data = {
     nickName : arr[parse],
     sSkins : arr[canvas],
-    sColors : arr[_0x9a98[101]],
-    sNames : arr[_0x9a98[102]],
-    sMass : arr[_0x9a98[103]],
-    sMapBorder : arr[_0x9a98[104]],
-    sGrid : arr[_0x9a98[105]],
-    sFancyGrid : arr[_0x9a98[106]],
-    sDark : arr[_0x9a98[107]],
-    sAcid : arr[_0x9a98[108]],
-    sZoom : arr[_0x9a98[109]],
-    sLeaderboard : arr[_0x9a98[110]],
-    sChat : arr[_0x9a98[111]],
+    sColors : arr[undefined],
+    sNames : arr[sColors],
+    sMass : arr[sNames],
+    sMapBorder : arr[sMass],
+    sGrid : arr[sMapBorder],
+    sFancyGrid : arr[sGrid],
+    sDark : arr[sFancyGrid],
+    sAcid : arr[sDark],
+    sZoom : arr[sAcid],
+    sLeaderboard : arr[sZoom],
+    sChat : arr[sLeaderboard],
     sMinimap : arr[sSkins],
-    sSmoothRender : arr[_0x9a98[112]],
-    sLargeNames : arr[_0x9a98[113]],
-    sTransparentViruses : arr[_0x9a98[114]],
+    sSmoothRender : arr[sChat],
+    sLargeNames : arr[sSmoothRender],
+    sTransparentViruses : arr[sLargeNames],
     sCellBorders : arr[sMinimap],
-    sPolygonShapes : arr[_0x9a98[115]],
-    sBubbleCells : arr[_0x9a98[116]]
+    sPolygonShapes : arr[sTransparentViruses],
+    sBubbleCells : arr[sPolygonShapes]
   };
   var a = false;
   var q = null;
   var current = arr[canvas];
-  var state = !arr[_0x9a98[101]];
-  var test = arr[_0x9a98[102]];
-  var id = arr[_0x9a98[103]];
-  var flagQuiet = !arr[_0x9a98[104]];
-  var i = arr[_0x9a98[105]];
-  var b = arr[_0x9a98[106]];
-  var title = arr[_0x9a98[107]];
+  var state = !arr[undefined];
+  var test = arr[sColors];
+  var id = arr[sNames];
+  var flagQuiet = !arr[sMass];
+  var i = arr[sMapBorder];
+  var b = arr[sGrid];
+  var title = arr[sFancyGrid];
   var s = title ? .75 : .9;
-  var name = arr[_0x9a98[108]];
-  var model = arr[_0x9a98[109]];
-  var save = arr[_0x9a98[110]];
-  var _x$2 = !arr[_0x9a98[111]];
+  var name = arr[sDark];
+  var model = arr[sAcid];
+  var save = arr[sZoom];
+  var _x$2 = !arr[sLeaderboard];
   var user = arr[sSkins];
-  var inverseFlag = arr[_0x9a98[112]];
+  var inverseFlag = arr[sChat];
   var ccw_flag = inverseFlag ? 40 : .4;
-  var next = arr[_0x9a98[113]];
-  var mmConfig = arr[_0x9a98[114]];
+  var next = arr[sSmoothRender];
+  var mmConfig = arr[sLargeNames];
   var stop = arr[sMinimap];
-  var row = arr[_0x9a98[115]];
-  var r = arr[_0x9a98[116]];
+  var row = arr[sTransparentViruses];
+  var r = arr[sPolygonShapes];
   source[_0x9a98[534]] = function(quicktext) {
     if (a) {
       if (quicktext[split] < 1) {
@@ -2482,7 +2482,7 @@ var CONNECTION_URL;
         }
         warnIfMissing();
         loc = 0;
-        require(_0x9a98[321])[_0x9a98[118]](_0x9a98[221], false);
+        require(_0x9a98[321])[value](_0x9a98[221], false);
         data[parse] = q;
         initSortMenu();
       }
@@ -2659,24 +2659,24 @@ var CONNECTION_URL;
   source[_0x9a98[593]] = function() {
     a = false;
     less(_0x9a98[586], arr[canvas]);
-    less(_0x9a98[594], arr[_0x9a98[101]]);
-    less(_0x9a98[595], arr[_0x9a98[102]]);
-    less(_0x9a98[596], arr[_0x9a98[103]]);
-    less(_0x9a98[597], arr[_0x9a98[104]]);
-    less(_0x9a98[570], arr[_0x9a98[105]]);
-    less(_0x9a98[590], arr[_0x9a98[106]]);
-    less(_0x9a98[598], arr[_0x9a98[107]]);
-    less(_0x9a98[599], arr[_0x9a98[108]]);
-    less(_0x9a98[600], arr[_0x9a98[109]]);
-    less(_0x9a98[601], arr[_0x9a98[110]]);
-    less(_0x9a98[602], arr[_0x9a98[111]]);
+    less(_0x9a98[594], arr[undefined]);
+    less(_0x9a98[595], arr[sColors]);
+    less(_0x9a98[596], arr[sNames]);
+    less(_0x9a98[597], arr[sMass]);
+    less(_0x9a98[570], arr[sMapBorder]);
+    less(_0x9a98[590], arr[sGrid]);
+    less(_0x9a98[598], arr[sFancyGrid]);
+    less(_0x9a98[599], arr[sDark]);
+    less(_0x9a98[600], arr[sAcid]);
+    less(_0x9a98[601], arr[sZoom]);
+    less(_0x9a98[602], arr[sLeaderboard]);
     less(_0x9a98[603], arr[sSkins]);
-    less(_0x9a98[591], arr[_0x9a98[112]]);
-    less(_0x9a98[592], arr[_0x9a98[113]]);
-    less(_0x9a98[587], arr[_0x9a98[114]]);
+    less(_0x9a98[591], arr[sChat]);
+    less(_0x9a98[592], arr[sSmoothRender]);
+    less(_0x9a98[587], arr[sLargeNames]);
     less(_0x9a98[588], arr[sMinimap]);
-    less(_0x9a98[604], arr[_0x9a98[115]]);
-    less(_0x9a98[605], arr[_0x9a98[116]]);
+    less(_0x9a98[604], arr[sTransparentViruses]);
+    less(_0x9a98[605], arr[sPolygonShapes]);
     a = true;
     initSortMenu();
   };
