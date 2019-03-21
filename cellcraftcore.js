@@ -1112,31 +1112,31 @@ var CONNECTION_URL;
         ngiScroll_timeout = 5e3;
         value = value + 1;
         jQuery(#servermsg)[empty](<div>);
-        jQuery(#servermsg)[html](_0x9a98[320]);
+        jQuery(#servermsg)[html](HungerGames);
         jQuery(#warning)[]();
         setCircular();
         setTimeout($("#warning").hide(), 3e3);
         break;
       case 94:
         nickslimit = data[getUint8](value, true);
-        jQuery(_0x9a98[321])[value](insert, true);
+        jQuery(Zombie FFA)[value](insert, true);
         ngiScroll_timeout = 4e3;
         value = value + 1;
         jQuery(#servermsg)[empty](<div>);
-        jQuery(#servermsg)[html](_0x9a98[322]);
+        jQuery(#servermsg)[html](Zombie Team);
         jQuery(#warning)[]();
         setCircular();
         setTimeout($("#warning").hide(), 3e3);
         var autoResumeTimer = setTimeout(function() {
-          autoResumeTimer = setInterval(window[search][_0x9a98[323]](), 100);
+          autoResumeTimer = setInterval(window[search][Experimental Team](), 100);
         }, 3e3);
         break;
       case 99:
         render(data, value);
         break;
       case 100:
-        if (window[_0x9a98[324]] && window[_0x9a98[324]][_0x9a98[325]]) {
-          window[_0x9a98[324]][_0x9a98[325]]();
+        if (window[Rainbow FFA] && window[Rainbow FFA][Debug FFA]) {
+          window[Rainbow FFA][Debug FFA]();
           require(#region)[#connecting](100);
         }
     }
@@ -1144,27 +1144,27 @@ var CONNECTION_URL;
   function min(context) {
     switch(context) {
       case 0:
-        return _0x9a98[326];
+        return Blackhole FFA;
       case 1:
-        return _0x9a98[327];
+        return #;
       case 2:
-        return _0x9a98[328];
+        return time;
       case 10:
-        return _0x9a98[329];
+        return splice;
       case 11:
-        return _0x9a98[330];
+        return cache;
       case 12:
-        return _0x9a98[331];
+        return chatCache1;
       case 13:
-        return _0x9a98[332];
+        return #000000;
       case 14:
-        return _0x9a98[333];
+        return name;
       case 20:
-        return _0x9a98[334];
+        return setValue;
       case 21:
-        return _0x9a98[335];
+        return chatCache2;
       case 22:
-        return _0x9a98[336];
+        return #444444;
     }
   }
   function render(fn, value) {
@@ -1194,7 +1194,7 @@ var CONNECTION_URL;
     for (; glyphColor[split] < 6;) {
       glyphColor = floor + glyphColor;
     }
-    glyphColor = _0x9a98[337] + glyphColor;
+    glyphColor = #F5F6CE + glyphColor;
     array[moveTo]({
       name : encode(),
       color : glyphColor,
@@ -1209,11 +1209,11 @@ var CONNECTION_URL;
     var duration = 0;
     var _ = Date[toFixed]();
     if (array[split] > 0) {
-      duration = array[array[split] - 1][_0x9a98[338]];
+      duration = array[array[split] - 1][: ];
       var i = 0;
       for (; i < array[split]; i++) {
-        if (_ >= 12e4 + array[i][_0x9a98[338]] || i < array[split] - n) {
-          array[_0x9a98[339]](i, 1);
+        if (_ >= 12e4 + array[i][: ] || i < array[split] - n) {
+          array[emotes/](i, 1);
           i--;
         }
       }
@@ -1229,41 +1229,41 @@ var CONNECTION_URL;
     for (; t - start > i; i++) {
       var src = array[i + start];
       var o = false;
-      if (null == src[_0x9a98[340]]) {
-        src[_0x9a98[340]] = {
+      if (null == src[     ]) {
+        src[     ] = {
           chatCache1 : null,
           chatCache2 : null,
           emo : []
         };
         o = true;
       }
-      var f = src[_0x9a98[340]];
+      var f = src[     ];
       if (o) {
-        f[_0x9a98[341]] = new obj(15, src[color], true, _0x9a98[342]);
-        f[_0x9a98[341]][_0x9a98[344]](src[_0x9a98[343]]);
+        f[message] = new obj(15, src[color], true, render);
+        f[message][pos](src[setColor]);
         if (title) {
-          f[_0x9a98[345]] = new obj(15, _0x9a98[347]);
+          f[measureText] = new obj(15, emo);
         } else {
-          f[_0x9a98[345]] = new obj(15, _0x9a98[346]);
+          f[measureText] = new obj(15, _ctx);
         }
         var PL$13 = [];
         var start = 2;
-        var artistTrack = _0x9a98[348] + src[_0x9a98[351]][4](emoRegExp, function(iccId, pos) {
+        var artistTrack = createElement + src[_0x9a98[351]][4](emoRegExp, function(iccId, pos) {
           var i = emoMap[iccId];
           var subwiki = subwikiList[i];
-          return null == subwiki && (subwikiList[i] = new Image, subwiki = subwikiList[i], subwiki[ice2pop] = _0x9a98[349] + i + img/), PL$13[moveTo]({
+          return null == subwiki && (subwikiList[i] = new Image, subwiki = subwikiList[i], subwiki[ice2pop] = scale + i + img/), PL$13[moveTo]({
             pos : pos + start,
             img : subwiki
-          }), start = start + (5 - iccId[split]), _0x9a98[350];
+          }), start = start + (5 - iccId[split]), c1;
         });
-        f[_0x9a98[345]][_0x9a98[344]](artistTrack);
+        f[measureText][pos](artistTrack);
       }
-      var col = f[_0x9a98[341]][_0x9a98[352]]();
-      var finger = f[_0x9a98[345]];
+      var col = f[message][_0x9a98[352]]();
+      var finger = f[measureText];
       if (title) {
-        finger[_0x9a98[353]](_0x9a98[347]);
+        finger[_0x9a98[353]](emo);
       } else {
-        finger[_0x9a98[353]](_0x9a98[346]);
+        finger[_0x9a98[353]](_ctx);
       }
       var p2 = finger[_0x9a98[352]]();
       var currentValue = col[touches] + p2[touches];
@@ -1315,8 +1315,8 @@ var CONNECTION_URL;
     return val = val[4](_0x9a98[365], _0x9a98[366]), val = val[4](_0x9a98[367], _0x9a98[368]), val = val[4](_0x9a98[369], _0x9a98[370]), val = val[4](_0x9a98[371], _0x9a98[372]);
   }
   function extend(a, b) {
-    var j = a[_0x9a98[343]];
-    var i = b[_0x9a98[343]];
+    var j = a[setColor];
+    var i = b[setColor];
     if (j == .jpg) {
       j = _0x9a98[373];
     }
@@ -1326,7 +1326,7 @@ var CONNECTION_URL;
     var axx = Math[server](b[wasSimpleDrawing] * b[wasSimpleDrawing] / 100);
     var h = false;
     .jpg;
-    if (PL$120[split] > 12 && PL$120[_0x9a98[339]](0, 1), axx >= 16 && !b[_0x9a98[374]] && j != i && (h = true, j == q ? axx > 1e3 ? transform(_0x9a98[375] + parse(axx, 1) + _0x9a98[376]) : axx > 500 ? transform(_0x9a98[377] + parse(axx, 1) + _0x9a98[376]) : 100 > axx && transform(_0x9a98[378]) : axx > 1e3 && j != i && transform(_0x9a98[379] + a[color] + _0x9a98[380] + normalizeDefault(j) + _0x9a98[381] + parse(axx, 1) + _0x9a98[382])), b[_0x9a98[374]] && (h = true, j == q)) {
+    if (PL$120[split] > 12 && PL$120[emotes/](0, 1), axx >= 16 && !b[_0x9a98[374]] && j != i && (h = true, j == q ? axx > 1e3 ? transform(_0x9a98[375] + parse(axx, 1) + _0x9a98[376]) : axx > 500 ? transform(_0x9a98[377] + parse(axx, 1) + _0x9a98[376]) : 100 > axx && transform(_0x9a98[378]) : axx > 1e3 && j != i && transform(_0x9a98[379] + a[color] + _0x9a98[380] + normalizeDefault(j) + _0x9a98[381] + parse(axx, 1) + _0x9a98[382])), b[_0x9a98[374]] && (h = true, j == q)) {
       var tri = [_0x9a98[383], _0x9a98[384], _0x9a98[385], _0x9a98[386]];
       var j = Math[server](Math[_0x9a98[387]]() * tri[split]);
       transform(tri[j]);
@@ -1358,7 +1358,7 @@ var CONNECTION_URL;
     }
     if (h) {
       if (PL$120[split] > 12) {
-        PL$120[_0x9a98[339]](0, 1);
+        PL$120[emotes/](0, 1);
       }
       wrapOverride();
     }
@@ -1431,7 +1431,7 @@ var CONNECTION_URL;
         for (; 6 > i[split];) {
           i = floor + i;
         }
-        var newMax = _0x9a98[337] + i;
+        var newMax = #F5F6CE + i;
         var ret = .jpg;
         if (0 == object) {
           var errors;
@@ -1454,7 +1454,7 @@ var CONNECTION_URL;
         }
       } else {
         if (!field) {
-          newMax = _0x9a98[342];
+          newMax = render;
           ret = .jpg;
         }
         result = new notes(i, key, index, value, newMax, ret);
@@ -1480,7 +1480,7 @@ var CONNECTION_URL;
           for (; 6 > i[split];) {
             i = floor + i;
           }
-          result[_0x9a98[415]] = _0x9a98[337] + i;
+          result[_0x9a98[415]] = #F5F6CE + i;
         }
         result[_0x9a98[374]] = filteredErrors;
         result[_0x9a98[416]] = modVal;
@@ -1740,9 +1740,9 @@ var CONNECTION_URL;
       callbacks[lineTo]();
       callbacks[_0x9a98[452]]();
     }
-    if (callbacks[_0x9a98[452]](), callbacks[stroke] = 1, val && val[touches] && callbacks[_0x9a98[361]](val, height - val[touches] - 10, 10), e && e[touches] && callbacks[_0x9a98[361]](e, 10, number - e[width] - 50), key = callback(), actual = Math[clearRect](loc, key), loc = key, 0 != loc && (null == that ? that = new obj(24, title ? _0x9a98[453] : _0x9a98[454]) : that[_0x9a98[353]](title ? _0x9a98[453] : _0x9a98[454]), that[_0x9a98[344]](_0x9a98[455] + ~~(loc / 100)), 
-    key = that[_0x9a98[352]](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 15, 15)), (0 < stack[split] || source[onkeydown]) && (!result && (result = new obj(15, _0x9a98[453])), result[_0x9a98[344]](_0x9a98[456] + angle[fill](0) + _0x9a98[457] + ha[fill](0)), key = result[_0x9a98[352]](), data = key[touches] + 20, options = key[width] + 2, callbacks[fillStyle](), callbacks[beginPath](18, 50), callbacks[_0x9a98[458]](10 + data, 50, 10 + data, 
-    50 + options, 8), callbacks[_0x9a98[458]](10 + data, 50 + options, 10, 50 + options, 8), callbacks[_0x9a98[458]](10, 50 + options, 10, 50, 8), callbacks[_0x9a98[458]](10, 50, 10 + data, 50, 8), callbacks[_0x9a98[459]](), callbacks[stroke] = .7, callbacks[#3071A9] = _0x9a98[342], callbacks[globalAlpha](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 20, 51), value && value[touches] && callbacks[_0x9a98[361]](value, 10, 85)), privacyCheckRequired && !user && deactivatedEntityErr) {
+    if (callbacks[_0x9a98[452]](), callbacks[stroke] = 1, val && val[touches] && callbacks[_0x9a98[361]](val, height - val[touches] - 10, 10), e && e[touches] && callbacks[_0x9a98[361]](e, 10, number - e[width] - 50), key = callback(), actual = Math[clearRect](loc, key), loc = key, 0 != loc && (null == that ? that = new obj(24, title ? _0x9a98[453] : _0x9a98[454]) : that[_0x9a98[353]](title ? _0x9a98[453] : _0x9a98[454]), that[pos](_0x9a98[455] + ~~(loc / 100)), 
+    key = that[_0x9a98[352]](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 15, 15)), (0 < stack[split] || source[onkeydown]) && (!result && (result = new obj(15, _0x9a98[453])), result[pos](_0x9a98[456] + angle[fill](0) + _0x9a98[457] + ha[fill](0)), key = result[_0x9a98[352]](), data = key[touches] + 20, options = key[width] + 2, callbacks[fillStyle](), callbacks[beginPath](18, 50), callbacks[_0x9a98[458]](10 + data, 50, 10 + data, 
+    50 + options, 8), callbacks[_0x9a98[458]](10 + data, 50 + options, 10, 50 + options, 8), callbacks[_0x9a98[458]](10, 50 + options, 10, 50, 8), callbacks[_0x9a98[458]](10, 50, 10 + data, 50, 8), callbacks[_0x9a98[459]](), callbacks[stroke] = .7, callbacks[#3071A9] = render, callbacks[globalAlpha](), callbacks[stroke] = 1, callbacks[_0x9a98[361]](key, 20, 51), value && value[touches] && callbacks[_0x9a98[361]](value, 10, 85)), privacyCheckRequired && !user && deactivatedEntityErr) {
       socketHandler[height](0, 0, 200, 200);
       socketHandler[_0x9a98[447]]();
       data = 200 / Math[clearRect](type - node, old - match);
@@ -1898,7 +1898,7 @@ var CONNECTION_URL;
             line = floor + line;
           }
         }
-        callbacks[lineJoin] = _0x9a98[337] + line;
+        callbacks[lineJoin] = #F5F6CE + line;
         if (title) {
           callbacks[lineJoin] = _0x9a98[473];
         }
@@ -1991,10 +1991,10 @@ var CONNECTION_URL;
       } else {
         me[stroke] = .7;
       }
-      me[lineJoin] = _0x9a98[342];
+      me[lineJoin] = render;
       me[#3071A9] = _0x9a98[475];
       if (!title) {
-        me[#3071A9] = _0x9a98[342];
+        me[#3071A9] = render;
       }
       me[max] = 2;
       getStart(me, 0, 0, 200, y, 8, true, true);
@@ -2020,13 +2020,13 @@ var CONNECTION_URL;
         me[_0x9a98[478]] = _0x9a98[504];
         i = 0;
         for (; i < fftBinsOfFreq[split]; ++i) {
-          e = fftBinsOfFreq[i][_0x9a98[343]] || _0x9a98[373];
+          e = fftBinsOfFreq[i][setColor] || _0x9a98[373];
           if (!test) {
             e = _0x9a98[373];
           }
           if (-1 != indexMap[_0x9a98[422]](fftBinsOfFreq[i][_0x9a98[445]])) {
-            if (stack[0][_0x9a98[343]]) {
-              e = stack[0][_0x9a98[343]];
+            if (stack[0][setColor]) {
+              e = stack[0][setColor];
             }
             me[#3071A9] = _0x9a98[451];
             if (!Wx) {
@@ -2080,7 +2080,7 @@ var CONNECTION_URL;
       for (; 6 > path[split];) {
         path = floor + path;
       }
-      config[_0x9a98[415]] = _0x9a98[337] + path;
+      config[_0x9a98[415]] = #F5F6CE + path;
     }
   }
   function updateDevicesAfterDelay() {
@@ -2140,8 +2140,8 @@ var CONNECTION_URL;
     }
   }
   function less(v, n) {
-    require(_0x9a98[337] + v)[value](change, n)[#nick]();
-    var e = require(_0x9a98[337] + v)[_0x9a98[607]](_0x9a98[606], document[countdown](sCellBorders));
+    require(#F5F6CE + v)[value](change, n)[#nick]();
+    var e = require(#F5F6CE + v)[_0x9a98[607]](_0x9a98[606], document[countdown](sCellBorders));
     if (e) {
       e[-300px]({
         padding : _0x9a98[608]
@@ -2392,7 +2392,7 @@ var CONNECTION_URL;
       var PL$24 = 0;
       for (; PL$24 < PL$120[split]; PL$24++) {
         if (x >= 6e4 + PL$120[PL$24][_0x9a98[532]]) {
-          PL$120[_0x9a98[339]](PL$24, 1);
+          PL$120[emotes/](PL$24, 1);
         }
       }
       wrapOverride();
@@ -2482,7 +2482,7 @@ var CONNECTION_URL;
         }
         warnIfMissing();
         loc = 0;
-        require(_0x9a98[321])[value](insert, false);
+        require(Zombie FFA)[value](insert, false);
         data[parse] = q;
         initSortMenu();
       }
@@ -2753,7 +2753,7 @@ var CONNECTION_URL;
         i = 0;
         for (; length > i; i++) {
           if (parts[i] == this) {
-            parts[_0x9a98[339]](i, 1);
+            parts[emotes/](i, 1);
             break;
           }
         }
@@ -2762,7 +2762,7 @@ var CONNECTION_URL;
         i = 0;
         for (; length > i; i++) {
           if (args[i] == this) {
-            args[_0x9a98[339]](i, 1);
+            args[emotes/](i, 1);
             break;
           }
         }
@@ -2772,12 +2772,12 @@ var CONNECTION_URL;
         i = stack[_0x9a98[422]](this);
         if (-1 != i) {
           gx = true;
-          stack[_0x9a98[339]](i, 1);
+          stack[emotes/](i, 1);
         }
       }
       i = indexMap[_0x9a98[422]](this[_0x9a98[445]]);
       if (-1 != i) {
-        indexMap[_0x9a98[339]](i, 1);
+        indexMap[emotes/](i, 1);
       }
       this[_0x9a98[617]] = true;
       this[_0x9a98[407]] = true;
@@ -2789,8 +2789,8 @@ var CONNECTION_URL;
       return next ? 50 + ~~(.3 * this[wasSimpleDrawing]) : Math[clearRect](~~(.3 * this[wasSimpleDrawing]), 24);
     },
     setName : function(a) {
-      if (a !== this[_0x9a98[343]] && (this[_0x9a98[343]] = a)) {
-        var e = this[_0x9a98[343]][_0x9a98[550]]();
+      if (a !== this[setColor] && (this[setColor] = a)) {
+        var e = this[setColor][_0x9a98[550]]();
         var o = .jpg;
         if (e && e[0] == _0x9a98[619] && -1 != e[_0x9a98[422]](_0x9a98[620])) {
           a = e[_0x9a98[422]](_0x9a98[620]);
@@ -2811,28 +2811,28 @@ var CONNECTION_URL;
         } else {
           this[_0x9a98[623]] = .jpg;
         }
-        var GET_AUTH_URL_TIMEOUT = this[_0x9a98[343]];
+        var GET_AUTH_URL_TIMEOUT = this[setColor];
         if (o != .jpg) {
-          var nullMatch = this[_0x9a98[343]][_0x9a98[622]](1, a);
-          GET_AUTH_URL_TIMEOUT = this[_0x9a98[343]][_0x9a98[622]](hash_1 + 1, this[_0x9a98[343]][split]);
+          var nullMatch = this[setColor][_0x9a98[622]](1, a);
+          GET_AUTH_URL_TIMEOUT = this[setColor][_0x9a98[622]](hash_1 + 1, this[setColor][split]);
           if (null == this[_0x9a98[624]]) {
-            this[_0x9a98[624]] = new obj(~~(this[_0x9a98[625]]() / 2 + .5), _0x9a98[453], true, _0x9a98[342]);
-            this[_0x9a98[624]][_0x9a98[344]](nullMatch);
+            this[_0x9a98[624]] = new obj(~~(this[_0x9a98[625]]() / 2 + .5), _0x9a98[453], true, render);
+            this[_0x9a98[624]][pos](nullMatch);
           } else {
             this[_0x9a98[624]][_0x9a98[626]](~~(this[_0x9a98[625]]() / 2 + .5));
-            this[_0x9a98[624]][_0x9a98[344]](nullMatch);
+            this[_0x9a98[624]][pos](nullMatch);
           }
         }
         if (null == this[_0x9a98[627]]) {
           if (a == _0x9a98[628] || a == _0x9a98[629]) {
-            this[_0x9a98[627]] = new obj(this[_0x9a98[625]](), _0x9a98[630], true, _0x9a98[342]);
+            this[_0x9a98[627]] = new obj(this[_0x9a98[625]](), _0x9a98[630], true, render);
           } else {
-            this[_0x9a98[627]] = new obj(this[_0x9a98[625]](), _0x9a98[453], true, _0x9a98[342]);
+            this[_0x9a98[627]] = new obj(this[_0x9a98[625]](), _0x9a98[453], true, render);
           }
-          this[_0x9a98[627]][_0x9a98[344]](GET_AUTH_URL_TIMEOUT);
+          this[_0x9a98[627]][pos](GET_AUTH_URL_TIMEOUT);
         } else {
           this[_0x9a98[627]][_0x9a98[626]](this[_0x9a98[625]]());
-          this[_0x9a98[627]][_0x9a98[344]](GET_AUTH_URL_TIMEOUT);
+          this[_0x9a98[627]][pos](GET_AUTH_URL_TIMEOUT);
         }
       }
     },
@@ -2873,8 +2873,8 @@ var CONNECTION_URL;
       var a = this[_0x9a98[633]]();
       for (; this[init][split] > a;) {
         var artistTrack = ~~(Math[_0x9a98[387]]() * this[init][split]);
-        this[init][_0x9a98[339]](artistTrack, 1);
-        this[_0x9a98[508]][_0x9a98[339]](artistTrack, 1);
+        this[init][emotes/](artistTrack, 1);
+        this[_0x9a98[508]][emotes/](artistTrack, 1);
       }
       if (0 == this[init][split] && a > 0) {
         this[init][moveTo]({
@@ -2888,13 +2888,13 @@ var CONNECTION_URL;
       for (; this[init][split] < a;) {
         var hashhexlower = ~~(Math[_0x9a98[387]]() * this[init][split]);
         var row = this[init][hashhexlower];
-        this[init][_0x9a98[339]](hashhexlower, 0, {
+        this[init][emotes/](hashhexlower, 0, {
           ref : this,
           size : row[wasSimpleDrawing],
           x : row[minusEq],
           y : row[x]
         });
-        this[_0x9a98[508]][_0x9a98[339]](hashhexlower, 0, this[_0x9a98[508]][hashhexlower]);
+        this[_0x9a98[508]][emotes/](hashhexlower, 0, this[_0x9a98[508]][hashhexlower]);
       }
     },
     initPoints : function() {
@@ -2993,7 +2993,7 @@ var CONNECTION_URL;
       if (this[minusEq] = self * (this[_0x9a98[401]] - this[_0x9a98[398]]) + this[_0x9a98[398]], this[x] = self * (this[_0x9a98[402]] - this[_0x9a98[399]]) + this[_0x9a98[399]], this[wasSimpleDrawing] = self * (this[_0x9a98[403]] - this[_0x9a98[400]]) + this[_0x9a98[400]], self >= 1 && (this[_0x9a98[407]] = false, this[_0x9a98[617]])) {
         var tagParseOptions = blockTimes[_0x9a98[422]](this);
         if (-1 != tagParseOptions) {
-          blockTimes[_0x9a98[339]](tagParseOptions, 1);
+          blockTimes[emotes/](tagParseOptions, 1);
         }
       }
       return self;
@@ -3112,7 +3112,7 @@ var CONNECTION_URL;
       }
     },
     drawText : function(g, txt) {
-      var inputWin = (test || this[_0x9a98[421]]) && this[_0x9a98[343]] && this[_0x9a98[627]];
+      var inputWin = (test || this[_0x9a98[421]]) && this[setColor] && this[_0x9a98[627]];
       var winRef = id && (this[_0x9a98[421]] || 0 == stack[split]);
       if (inputWin || winRef) {
         g[stroke] = this[_0x9a98[617]] ? 1 - txt : 1;
@@ -3143,11 +3143,11 @@ var CONNECTION_URL;
         }
         if (winRef) {
           if (null == this[_0x9a98[648]]) {
-            this[_0x9a98[648]] = new obj(~~(this[_0x9a98[625]]() / 2 + .5), _0x9a98[453], true, _0x9a98[342]);
+            this[_0x9a98[648]] = new obj(~~(this[_0x9a98[625]]() / 2 + .5), _0x9a98[453], true, render);
           }
           op = this[_0x9a98[648]];
           op[_0x9a98[626]](~~(this[_0x9a98[625]]() / 2 + .5));
-          op[_0x9a98[344]](~~(this[wasSimpleDrawing] * this[wasSimpleDrawing] / 100));
+          op[pos](~~(this[wasSimpleDrawing] * this[wasSimpleDrawing] / 100));
           op[_0x9a98[647]](length);
           u = op[_0x9a98[352]]();
           totalBright = u[touches] / length;
@@ -3177,7 +3177,7 @@ var CONNECTION_URL;
       progress[#3071A9] = state ? _0x9a98[453] : this[color];
       progress[globalAlpha]();
       if (neededStaticPorts > 2 && !stop) {
-        progress[lineJoin] = state ? _0x9a98[649] : this[_0x9a98[374]] ? this[_0x9a98[415]] : title ? _0x9a98[346] : _0x9a98[649];
+        progress[lineJoin] = state ? _0x9a98[649] : this[_0x9a98[374]] ? this[_0x9a98[415]] : title ? _ctx : _0x9a98[649];
         progress[lineTo]();
       }
       if (1 == this[animId]) {
@@ -3189,9 +3189,9 @@ var CONNECTION_URL;
   };
   obj[_0x9a98[616]] = {
     _value : .jpg,
-    _color : _0x9a98[342],
+    _color : render,
     _stroke : false,
-    _strokeColor : _0x9a98[342],
+    _strokeColor : render,
     _size : 16,
     _canvas : null,
     _ctx : null,
@@ -3401,7 +3401,7 @@ var CONNECTION_URL;
       if (0 < stack[split]) {
         accountsCallbacks[color] = stack[0][color];
         accountsCallbacks[_0x9a98[415]] = stack[0][_0x9a98[415]];
-        accountsCallbacks[_0x9a98[408]](stack[0][_0x9a98[343]]);
+        accountsCallbacks[_0x9a98[408]](stack[0][setColor]);
       }
       e[height](0, 0, 32, 32);
       e[_0x9a98[447]]();
